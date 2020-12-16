@@ -1,0 +1,176 @@
+{
+    "CLOUD": {
+        "MARKET": {
+            "TOOLBAR": {
+                "ORDER": {
+                    "RATING": "By rating",
+                    "NAME": "By name",
+                    "LASTUPDATE": "By last update"
+                }
+            },
+            "ACTIONS": {
+                "DEPLOY": "Deploy ‘{{which}}’"
+            },
+            "DEPLOY": {
+                "BUTTON": {
+                    "CREATE": "Deploy"
+                },
+                "DETAILS": {
+                    "TITLE": "Details"
+                },
+                "APPLICATIONPARAMETERS": {
+                    "TITLE": "Specific parameters"
+                },
+                "SUMMARY": {
+                    "TITLE": "Summary",
+                    "STACKNAME": "Instance name: ",
+                    "FLAVORLABEL": "Flavor details",
+                    "NETWORKNAME": "Selected network: "
+                },
+                "CAPACITY": {
+                    "TITLE": "Capacity"
+                },
+                "DESCRIPTION": {
+                    "TITLE": "Description"
+                },
+                "PRICING": {
+                    "TITLE": "Billing"
+                },
+                "HELP": {
+                    "TITLE": "Help"
+                },
+                "FORM": {
+                    "STACKNAME": {
+                        "LABEL": "Instance name",
+                        "REQUIRED": "The instance name is required",
+                        "PATTERN": "The name of the instance must begin with a letter without accent and contain only letters without accent, numbers and ., - ou _"
+                    },
+                    "DISKSIZE": {
+                        "LABEL": "Disk size (GB)",
+                        "REQUIRED": "The disk size is required"
+                    },
+                    "FLAVOR": {
+                        "LABEL": "Select a flavor",
+                        "REQUIRED": "The flavor is required",
+                        "PLACEHOLDER": "Select or search for a flavor...",
+                        "LIMITS": "Impossible to create an instance: this flavor exceeds your project limits"
+                    },
+                    "PUBLICNETWORK": {
+                        "LABEL": "Select at least one public network",
+                        "REQUIRED": "A public network is required"
+                    },
+                    "PRIVATENETWORK": {
+                        "LABEL": "Select a private network",
+                        "REQUIRED": "A private network is required"
+                    },
+                    "SUBNET": {
+                        "LABEL": "Select a sub network",
+                        "REQUIRED": "A sub network is required"
+                    },
+                    "KEYPAIR": {
+                        "LABEL": "Select a security key",
+                        "REQUIRED": "A security key is required",
+                        "PLACEHOLDER": "Select or search for a security key..."
+                    },
+                    "PASSWORDS": {
+                        "ENTRY": "Entry",
+                        "VERIFY": "Verification",
+                        "REQUIRED": "A password is required",
+                        "VERIFYREQUIRED": "Verifying the password is required",
+                        "NOTMATCH": "The passwords do not match",
+                        "SECURITYMSG": "As a security measure, passwords cannot be pasted into the verify field",
+                        "GENERATOR": "Password generator",
+                        "LENGTH": "Password's length"
+                    },
+                    "ADMINPASSWORD": {
+                        "LABEL": "SAP HANA System Administrator Password",
+                        "MINLENGTH": "The password must be at least 8 characters",
+                        "MAXLENGTH": "The password must be at most 16 characters",
+                        "HELP": "The password must be between 8 and 16 characters"
+                    },
+                    "SAPADMPASSWORD": {
+                        "LABEL": "SAP Host Agent User (sapadm) Password",
+                        "MINLENGTH": "The password must be at least 8 characters",
+                        "MAXLENGTH": "The password must be at most 16 characters",
+                        "HELP": "The password must be between 8 and 16 characters"
+                    },
+                    "DBSYSTEMPASSWORD": {
+                        "LABEL": "SAP HANA Database User (SYSTEM) Password",
+                        "PATTERN": "The password must be between 8 and 16 characters",
+                        "HELP": "The password must be between 8 and 16 characters"
+                    },
+                    "ORGMANAGERPASSWORD": {
+                        "LABEL": "XS Advanced Admin Password",
+                        "PATTERN": "The password must be between 8 and 16 characters",
+                        "HELP": "The password must be between 8 and 16 characters"
+                    },
+                    "DB2INST1PASSWORD": {
+                        "LABEL": "User password",
+                        "PATTERN": "The password must be between 8 and 16 characters",
+                        "HELP": "The password must be between 8 and 16 characters"
+                    },
+                    "MYSQLPASSWORD": {
+                        "LABEL": "Root password",
+                        "PATTERN": "The password must be between 8 and 16 characters",
+                        "HELP": "The password must be between 8 and 16 characters"
+                    },
+                    "KIBANAADMINPASSWORD": {
+                        "LABEL": "Kibana administrator (kibanaadmin) password",
+                        "PATTERN": "The password must be between 8 and 16 characters",
+                        "HELP": "The password must be between 8 and 16 characters"
+                    },
+                    "POSTGRESPASSWORD": {
+                        "LABEL": "PostgreSQL user password",
+                        "PATTERN": "The password must be between 8 and 16 characters",
+                        "HELP": "The password must be between 8 and 16 characters"
+                    },
+                    "SID": {
+                        "LABEL": "SAP HANA SID",
+                        "REQUIRED": "The SID is required",
+                        "HELP": "The SAP system ID, which is the identifier for the SAP HANA system. The ID must consist of exactly three alphanumeric characters.<br/><br/>Only uppercase letters are allowed.<br/><br/>The first character must be a letter.Forbidden values :<br/>ADC, ADD, ALL, AMD, AND, ANY, ARE, ASC, AUX, AVG, BIT, CDC, COM, CON, DBA, END, EPS, FOR, GET, GID, IBM, INT, KEY, LOG, LPT, MAP, MAX, MIN, MON, NIX, NOT, NUL, OFF, OLD, OMS, OUT, PAD, PRN, RAW, REF, ROW, SAP, SET, SGA, SHG, SID, SQL, SUM, SYS, TMP, TOP, UID, USE, USR, VAR.",
+                        "PATTERN": "The SID is not valid, please check the help"
+                    },
+                    "ENVTYPE": {
+                        "LABEL": "Environment Type",
+                        "REQUIRED": "An environment is required"
+                    },
+                    "INSTANCENUMBER": {
+                        "LABEL": "SAP HANA Instance Number",
+                        "HELP": "Instance number of your SAP instance, unique within your SAP environment, the instance number consists of exactly two numeric characters, from 00 to 99",
+                        "REQUIRED": "The instance number is required",
+                        "PATTERN": "The instance number is not valid, please check the help"
+                    },
+                    "VERSION": {
+                        "LABEL": "Software version to deploy",
+                        "PLACEHOLDER": "Select a version",
+                        "REQUIRED": "The software version is required"
+                    },
+                    "BACKEND": {
+                        "LABEL": "Server backend to deploy",
+                        "PLACEHOLDER": "Select a backend",
+                        "REQUIRED": "The server backend is required"
+                    },
+                    "ACCESSKEY": {
+                        "LABEL": "Access Key (AntemetA account)",
+                        "REQUIRED": "The access key is required"
+                    },
+                    "SECRETKEY": {
+                        "LABEL": "Secret Key (AntemetA account)",
+                        "REQUIRED": "The secret key is required"
+                    }
+                },
+                "TOAST": {
+                    "TITLE": "Deploy",
+                    "SUCCESS": "Deployment success",
+                    "ERROR": "An error occurred while deploying the instance",
+                    "ONAIR": "Deploying"
+                },
+                "NOTIFICATION": {
+                    "TITLE": "Deployment",
+                    "SUCCESS": "You will find the new instance in a few minutes in the Instances tab.",
+                    "ERROR": "An error occurred while deploying the instance"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,443 @@
+{
+    "BACKUP": {
+        "CAPACITY": {
+            "FILTER": {
+                "POLICIES": "Politiques",
+                "TITLE": "Filtre"
+            },
+            "LABEL": {
+                "PLURAL": "capacités",
+                "SINGULAR": "capacité"
+            },
+            "LIST": {
+                "ALLINGB": "GiB",
+                "SERVER": "Serveur",
+                "TOTAL": "Total"
+            },
+            "TABTITLE": "Volumétrie",
+            "TOOLBAR": {
+                "ORDER": {
+                    "SERVER": "Serveur"
+                }
+            }
+        },
+        "DASHBOARD": {
+            "COUNTSERVERS": {
+                "TITLE": "Serveurs uniques"
+            },
+            "FOOTER": {
+                "GLOBALVIEW": "Vue d'ensemble"
+            },
+            "LASTBACKUPSESSION": {
+                "TITLE": "Dernière session de sauvegarde"
+            },
+            "POLICIES": {
+                "TITLE": "Taux de succès par type de politique "
+            },
+            "STATUSPERDAY": {
+                "TITLE": "Succès des sauvegardes"
+            },
+            "TABTITLE": "Tableau de bord",
+            "TICKETING": {
+                "INCIDENTS": {
+                    "LACK": "Vous n'avez aucun incident de sauvegarde",
+                    "TITLE": "Incidents"
+                },
+                "LINK": "Voir vos tickets",
+                "REQUESTS": {
+                    "LACK": "Vous n'avez aucune demande de service de sauvegarde",
+                    "TITLE": "Demande de services"
+                }
+            },
+            "TOTALCAPACITY": {
+                "TITLE": "Volumétrie transférée"
+            },
+            "VARIATIONS": {
+                "CARDTITLE": "Volumétrie transférée (détail)"
+            }
+        },
+        "GLOBAL": {
+            "CUSTOM": "Personnalisé",
+            "EXTRACT": "Analyse des sauvegardes entre le {{since}} et le {{until}} ({{fmt}})"
+        },
+        "INPUTITEMS": {
+            "RESTORE": {
+                "TYPE": {
+                    "DATABASES": "Base de données",
+                    "FILES": "Fichiers",
+                    "VMS": "VMs"
+                }
+            }
+        },
+        "JOBS": {
+            "CHARTS": {
+                "FINALSTATUS": {
+                    "TITLE": "Tâches par code d'erreur"
+                },
+                "KPIPOLICYTYPE": {
+                    "TITLE": "Taux de réussite par type de politique"
+                },
+                "SCHEDULENAME": {
+                    "TITLE": "Planification"
+                },
+                "SUMMARYSTATUS": {
+                    "TITLE": "Tâches par statut"
+                }
+            },
+            "DETAILS": {
+                "CONTEXTE": {
+                    "MASTER": "Master :",
+                    "MEDIA": "Media server",
+                    "SERVER": "Serveur :",
+                    "STORAGEUNIT": "Unité de stockage :",
+                    "TITLE": "Contexte d'exécution",
+                    "TRANSPORT": "Transport :"
+                },
+                "HISTORY": {
+                    "ELAPSED": "Durée",
+                    "KILOBYTES": "Kilo Bytes",
+                    "NUMFILES": "Nombre de fichiers",
+                    "TITLE": "Historique"
+                },
+                "POLICY": {
+                    "POLICYNAME": "Politique :",
+                    "POLICYTYPE": "Type de politique :",
+                    "RESIDENCE": "Résidence :",
+                    "RETENTION": "Rétention :",
+                    "SCHEDULENAME": "Planification :",
+                    "SCHEDULETYPE": "Type de planification :",
+                    "TITLE": "Politique et planification"
+                },
+                "RESULTS": {
+                    "DEDUPLICATIONRATIO": "Dedup ratio :",
+                    "KILOBYTES": "Taille :",
+                    "NUMFILES": "Nombre de fichiers :",
+                    "TITLE": "Bilan"
+                },
+                "TIMING": {
+                    "DURATION": "Durée :",
+                    "ENDED": "Terminé à :",
+                    "STARTED": "Démarré à :",
+                    "TITLE": "Tempo"
+                },
+                "TITLE": "Details du job",
+                "TRIES": {
+                    "HOURSINFO": "Toutes les heures sont en heures locales du serveur de sauvegarde",
+                    "TITLE": "Suivi"
+                }
+            },
+            "FILTER": {
+                "MASTER": "Master",
+                "METASTATUSES": {
+                    "DONE": "Terminé",
+                    "FAILED": "Échec",
+                    "PARTIAL": "Partiel",
+                    "PARTIALANDFAILED": "Partiel et échec",
+                    "RUNNING": "En cours",
+                    "SUCCESS": "Succès"
+                },
+                "POLICIES": "Politique",
+                "POLICYTYPES": "Type",
+                "REGULATED": {
+                    "NOTREGULATED": "Non régulé",
+                    "REGULATED": "Régulé"
+                },
+                "SERVER": "Serveur",
+                "SINCE": "Date début",
+                "STATE": "État",
+                "STATUS": "Statut",
+                "TITLE": "Filtre",
+                "UNTIL": "Date fin"
+            },
+            "LABEL": {
+                "PLURAL": "tâches",
+                "SINGULAR": "tâche"
+            },
+            "LIST": {
+                "LACKOFDATA": {
+                    "INVITE": "Vous pouvez modifier vos critères de recherche.",
+                    "MESSAGE": "",
+                    "MODIFY": "Modifiez votre filtre ?",
+                    "TITLE": "Il n'y a pas de sauvegardes correspondant au filtre courant"
+                },
+                "TABLE": {
+                    "DURATION": "Durée",
+                    "ERROR_DESCRIPTION": "Description de l'erreur",
+                    "MASTER": "Master",
+                    "POLICY_NAME": "Politique",
+                    "POLICY_TYPE": "Type de politique",
+                    "REGULATED": "R",
+                    "SERVER": "Serveur",
+                    "STARTED": "Date début",
+                    "STATUS": "Statut"
+                }
+            },
+            "NOTF": {
+                "EXPORT": {
+                    "MSGFAILED": "L'export du fichier a échoué",
+                    "TITLE": "Export de fichier"
+                }
+            },
+            "POPUP": {
+                "EXPORT": {
+                    "RESTORE": "Exporter les restaurations"
+                }
+            },
+            "TABTITLE": "Tâches",
+            "TOOLBAR": {
+                "FILTER": {
+                    "ALL": "Contractuels",
+                    "FAILED": "Échec",
+                    "HOVER": "<b>Filtres avancés</b> : Survoler les champs pour filtrer avec les loupes.",
+                    "LESSFILTERS": "Moins de filtres",
+                    "MOREFILTERS": "Plus de filtres",
+                    "PARTIAL": "Partiel",
+                    "PARTIALANDFAILED": "Partiel et échec",
+                    "RESETFILTERS": "Réinitialiser aux filtres originaux",
+                    "RUNNING": "En cours",
+                    "SUCCESS": "Succès"
+                },
+                "ORDER": {
+                    "DURATION": "Durée",
+                    "ENDED": "Fin",
+                    "MASTER": "Master",
+                    "POLICYNAME": "Politique",
+                    "POLICYTYPE": "Type",
+                    "SCHEDULENAME": "Schedule",
+                    "SERVER": "Serveur",
+                    "STARTED": "Début",
+                    "STATUS": "Statut"
+                },
+                "VIEWS": {
+                    "FLAT": "Vue normale",
+                    "GROUPED": "Vue groupée",
+                    "WIDTH": "85"
+                }
+            }
+        },
+        "POLICIES": {
+            "BACKUPSELECTION": "Sélection",
+            "CHARTS": {
+                "MODIFICATIONS": "Modifications",
+                "OPERATINGSYSTEMS": "Système d'exploitation",
+                "OTHERS": "Autres",
+                "POLICYTYPES": "Type de politique",
+                "RETENTIONCLASSES": "Classe de rétention",
+                "SCHEDULEDPOLICIES": "Planification des politiques"
+            },
+            "DETAILS": {
+                "INCLUDES": {
+                    "TITLE": "Sélection"
+                },
+                "POLICYCONTEXTE": {
+                    "CLIENTTYPE": "Type de client",
+                    "COLLECTTIME": "Date de collecte",
+                    "MASTER": "Master ",
+                    "POLICYNAME": "Politique",
+                    "POLICYTYPE": "Type de politique",
+                    "TITLE": "Contexte"
+                },
+                "SCHEDULES": {
+                    "RESIDENCE": "Résidence",
+                    "RETENTION": "Rétention",
+                    "SCHEDULENAME": "Nom",
+                    "TITLE": "Planifications",
+                    "TYPE": "Type"
+                },
+                "SERVERSLIST": {
+                    "EXTINFO": "Informations complementaires",
+                    "OS": "OS",
+                    "PRIORITY": "Priorité",
+                    "SERVERNAME": "Serveur",
+                    "TITLE": "Liste des serveurs"
+                },
+                "TITLE": "Détails de la Politique"
+            },
+            "FILTER": {
+                "METASTATUSES": {
+                    "ACTIVE": "Active",
+                    "INACTIVE": "Inactive"
+                },
+                "STATUS": "Statut",
+                "TITLE": "Filtre"
+            },
+            "FROM": "Du",
+            "LABEL": {
+                "PLURAL": "politiques",
+                "SINGULAR": "politique"
+            },
+            "LIST": {
+                "COLLECT_TIME": "Collect time",
+                "LACKOFDATA": {
+                    "INVITE": "Vous pouvez modifier vos critères de recherche.",
+                    "MODIFY": "Modifiez votre filtre ?",
+                    "TITLE": "Il n'y a pas de politiques correspondant au filtre courant"
+                },
+                "MASTER": "Master",
+                "POLICY_NAME": "Politique",
+                "POLICY_TYPE": "Type de politique",
+                "SERVERS": "Serveurs",
+                "STATUS": "Statut"
+            },
+            "ON": "le",
+            "POLICY": {
+                "STATUS": {
+                    "NO": "Inactive",
+                    "UNDEFINED": "-",
+                    "YES": "Active"
+                }
+            },
+            "SCHEDULES": {
+                "NAME": "Nom",
+                "NOPLANFICATION": "Il n'y a pas de planification ",
+                "RESIDENCE": "Résidence :",
+                "RETENTION": "Rétention :",
+                "TITLE": "Planification",
+                "TYPE": "Type :"
+            },
+            "STATUS": {
+                "CHARTS": {
+                    "ADDED": "Ajoutés",
+                    "EDITED": "Modifiés",
+                    "OTHERS": "Autres",
+                    "REMOVED": "Supprimés",
+                    "UNCHANGED": "Inchangés"
+                },
+                "TEXTS": {
+                    "ADDED": "Ajouté",
+                    "EDITED": "Modifié",
+                    "REMOVED": "Supprimé",
+                    "UNCHANGED": "Inchangé"
+                }
+            },
+            "TABTITLE": "Politiques",
+            "TO": "au",
+            "TOOLBAR": {
+                "DATEPLACEHOLDER": "Choisir une date...",
+                "HOSTPLACEHOLDER": "Choisir un OpsCenter...",
+                "HOURPLACEHOLDER": "Choisir un horaire...",
+                "ONLYCHANGES": "Uniquement les modifications",
+                "ORDER": {
+                    "CHANGESTATUS": "Dernier état",
+                    "OS": {
+                        "SHORT": "OS",
+                        "TEXT": "Système d'exploitation"
+                    },
+                    "POLICY": "Politique",
+                    "POLICYTYPE": "Type de politique",
+                    "RETENTIONCLASS": "Classe de rétention",
+                    "SERVER": "Serveur"
+                }
+            }
+        },
+        "RANGEKEYS": {
+            "CURRENTMONTH": "Le mois en cours",
+            "LAST28DAYS": "Les 28 derniers jours",
+            "LAST30DAYS": "Les 30 derniers jours",
+            "LAST7DAYS": "Les 7 derniers jours",
+            "LASTMONTH": "Le mois dernier",
+            "TODAY": "Aujourd'hui",
+            "YESTERDAY": "Hier"
+        },
+        "SERVERS": {
+            "CHARTS": {
+                "KPIPOLICYTYPE": {
+                    "TITLE": "Taux de réussite par type de politique (par serveur)"
+                },
+                "LATESTSTATUS": {
+                    "SERIES": {
+                        "FAILED": "Échec",
+                        "PARTIAL": "Partiel",
+                        "SUCCESS": "Succès"
+                    },
+                    "TITLE": "Derniers statuts (par serveur)"
+                },
+                "SERVERRPO": {
+                    "BACKUPTIME": "Dernière sauvegarde",
+                    "EXPTIME": "Date d'expiration",
+                    "SERVPOLICY": "Serveur / Politique",
+                    "TITLE": "Expiration des images"
+                }
+            },
+            "DETAILS": {
+                "ALLIMAGES": "Voir toutes les images",
+                "NBFILES": "Nombre de fichiers sauvegardés (et tendance)",
+                "SIZE": "Volume sauvegardé (et tendance)"
+            },
+            "FILTER": {
+                "MASTER": "Master",
+                "POLICIES": "Politique",
+                "POLICYTYPES": "Type",
+                "SCHEDULETYPE": "Type de planification",
+                "SCHEDULETYPESMETA": {
+                    "FULL": "FULL",
+                    "INCR": "INCR"
+                },
+                "SERVER": "Serveur",
+                "SINCE": "Date début",
+                "STATE": "État",
+                "STATUS": "Statut",
+                "TITLE": "Filtre",
+                "UNTIL": "Date fin"
+            },
+            "LIST": {
+                "AGE_IMAGE": "Âge de l'image",
+                "EXPIRE_DANS": "Expire dans",
+                "LACKOFDATA": {
+                    "INVITE": "Vous pouvez modifier vos critères de recherche.",
+                    "MESSAGE": "",
+                    "MODIFY": "Modifiez votre filtre ?",
+                    "TITLE": "Il n'y a pas de sauvegardes correspondant au filtre courant"
+                },
+                "MASTER": "Master",
+                "POLICY_NAME": "Politique",
+                "POLICY_TYPE": "Type de politique",
+                "SCHEDULE_NAME": "Planification",
+                "SCHEDULE_TYPE": "Type de planification",
+                "SERVER": "Serveur"
+            },
+            "PAGINATION": {
+                "ALL": "Toutes les tâches",
+                "LATEST": "Dernières tâches"
+            },
+            "TABTITLE": "Serveurs"
+        },
+        "SUMMARY": {
+            "CHARTS": {
+                "JOBSCAPACITYLAST30DAYS": {
+                    "SERIES": {
+                        "CAPACITY": "Capacité",
+                        "JOBS": "Tâches"
+                    },
+                    "TITLE": "Tâches // Capacité",
+                    "YAXISLEFT": "Tâches",
+                    "YAXISRIGHT": "Capacité"
+                },
+                "JOBSLAST30DAYS": {
+                    "SERIES": {
+                        "FAILED": "Échec",
+                        "PARTIAL": "Partiel",
+                        "SUCCESS": "Succès"
+                    },
+                    "TITLE": "Statut des tâches"
+                },
+                "JOBSSTATUS": {
+                    "SERIES": {
+                        "FAILED": "Échec",
+                        "PARTIAL": "Partiel",
+                        "SUCCESS": "Succès"
+                    },
+                    "TITLE": "Statut des tâches au "
+                },
+                "JOBSSUCCESSRATE30DAYS": {
+                    "SERIES": {
+                        "SUCCESSRATE": "Taux de réussite"
+                    },
+                    "TITLE": "Taux de réussite"
+                }
+            },
+            "TABTITLE": "Récapitulatif"
+        },
+        "WIDGETTITLE": "Sauvegardes"
+    }
+}

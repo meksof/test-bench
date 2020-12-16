@@ -1,0 +1,55 @@
+{
+	"CMDB": {
+		"TAGS": {
+			"CREATE": {
+				"NOTIF": {
+					"MSGFAILED": "The creation of the tag failed",
+					"MSGSUCCESS": "The tag was successfully created",
+					"TITLE": "Tag creation!"
+				},
+				"TITLE": "Create a new tag"
+			},
+			"DELETE": {
+				"NOTIF": {
+					"MSGFAILED": "Deletion of the tag failed",
+					"MSGSUCCESS": "The tag was successfully removed",
+					"TITLE": "Delete tag!"
+				}
+			},
+			"DETAILS": {
+				"DELETE": {
+					"NODESC": "'NO' to cancel the deletion.",
+					"TITLE": "Do you confirm the deletion of the tag?",
+					"YESDESC": "By clicking on 'YES' you delete the tag irreversibly"
+				}
+			},
+			"HEADER": "Available Tags",
+			"LIST": {
+				"DESCRIPTION": "Description",
+				"LACKOFDATA": {
+					"TITLE": "There are no tags matching the current filter"
+				},
+				"TEXT": "Text",
+				"USED": "Used"
+			},
+			"TABTITLE": "Tags",
+			"UPDATE": {
+				"NOTIF": {
+					"MSGFAILED": "Tag update failed",
+					"MSGSUCCESS": "The tag has been successfully updated",
+					"TITLE": "Update tag!"
+				},
+				"TITLE": "Mise à jour du tag"
+			}
+		},
+		"TOPOLOGY": {
+			"HEADER": "VM topology",
+			"INSTANCE": {
+				"POLICY": {
+					"LACK": "This instance is not backed up"
+				}
+			},
+			"TABTITLE": "Topology"
+		}
+	}
+}

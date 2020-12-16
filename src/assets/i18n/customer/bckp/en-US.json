@@ -1,0 +1,443 @@
+{
+    "BACKUP": {
+        "CAPACITY": {
+            "FILTER": {
+                "POLICIES": "Policies",
+                "TITLE": "Filtre"
+            },
+            "LABEL": {
+                "PLURAL": "capacities",
+                "SINGULAR": "capacity"
+            },
+            "LIST": {
+                "ALLINGB": "GiB",
+                "SERVER": "Server",
+                "TOTAL": "Total"
+            },
+            "TABTITLE": "Capacity",
+            "TOOLBAR": {
+                "ORDER": {
+                    "SERVER": "Server"
+                }
+            }
+        },
+        "DASHBOARD": {
+            "COUNTSERVERS": {
+                "TITLE": "Unique servers"
+            },
+            "FOOTER": {
+                "GLOBALVIEW": "Overview"
+            },
+            "LASTBACKUPSESSION": {
+                "TITLE": "Last backup session"
+            },
+            "POLICIES": {
+                "TITLE": "Success rate by policy type"
+            },
+            "STATUSPERDAY": {
+                "TITLE": "Successful backups"
+            },
+            "TABTITLE": "Dashboard",
+            "TICKETING": {
+                "INCIDENTS": {
+                    "LACK": "You have no backup incidents",
+                    "TITLE": "Incidents"
+                },
+                "LINK": "View your tickets",
+                "REQUESTS": {
+                    "LACK": "You have no backup service request",
+                    "TITLE": "Service requests"
+                }
+            },
+            "TOTALCAPACITY": {
+                "TITLE": "Transferred capacity"
+            },
+            "VARIATIONS": {
+                "CARDTITLE": "Transferred capacity per server"
+            }
+        },
+        "GLOBAL": {
+            "CUSTOM": "Custom",
+            "EXTRACT": "Backup analysis between {{since}} and {{until}} ({{fmt}})"
+        },
+        "INPUTITEMS": {
+            "RESTORE": {
+                "TYPE": {
+                    "DATABASES": "Databases",
+                    "FILES": "Files",
+                    "VMS": "VMs"
+                }
+            }
+        },
+        "JOBS": {
+            "CHARTS": {
+                "FINALSTATUS": {
+                    "TITLE": "Jobs by error code"
+                },
+                "KPIPOLICYTYPE": {
+                    "TITLE": "Success rate by policy type"
+                },
+                "SCHEDULENAME": {
+                    "TITLE": "Planification"
+                },
+                "SUMMARYSTATUS": {
+                    "TITLE": "Jobs by status"
+                }
+            },
+            "DETAILS": {
+                "CONTEXTE": {
+                    "MASTER": "Master:",
+                    "MEDIA": "Media server",
+                    "SERVER": "Server:",
+                    "STORAGEUNIT": "Storage unit:",
+                    "TITLE": "Execution context",
+                    "TRANSPORT": "Transport:"
+                },
+                "HISTORY": {
+                    "ELAPSED": "Duration",
+                    "KILOBYTES": "Kilo Bytes",
+                    "NUMFILES": "# files",
+                    "TITLE": "History"
+                },
+                "POLICY": {
+                    "POLICYNAME": "Policy:",
+                    "POLICYTYPE": "Policy type:",
+                    "RESIDENCE": "Residence:",
+                    "RETENTION": "Retention:",
+                    "SCHEDULENAME": "Schedule:",
+                    "SCHEDULETYPE": "Schedule type:",
+                    "TITLE": "Policy and schedule"
+                },
+                "RESULTS": {
+                    "DEDUPLICATIONRATIO": "Dedup ratio:",
+                    "KILOBYTES": "Size:",
+                    "NUMFILES": "Number of files",
+                    "TITLE": "Results"
+                },
+                "TIMING": {
+                    "DURATION": "Duration:",
+                    "ENDED": "Ended:",
+                    "STARTED": "Started:",
+                    "TITLE": "Timing"
+                },
+                "TITLE": "Job Details",
+                "TRIES": {
+                    "HOURSINFO": "All hours are local to the backup server",
+                    "TITLE": "Logs"
+                }
+            },
+            "FILTER": {
+                "MASTER": "Master",
+                "METASTATUSES": {
+                    "DONE": "Done",
+                    "FAILED": "Failed",
+                    "PARTIAL": "Partial",
+                    "PARTIALANDFAILED": "Partial and failed",
+                    "RUNNING": "Running",
+                    "SUCCESS": "Success"
+                },
+                "POLICIES": "Policy",
+                "POLICYTYPES": "Type",
+                "REGULATED": {
+                    "NOTREGULATED": "Not regulated",
+                    "REGULATED": "Regulated"
+                },
+                "SERVER": "Server",
+                "SINCE": "",
+                "STATE": "State",
+                "STATUS": "Status",
+                "TITLE": "Filter",
+                "UNTIL": ""
+            },
+            "LABEL": {
+                "PLURAL": "jobs",
+                "SINGULAR": "job"
+            },
+            "LIST": {
+                "LACKOFDATA": {
+                    "INVITE": "You can modify your search criteria",
+                    "MESSAGE": "",
+                    "MODIFY": "Change your filter?",
+                    "TITLE": "There are no backups matching the current filter"
+                },
+                "TABLE": {
+                    "DURATION": "Duration",
+                    "ERROR_DESCRIPTION": "Error Description",
+                    "MASTER": "Master",
+                    "POLICY_NAME": "Politique",
+                    "POLICY_TYPE": "Policy Type",
+                    "REGULATED": "R",
+                    "SERVER": "Server",
+                    "STARTED": "Started",
+                    "STATUS": "Status"
+                }
+            },
+            "NOTF": {
+                "EXPORT": {
+                    "MSGFAILED": "File export failed",
+                    "TITLE": "File export"
+                }
+            },
+            "POPUP": {
+                "EXPORT": {
+                    "RESTORE": "Export restores"
+                }
+            },
+            "TABTITLE": "Jobs",
+            "TOOLBAR": {
+                "FILTER": {
+                    "ALL": "Contractual",
+                    "FAILED": "Failed",
+                    "HOVER": "<b>Advanced filters</b>: Hover over a field  and click one of the action buttons",
+                    "LESSFILTERS": "Less filters",
+                    "MOREFILTERS": "More filters",
+                    "PARTIAL": "Partial",
+                    "PARTIALANDFAILED": "Partial and failed",
+                    "RESETFILTERS": "Reset original filters",
+                    "RUNNING": "Running",
+                    "SUCCESS": "Success"
+                },
+                "ORDER": {
+                    "DURATION": "Duration",
+                    "ENDED": "End",
+                    "MASTER": "Master",
+                    "POLICYNAME": "Policy name",
+                    "POLICYTYPE": "Type",
+                    "SCHEDULENAME": "Schedule",
+                    "SERVER": "Server",
+                    "STARTED": "Start",
+                    "STATUS": "Status"
+                },
+                "VIEWS": {
+                    "FLAT": "Flat view",
+                    "GROUPED": "Grouped view",
+                    "WIDTH": "90"
+                }
+            }
+        },
+        "POLICIES": {
+            "BACKUPSELECTION": "Select",
+            "CHARTS": {
+                "MODIFICATIONS": "Changed",
+                "OPERATINGSYSTEMS": "Operating system",
+                "OTHERS": "Others",
+                "POLICYTYPES": "Policy type",
+                "RETENTIONCLASSES": "Retention class",
+                "SCHEDULEDPOLICIES": "Policy schedule"
+            },
+            "DETAILS": {
+                "INCLUDES": {
+                    "TITLE": "Select"
+                },
+                "POLICYCONTEXTE": {
+                    "CLIENTTYPE": "Client type",
+                    "COLLECTTIME": "Collect time",
+                    "MASTER": "Master ",
+                    "POLICYNAME": "Policy name",
+                    "POLICYTYPE": "Type",
+                    "TITLE": "Context"
+                },
+                "SCHEDULES": {
+                    "RESIDENCE": "Residence",
+                    "RETENTION": "Retention",
+                    "SCHEDULENAME": "Name",
+                    "TITLE": "Schedules",
+                    "TYPE": "Type"
+                },
+                "SERVERSLIST": {
+                    "EXTINFO": "Extended Info",
+                    "OS": "OS",
+                    "PRIORITY": "Priority",
+                    "SERVERNAME": "Server",
+                    "TITLE": "Servers list"
+                },
+                "TITLE": "Policy details"
+            },
+            "FILTER": {
+                "METASTATUSES": {
+                    "ACTIVE": "Active",
+                    "INACTIVE": "Inactive"
+                },
+                "STATUS": "Status",
+                "TITLE": "Filter"
+            },
+            "FROM": "From",
+            "LABEL": {
+                "PLURAL": "policies",
+                "SINGULAR": "policy"
+            },
+            "LIST": {
+                "COLLECT_TIME": "Collect time",
+                "LACKOFDATA": {
+                    "INVITE": "You can modify your search criteria.",
+                    "MODIFY": "Modify your filter?",
+                    "TITLE": "There are no policies corresponding to the current filter"
+                },
+                "MASTER": "Master",
+                "POLICY_NAME": "Policy",
+                "POLICY_TYPE": "Policy Type",
+                "SERVERS": "Servers",
+                "STATUS": "Status"
+            },
+            "ON": "on",
+            "POLICY": {
+                "STATUS": {
+                    "NO": "Inactive",
+                    "UNDEFINED": "-",
+                    "YES": "Active"
+                }
+            },
+            "SCHEDULES": {
+                "NAME": "Name",
+                "NOPLANFICATION": "There is no planification",
+                "RESIDENCE": "Residence:",
+                "RETENTION": "Retention:",
+                "TITLE": "Schedules",
+                "TYPE": "Type:"
+            },
+            "STATUS": {
+                "CHARTS": {
+                    "ADDED": "Added",
+                    "EDITED": "Modified",
+                    "OTHERS": "Others",
+                    "REMOVED": "Removed",
+                    "UNCHANGED": "Unchanged"
+                },
+                "TEXTS": {
+                    "ADDED": "Added",
+                    "EDITED": "Modified",
+                    "REMOVED": "Removed",
+                    "UNCHANGED": "Unchanged"
+                }
+            },
+            "TABTITLE": "Policies",
+            "TO": "to",
+            "TOOLBAR": {
+                "DATEPLACEHOLDER": "Select a date...",
+                "HOSTPLACEHOLDER": "Select an OpsCenter...",
+                "HOURPLACEHOLDER": "Select a time...",
+                "ONLYCHANGES": "Changes only",
+                "ORDER": {
+                    "CHANGESTATUS": "Change status",
+                    "OS": {
+                        "SHORT": "OS",
+                        "TEXT": "Operating System"
+                    },
+                    "POLICY": "Policy",
+                    "POLICYTYPE": "Policy type",
+                    "RETENTIONCLASS": "Retention class",
+                    "SERVER": "Server"
+                }
+            }
+        },
+        "RANGEKEYS": {
+            "CURRENTMONTH": "Current month",
+            "LAST28DAYS": "The last 28 days",
+            "LAST30DAYS": "The last 30 Days",
+            "LAST7DAYS": "The last 7 Days",
+            "LASTMONTH": "Last month",
+            "TODAY": "Today",
+            "YESTERDAY": "Yesterday"
+        },
+        "SERVERS": {
+            "CHARTS": {
+                "KPIPOLICYTYPE": {
+                    "TITLE": "Success rate by policy type (by server)"
+                },
+                "LATESTSTATUS": {
+                    "SERIES": {
+                        "FAILED": "Failed",
+                        "PARTIAL": "Partial",
+                        "SUCCESS": "Success"
+                    },
+                    "TITLE": "Latest status (by server)"
+                },
+                "SERVERRPO": {
+                    "BACKUPTIME": "Backup time",
+                    "EXPTIME": "Expiration time",
+                    "SERVPOLICY": "Server / Policy",
+                    "TITLE": "Images expiration"
+                }
+            },
+            "DETAILS": {
+                "ALLIMAGES": "View all images",
+                "NBFILES": "Number of files (and trend)",
+                "SIZE": "Saved capacity (and trend)"
+            },
+            "FILTER": {
+                "MASTER": "Master",
+                "POLICIES": "Policy",
+                "POLICYTYPES": "Type",
+                "SCHEDULETYPE": "Schedule Type",
+                "SCHEDULETYPESMETA": {
+                    "FULL": "FULL",
+                    "INCR": "INCR"
+                },
+                "SERVER": "Server",
+                "SINCE": "",
+                "STATE": "State",
+                "STATUS": "Status",
+                "TITLE": "Filter",
+                "UNTIL": ""
+            },
+            "LIST": {
+                "AGE_IMAGE": "Image Age",
+                "EXPIRE_DANS": "Expires In",
+                "LACKOFDATA": {
+                    "INVITE": "You can modify your search criteria",
+                    "MESSAGE": "",
+                    "MODIFY": "Change your filter?",
+                    "TITLE": "There are no backups matching the current filter"
+                },
+                "MASTER": "Master",
+                "POLICY_NAME": "Policy",
+                "POLICY_TYPE": "Policy Type",
+                "SCHEDULE_NAME": "Schedule name",
+                "SCHEDULE_TYPE": "Schedule Type",
+                "SERVER": "Server"
+            },
+            "PAGINATION": {
+                "ALL": "All jobs",
+                "LATEST": "Latest jobs"
+            },
+            "TABTITLE": "Servers"
+        },
+        "SUMMARY": {
+            "CHARTS": {
+                "JOBSCAPACITYLAST30DAYS": {
+                    "SERIES": {
+                        "CAPACITY": "Capacity",
+                        "JOBS": "Jobs"
+                    },
+                    "TITLE": "Jobs // Capacity",
+                    "YAXISLEFT": "Jobs",
+                    "YAXISRIGHT": "Capacity"
+                },
+                "JOBSLAST30DAYS": {
+                    "SERIES": {
+                        "FAILED": "Failed",
+                        "PARTIAL": "Partial",
+                        "SUCCESS": "Success"
+                    },
+                    "TITLE": "Jobs status"
+                },
+                "JOBSSTATUS": {
+                    "SERIES": {
+                        "FAILED": "Failed",
+                        "PARTIAL": "Partial",
+                        "SUCCESS": "Success"
+                    },
+                    "TITLE": "Jobs status on "
+                },
+                "JOBSSUCCESSRATE30DAYS": {
+                    "SERIES": {
+                        "SUCCESSRATE": "Success Rate"
+                    },
+                    "TITLE": "Success rate"
+                }
+            },
+            "TABTITLE": "Overview"
+        },
+        "WIDGETTITLE": "Backup"
+    }
+}

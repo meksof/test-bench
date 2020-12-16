@@ -1,0 +1,516 @@
+{
+    "OSTK": {
+        "NETWORKS": {
+            "ACTIONS": {
+                "CREATE": "Create network",
+                "EXPORT": "Export"
+            },
+            "CREATE": {
+                "BUTTON": {
+                    "CREATE": "Create network"
+                },
+                "FORM": {
+                    "ADMINSTATE": {
+                        "LABEL": "Starting status",
+                        "REQUIRED": "The starting status is required"
+                    },
+                    "ALLOCATIONPOOLS": {
+                        "ADD": "Add",
+                        "PATTERN": "The IP address is not valid",
+                        "REQUIRED": "This field is required",
+                        "TITLE": "Allocation Pools"
+                    },
+                    "CIDR": {
+                        "LABEL": "Network Address",
+                        "PATTERN": "The IP address is not valid",
+                        "REQUIRED": "The network address is required"
+                    },
+                    "CREATESUBNET": {
+                        "LABELOFF": "Create a subnet",
+                        "LABELON": "Do not create a subnet"
+                    },
+                    "DEFAULTGATEWAY": {
+                        "LABEL": "Default gateway"
+                    },
+                    "DISABLEGATEWAY": {
+                        "LABEL": "Gateway"
+                    },
+                    "DNSSERVERS": {
+                        "ADD": "Add",
+                        "PATTERN": "The IP address is not valid",
+                        "REQUIRED": "This field is required",
+                        "TITLE": "DNS Name Servers"
+                    },
+                    "ENABLEDHCP": {
+                        "LABEL": "DHCP",
+                        "SHORTOFF": "Disabled",
+                        "SHORTON": "Enabled"
+                    },
+                    "GATEWAYIP": {
+                        "LABEL": "Gateway address",
+                        "REQUIRED": "The gateway address is required"
+                    },
+                    "HOSTROUTES": {
+                        "ADD": "Add",
+                        "DESTINATION": "Destination CIDR",
+                        "NEXTHOP": "BNext Hop",
+                        "REQUIRED": "This field is required",
+                        "TITLE": "Host Routes"
+                    },
+                    "IPVERSION": {
+                        "LABEL": "IP version",
+                        "REQUIRED": "The IP version is required"
+                    },
+                    "NETWORKNAME": {
+                        "LABEL": "Network name",
+                        "NOTUNIQUE": "The name of the network must be unique",
+                        "REQUIRED": "The network name is required"
+                    },
+                    "SUBNETNAME": {
+                        "LABEL": "Sub network name",
+                        "REQUIRED": "The sub network name is required"
+                    }
+                },
+                "HELP": {
+                    "TITLE": "Help"
+                },
+                "NETWORK": {
+                    "TITLE": "Network"
+                },
+                "SUBNETWORK1": {
+                    "TITLE": "Subnet"
+                },
+                "SUBNETWORK2": {
+                    "TITLE": "Subnet details"
+                },
+                "TOAST": {
+                    "ERROR": "Fail",
+                    "ONAIR": "Creating network...",
+                    "SUCCESS": "Success",
+                    "TITLE": "Network creation"
+                }
+            },
+            "DELETE": {
+                "TEXT": "Are you sure you want to delete the network “{{which}}”?",
+                "TITLE": "Network deletion",
+                "TOAST": {
+                    "ERROR": "An error occurred while deleting the network {{which}}",
+                    "ONAIR": "Deleting the network...",
+                    "SUCCESS": "The network has been deleted",
+                    "TITLE": "Network deletion"
+                }
+            },
+            "DETAILS": {
+                "ADMINSTATE": "Admin State",
+                "SHARED": "Share",
+                "STATUS": "Status"
+            },
+            "DROPDOWNMENU": {
+                "DELETE": "Delete this network"
+            },
+            "NETW": {
+                "LIST": {
+                    "NAME": "Name",
+                    "STATUS": "Status"
+                },
+                "DETAILS": {
+                    "NAME": "Name",
+                    "DHCP": "DHCP",
+                    "CIDR": "CIDR",
+                    "GATEWAYIP": "Gateway IP"
+                }
+            },
+            "FIPS": {
+                "ACTIONS": {
+                    "ACTIONS": "Actions",
+                    "ADD": "Create floating IP",
+                    "ASSOCIATE": "Associate",
+                    "DISASSOCIATE": "Disassociate",
+                    "RELEASE": "Delete"
+                },
+                "ALLOCATE": {
+                    "LIMITS": "Limits",
+                    "POOL": "Pool",
+                    "POOLPLACEHOLDER": "Choose a pool",
+                    "TOAST": {
+                        "ERROR": "Allocation error",
+                        "ONAIR": "Allocating...",
+                        "SUCCESS": "Allocation OK",
+                        "TITLE": "Floating IP"
+                    }
+                },
+                "LIST": {
+                    "MAPPED": "Mapped to",
+                    "NETWORKMAP": "Mapped to network",
+                    "NETWORKUNMAP": "Not mapped to a network",
+                    "STATUS": "Status",
+                    "FLOATINGIP": "IP flottante"
+                },
+                "MAPPING": {
+                    "FORM": {
+                        "FIXED": "Fixed IP to associate",
+                        "FLOATING": "Associate “{{which}}”",
+                        "PORT": "Select port"
+                    },
+                    "TITLE": "Floating IP mapping",
+                    "TOAST": {
+                        "ERROR": "Mapping error",
+                        "ONAIR": "Mapping...",
+                        "SUCCESS": "Mapping done",
+                        "TITLE": "Floating IP"
+                    }
+                },
+                "RELEASE": {
+                    "QUESTION": "Delete the floating IP “{{which}}”?",
+                    "TITLE": "Floating IP deletion",
+                    "TOAST": {
+                        "ERROR": "Deletion error",
+                        "ONAIR": "Deletion...",
+                        "SUCCESS": "Deletion OK",
+                        "TITLE": "Floating IPs"
+                    }
+                },
+                "TITLE": "Floating IP",
+                "TOOLBAR": {
+                    "ORDER": {
+                        "FIXEADDR": "By fixed address",
+                        "FLOATADDR": "By floating address",
+                        "STATUS": "By status"
+                    }
+                },
+                "UNMAPPING": {
+                    "QUESTION": "Disassociate the floating IP",
+                    "TITLE": "Floating IP disassociation",
+                    "TOAST": {
+                        "ERROR": "Unmapping error",
+                        "ONAIR": "Unmapping...",
+                        "SUCCESS": "Unmapping done",
+                        "TITLE": "Floating IP"
+                    }
+                }
+            },
+            "LOADBALANCERHEALTHMONITORS": {
+                "ACTIONS": {
+                    "ACTIONS": "Actions",
+                    "CREATE": "Create health monitor",
+                    "DELETE": "Delete"
+                },
+                "CREATE": {
+                    "ADD": "Add health monitor",
+                    "ASSOCIATEDWITHPOOL": "Associated with pool",
+                    "DELAY": "Delay (s)",
+                    "EXPECTEDCODES": "Expected codes (200, 204 ...)",
+                    "LIMITS": "Limits",
+                    "LIST": {
+                        "ASSOCIATE": "Associate",
+                        "DELAY": "Delay",
+                        "DELETE": "Delete",
+                        "DISASSOCIATE": "Disassociate",
+                        "RETRIES": "Retries",
+                        "TIMEOUT": "Timeout",
+                        "TYPE": "Type"
+                    },
+                    "MAXRETRIES": "Max retries (1-10)",
+                    "METHOD": "Method",
+                    "OTHERS": "Other health monitors",
+                    "POOL": "Pool",
+                    "POOLSELECT": "Choose a pool",
+                    "REQUIRED": {
+                        "DELAY": "Enter a delay upper than timeout",
+                        "MAXRETRIES": "Enter a maximum retries value between 1 and 10",
+                        "TIMEOUT": "Enter a timeout lower than dalay",
+                        "TYPE": "Choose a health monitor type"
+                    },
+                    "TIMEOUT": "Timeout (s)",
+                    "TITLE": "Healh monitors of pool",
+                    "TOAST": {
+                        "ERROR": "An error occured while creating the health monitor {{which}}",
+                        "ONAIR": "Creating the health monitor ...",
+                        "SUCCESS": "Health monitor created",
+                        "TITLE": "Load balancer health monitor"
+                    },
+                    "TYPE": "Type",
+                    "TYPESELECT": "Choose a type",
+                    "URL": "URL"
+                },
+                "DELETE": {
+                    "TEXT": "Are you sure you want to delete the health monitor “{{which}}”?",
+                    "TITLE": "Health monitor deletion",
+                    "TOAST": {
+                        "ERROR": "An error occurred while deleting the health monitor {{which}}",
+                        "ONAIR": "Deleting the health monitor...",
+                        "SUCCESS": "The health monitor has been deleted",
+                        "TITLE": "Health monitor deletion"
+                    }
+                },
+                "LIST": {
+                    "DELAY": "Delay",
+                    "MAXRETRIES": "Max retries"
+                },
+                "TITLE": "Health monitors",
+                "TOOLBAR": {
+                    "ORDER": {
+                        "TYPE": "Type"
+                    }
+                }
+            },
+            "LOADBALANCERMEMBERS": {
+                "ACTIONS": {
+                    "ACTIONS": "Actions",
+                    "CREATE": "Create member",
+                    "DELETE": "Delete"
+                },
+                "CREATE": {
+                    "ADD": "Add member",
+                    "ADDRESS": "Instance",
+                    "ADDRESSSELECT": "Choose an instance",
+                    "LIMITS": "Limits",
+                    "LIST": {
+                        "DELETE": "Delete",
+                        "INSTANCE": "Server",
+                        "PORT": "Port",
+                        "WEIGHT": "Weight"
+                    },
+                    "POOL": "Pool",
+                    "POOLSELECT": "Choose a pool",
+                    "PORT": "Port (0-65535)",
+                    "REQUIRED": {
+                        "ADDRESS": "Choose a server",
+                        "POOL": "Choose a pool",
+                        "PORT": "Enter a port number"
+                    },
+                    "TITLE": "Members of pool",
+                    "TOAST": {
+                        "ERROR": "An error occured while deleting the member {{which}}",
+                        "ONAIR": "Creating the member...",
+                        "SUCCESS": "Member created",
+                        "TITLE": "Load balancer member"
+                    },
+                    "WEIGHT": "Weight (0-255)"
+                },
+                "DELETE": {
+                    "TEXT": "Are you sure you want to delete the member “{{which}}”?",
+                    "TITLE": "Member deletion",
+                    "TOAST": {
+                        "ERROR": "An error occurred while deleting the member {{which}}",
+                        "ONAIR": "Deleting the member...",
+                        "SUCCESS": "The member has been deleted",
+                        "TITLE": "Member deletion"
+                    }
+                },
+                "TITLE": "Load balancer members",
+                "TOOLBAR": {
+                    "ORDER": {
+                        "ADDRESS": "Address"
+                    }
+                }
+            },
+            "LOADBALANCERPOOLS": {
+                "ACTIONS": {
+                    "ACTIONS": "Actions",
+                    "ASSOCIATE": "Associate",
+                    "CREATE": "Create pool",
+                    "CREATEVIP": "Create virtual IP",
+                    "DELETE": "Delete",
+                    "DELETEVIP": "Delete virtual IP",
+                    "DISASSOCIATE": "Disassociate",
+                    "MANAGEHEALTHMONITORS": "Manage health monitors",
+                    "MANAGEMEMBERS": "Manage members"
+                },
+                "ASSOCIATE": {
+                    "FORM": {
+                        "HEALTHMONITOR": "Health monitor",
+                        "HEALTHMONITORSELECT": "Choose a health monitor"
+                    },
+                    "POOL": "Associate a health monitor to pool \"{{which}}",
+                    "REQUIRED": {
+                        "HEALTHMONITOR": "Choose a health monitor"
+                    },
+                    "TOAST": {
+                        "ERROR": "An error has occured while associating",
+                        "ONAIR": "Associating  ...",
+                        "SUCCESS": "Associated to the health monitor",
+                        "TITLE": "Load balancer pool"
+                    }
+                },
+                "CREATE": {
+                    "DESCRIPTION": "Description",
+                    "LBMETHOD": "Load balancing method",
+                    "LBMETHODS": {
+                        "LEASTCONNECTION": "Least connection",
+                        "ROUNDROBIN": "Round robin",
+                        "SOURCEIP": "Source IP"
+                    },
+                    "LBMETHODSELECT": "Choose a load balancing method",
+                    "LIMITS": "Limits",
+                    "NAME": "Name",
+                    "PROTOCOL": "Protocol",
+                    "PROTOCOLSELECT": "Choose a protocol",
+                    "REQUIRED": {
+                        "METHOD": "Choose a load balancing method",
+                        "NAME": "Enter a name",
+                        "PROTOCOL": "Choose a protocol",
+                        "SUBNETID": "Choose a subnet"
+                    },
+                    "SUBNET": "Subnet",
+                    "SUBNETSELECT": "Choose a subnet",
+                    "TOAST": {
+                        "ERROR": "An error occured while creating the pool {{which}}",
+                        "ONAIR": "Creating the pool...",
+                        "SUCCESS": "Pool created",
+                        "TITLE": "Load balancer pool"
+                    }
+                },
+                "DELETE": {
+                    "TEXT": "Are you sure you want to delete the pool “{{which}}”?",
+                    "TITLE": "Pool deletion",
+                    "TOAST": {
+                        "ERROR": "An error occurred while deleting the pool {{which}}",
+                        "ONAIR": "Deleting the pool...",
+                        "SUCCESS": "The pool has been deleted",
+                        "TITLE": "Pool deletion"
+                    }
+                },
+                "DISASSOCIATE": {
+                    "FORM": {
+                        "HEALTHMONITOR": "Health monitor",
+                        "HEALTHMONITORSELECT": "Choose a health monitor"
+                    },
+                    "POOL": "Disassociate a health monitor from pool \"{{which}}",
+                    "REQUIRED": {
+                        "HEALTHMONITOR": "Choose a health monitor"
+                    },
+                    "TOAST": {
+                        "ERROR": "An error has occured while disassociating",
+                        "ONAIR": "Disassociating  ...",
+                        "SUCCESS": "Disassociated from the health monitor",
+                        "TITLE": "Load balancer pool"
+                    }
+                },
+                "LIST": {
+                    "ASSOCIATEDTO": "Associated to",
+                    "DETAILS": {
+                        "HEALTHMONITORS": "Health monitors",
+                        "MEMBERS": "Members"
+                    },
+                    "HEALTHMONITOR": "health monitor",
+                    "HEALTHMONITORS": "health monitors",
+                    "MEMBER": "member",
+                    "MEMBERS": "members"
+                },
+                "TITLE": "Load balancers",
+                "TOOLBAR": {
+                    "ORDER": {
+                        "NAME": "Name"
+                    }
+                }
+            },
+            "LOADBALANCERVIPS": {
+                "ACTIONS": {
+                    "ACTIONS": "Actions",
+                    "ASSOCIATE": "Associate floating IP",
+                    "CREATE": "Create Virtual IP",
+                    "DELETE": "Delete",
+                    "DISASSOCIATE": "Disassociate the floating IP"
+                },
+                "CREATE": {
+                    "ADDRESS": "IP address",
+                    "CONNECTIONLIMIT": "Connections limits",
+                    "DESCRIPTION": "Description",
+                    "LIMITS": "Limits",
+                    "NAME": "Name",
+                    "POOL": "Pool",
+                    "POOLSELECT": "Choose a pool",
+                    "PORT": "Port (1-65535)",
+                    "PROTOCOL": "Protocol",
+                    "PROTOCOLSELECT": "Choose protocol",
+                    "REQUIRED": {
+                        "NAME": "Enter a name",
+                        "POOL": "Choose a pool",
+                        "PORT": "Enter a port number between 1 and 65535",
+                        "SUBNET": "Choose a subnet"
+                    },
+                    "SESSIONPERSISTENCE": "Session persistence",
+                    "SESSIONPERSISTENCES": {
+                        "APPCOOKIE": "Application cookie",
+                        "HTTPCOOKIE": "HTTP Cookie",
+                        "SOURCEIP": "Source IP"
+                    },
+                    "SESSIONPERSISTENCESELECT": "Choose session persistence method",
+                    "SUBNET": "Subnet",
+                    "SUBNETSELECT": "Choose subnet",
+                    "TOAST": {
+                        "ERROR": "An error occured while creating the Virtual IP {{which}}",
+                        "ONAIR": "Creating the Virtual IP ...",
+                        "SUCCESS": "Virtual IP created",
+                        "TITLE": "Virtual IP"
+                    }
+                },
+                "DELETE": {
+                    "TEXT": "Are you sure you want to delete the Virtual IP “{{which}}”?",
+                    "TITLE": "Virtual IP deletion",
+                    "TOAST": {
+                        "ERROR": "An error occurred while deleting the viVirtual IPp {{which}}",
+                        "ONAIR": "Deleting the Virtual IP...",
+                        "SUCCESS": "The Virtual IP has been deleted",
+                        "TITLE": "Virtual IP deletion"
+                    }
+                },
+                "MAPPING": {
+                    "FORM": {
+                        "FLOATING": "Floating IP",
+                        "FLOATINGSELECT": "Choose a floating IP",
+                        "TITLE": "Associate a floating IP to the Virtual IP \"{{which}}"
+                    }
+                },
+                "TITLE": "Virtual IPs",
+                "TOOLBAR": {
+                    "ORDER": {
+                        "ADDRESS": "Address"
+                    }
+                },
+                "UNMAPPING": {
+                    "FORM": {
+                        "TEXT": "Disassociate the floating IP to the Virtual IP \"{{which}}\" ?",
+                        "TITLE": "Floating IP disassociation"
+                    }
+                }
+            },
+            "SUBNETWORK": {
+                "ACTIONS": {
+                    "CREATE": "Create a subnet"
+                },
+                "CREATE": {
+                    "TOAST": {
+                        "ERROR": "An error occurred while creating the subnet {{which}}",
+                        "ONAIR": "Creating the subnet...",
+                        "SUCCESS": "The subnet has been created",
+                        "TITLE": "Subnet creation"
+                    }
+                },
+                "DELETE": {
+                    "TEXT": "Are you sure you want to delete the subnet {{which}}?",
+                    "TITLE": "Subnet deletion",
+                    "TOAST": {
+                        "ERROR": "An error occurred while deleting the subnet {{which}}",
+                        "ONAIR": "Deleting the subnet...",
+                        "SUCCESS": "The subnet has been deleted",
+                        "TITLE": "Subnet deletion"
+                    }
+                },
+                "DROPDOWNMENU": {
+                    "DELETE": "Delete subnet"
+                }
+            },
+            "SUBTABS": {
+                "FIPS": "Floating IP",
+                "NETW": "Networks"
+            },
+            "TOOLBAR": {
+                "ORDER": {
+                    "NAME": "Par nom"
+                }
+            }
+        }
+    }
+}

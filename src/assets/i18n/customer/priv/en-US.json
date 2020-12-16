@@ -1,0 +1,131 @@
+{
+	"PRIV": {
+		"COMPANYTABHEADER": "Company",
+		"CONTACT": {
+			"ADMINROLE": "Administrator",
+			"EXTERNALCONTACTSTITLE": "Your contacts",
+			"INTERNALCONTACTSTITLE": "Our contacts",
+			"USERROLE": "User"
+		},
+		"CONTACTSTABHEADER": "Contacts",
+		"ENTITY": {
+			"ADMINENTITYTITLE": "Company's administrators",
+			"COMPANYNOTFOUND": "Company not found",
+			"DELIVERYSITES": "Delivery sites",
+			"EDITDELIVERYSITE": {
+				"ADD": "Add a delivery site",
+				"MODAL": {
+					"ADDRESSFIELD": "Street",
+					"ADDRESSGROUPBOX": "Site address",
+					"ADDSUBMIT": "Add site",
+					"CANCEL": "Cancel",
+					"CITY": "City",
+					"COUNTRY": "Country",
+					"NAMEGROUPBOX": "Site name",
+					"POSTCODE": "Postal code",
+					"TITLE": "Delivery site",
+					"UPDATESUBMIT": "Update site"
+				}
+			},
+			"EDITSITE": {
+				"DELETE": {
+					"MODAL": {
+						"NODESC": "'NO' to cancel the deletion.",
+						"TITLE": "Do you confirm the deletion of the site?",
+						"YESDESC": "By clicking on 'YES' you delete the site irreversibly."
+					}
+				}
+			},
+			"NOTF": {
+				"ADDSITE": {
+					"MSGFAILED": "",
+					"MSGSUCCESS": "The site {{siteName}} has been added successfully"
+				},
+				"REMOVESITE": {
+					"MSGFAILED": "The site has not been deleted",
+					"MSGSUCCESS": "The site {{siteName}} has been deleted successfully"
+				},
+				"TITLE": "Delivery site",
+				"UPDATESITE": {
+					"MSGFAILED": "The site has not been updated",
+					"MSGSUCCESS": "The site {{siteName}} has been updated successfully"
+				}
+			},
+			"POPUP": {
+				"DELETE": "Delete site",
+				"EDIT": "Edit site"
+			}
+		},
+		"MYCONTRACTSTABHEADER": "My contracts",
+		"MYINVOICESTABHEADER": "My invoices",
+		"MYORDERSTABHEADER": "My orders",
+		"MYPROFILETABHEADER": "My profile",
+		"PROFILE": {
+			"AVATAR": {
+				"IMAGE": "Click or Drop Your Image Here!",
+				"TITLE": "Edit your avatar"
+			},
+			"COOKIES": {
+				"INTRODUCTION": "In order to ensure optimal navigation we use several cookies. Below you can choose to disable them.\nThese changes are valid only on the equipment and browser currently in use.",
+				"SOCIAL_NETWORKS": "Social Networks",
+				"STATISTIC": "Statistics",
+				"TITLE": "Cookies",
+				"USAGE": "Usage"
+			},
+			"INFORMATIONS": {
+				"EMAIL": "Your email",
+				"ENTITY": "Your company",
+				"FIRSTNAME": "First name",
+				"MOBILE": "Mobile number",
+				"NAME": "Last name",
+				"PANEL_TITLE": "My information",
+				"PHONE_NUMBER": "Phone number",
+				"TITLE": "Job title",
+				"UPDATE": "UPDATE"
+			},
+			"NEWSLETTER": {
+				"COMMERCIAL": "Sales newsletter",
+				"MAINTENANCE": "Incidents and maintenance notifications",
+				"TITLE": "Newsletter"
+			},
+			"NOTF": {
+				"EDITAVATAR": {
+					"MSGFAILED": "An error occured while updating your avatar",
+					"MSGSUCCESS": "Your avatar has been correctly updated",
+					"TITLE": "Change of avatar!"
+				},
+				"GENERIC": {
+					"MSGFAILED": "An error occured while updating your profile",
+					"MSGSUCCESS": "Your profile has been updated successfully",
+					"TITLE": "Profile updating"
+				}
+			},
+			"PARAMETERS": {
+				"LANGUAGE": "Language",
+				"LANG_EN": "English",
+				"LANG_FR": "French",
+				"SKIN": "Theme",
+				"TITLE": "Parameters"
+			},
+			"SECURITY": {
+				"TITLE": "Your security",
+				"TWOFACTOR": "Activation 2-factor",
+				"UPDATEPASSWORD": {
+					"LINK": "Update your password",
+					"MODAL": {
+						"CONFIRMPASSWORD": "Confirm password",
+						"NEWPASSWORD": "New password",
+						"NOTIFTITLE": "Password update",
+						"OLDPASSWORD": "Old password",
+						"PASSWORDSNOTSAME": "Passwords do not match",
+						"TITLE": "Update your password",
+						"UPDATEKO": "An error occurred while updating your password",
+						"UPDATEOK": "Your password has been changed successfully"
+					}
+				}
+			},
+			"TITLE": "My profile"
+		},
+		"USERSTABHEADER": "Users"
+	}
+}

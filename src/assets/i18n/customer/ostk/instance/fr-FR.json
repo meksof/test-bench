@@ -1,0 +1,294 @@
+{
+	"OSTK": {
+		"INSTANCES": {
+			"ACTIONS": {
+				"CREATE": "Créer une instance",
+				"KONSOLE": {
+					"LABEL": "Console"
+				},
+				"PAUSE": {
+					"LABEL": "Pause",
+					"TOAST": {
+						"ERROR": "Une erreur s'est produite pendant la mise en pause de l'instance {{which}}",
+						"SUCCESS": "L'instance a été mise en pause",
+						"TITLE": "Mise en pause d'une instance"
+					}
+				},
+				"RESTART": {
+					"LABEL": "Redémarrer",
+					"TOAST": {
+						"ERROR": "Une erreur s'est produite pendant le redémarrage de l'instance {{which}}",
+						"SUCCESS": "L'instance a été redémarrée",
+						"TITLE": "Redémarrage d'une instance"
+					}
+				},
+				"START": {
+					"LABEL": "Démarrage",
+					"TOAST": {
+						"ERROR": "Une erreur s'est produite pendant le démarrage de l'instance {{which}}",
+						"SUCCESS": "L'instance a été démarrée",
+						"TITLE": "Démarrage d'une instance"
+					}
+				},
+				"STOP": {
+					"LABEL": "Arrêt",
+					"TOAST": {
+						"ERROR": "Une erreur s'est produite pendant l'arrêt de l'instance {{which}}",
+						"SUCCESS": "L'instance a été arrêtée",
+						"TITLE": "Arrêt d'une instance"
+					}
+				}
+			},
+			"CREATE": {
+				"BUTTON": {
+					"CREATE": "Créer l'instance"
+				},
+				"CAPACITY": {
+					"TITLE": "Capacité"
+				},
+				"DESCRIPTION": {
+					"TITLE": "Description"
+				},
+				"DETAILS": "Détails",
+				"HELP": {
+					"TITLE": "Aide"
+				},
+				"NOTIF": {
+					"ERROR": "Une erreur s'est produite, l'équipe support a été prévenue",
+					"ONAIR": "Création en cours...",
+					"SUCCESS": "L'instance a été créée",
+					"TITLE": "Créer une instance"
+				},
+				"PRICING": {
+					"BRUTAMOUNT": "Prix total",
+					"DISCAMOUNT": "Prix remisé",
+					"FLAVOR": "Gabarit",
+					"MONTHLYAMOUNT": "Prix pour un mois moyen de 730h : {{amount730}}",
+					"OS": "Système d'exploitation",
+					"STORAGE": "Disque",
+					"TABLETITLE": "Les tarifs ci-dessous incluent une bande passante mutualisée de 200 Mb/s avec protection anti-DDoS.",
+					"TITLE": "Prix",
+					"TXDISCOUNT": "Taux de remise"
+				},
+				"STEP1": {
+					"BOOTFROM": {
+						"LABEL": "Source de création de l'instance"
+					},
+					"DISKSIZE": {
+						"LABEL": "Taille du disque en Go",
+						"REQUIRED": "La taille du disque est obligatoire"
+					},
+					"FEATURES": {
+						"CREATEDISK": "Créer un disque",
+						"FLAVORPLACEHOLDER": "Sélectionner un gabarit",
+						"TITLE": "Caractéristiques"
+					},
+					"FLAVOR": {
+						"LABEL": "Sélectionner un gabarit",
+						"LIMITS": "Création impossible : le gabarit dépasse la limite du projet",
+						"PLACEHOLDER": "Sélectionner ou chercher...",
+						"REQUIRED": "Le gabarit est obligatoire"
+					},
+					"IMAGE": {
+						"LABEL": "Sélectionner une image d'initialisation",
+						"PLACEHOLDER": "Sélectionner ou chercher...",
+						"REQUIRED": "L'image d'initialisation est obligatoire"
+					},
+					"INSTANCENAME": {
+						"LABEL": "Nom de l'instance",
+						"NOTUNIQUE": "Le nom de l'instance doit être unique",
+						"PATTERN": "Le nom de l'instance doit commencer par une lettre sans accent et ne contenir que des lettres sans accent, des chiffres et ., - ou _",
+						"REQUIRED": "Le nom de l'instance est obligatoire"
+					},
+					"NETWORK": "Réseau",
+					"SECURITY": "Sécurité",
+					"SNAPSHOT": {
+						"LABEL": "Sélectionner un instantané d'initialisation",
+						"PLACEHOLDER": "Sélectionner ou chercher...",
+						"REQUIRED": "L'instantané d'initialisation est obligatoire"
+					},
+					"SOURCE": {
+						"IMAGE": "Image",
+						"IMAGEPLACEHOLDER": "Sélectionner une image",
+						"SNAPSHOT": "Instantané",
+						"SNAPSHOTPLACEHOLDER": "Sélectionner un instantanné",
+						"TITLE": "Source",
+						"VOLUME": "Volume",
+						"VOLUMEPLACEHOLDER": "Sélectionner un volume"
+					},
+					"TABTITLE": "Généralités",
+					"VOLUME": {
+						"CREATE": {
+							"LABEL": "Créer un volume"
+						},
+						"LABEL": "Sélectionner un volume d'initialisation",
+						"PLACEHOLDER": "Sélectionner ou chercher...",
+						"REQUIRED": "Le volume d'initialisation est obligatoire"
+					}
+				},
+				"STEP2": {
+					"KEYPAIR": {
+						"LABEL": "Sélectionner une clé de sécurité",
+						"PLACEHOLDER": "Sélectionner ou chercher...",
+						"REQUIRED": "Le choix d'une clé de sécurité est obligatoire"
+					},
+					"NETWORK": {
+						"LABEL": "Sélectionner au moins un réseau",
+						"PLACEHOLDER": "Sélectionner ou chercher...",
+						"REQUIRED": "Le choix d'au moins un réseau est requis",
+						"TITLE": "Réseau"
+					},
+					"SECURITY": {
+						"LABEL": "Sélectionner au moins un groupe de sécurité",
+						"PLACEHOLDER": "Sélectionner ou chercher...",
+						"REQUIRED": "Le choix d'au moins un groupe de sécurité est requis",
+						"TITLE": "Sécurité"
+					},
+					"TABTITLE": "Sécurité & Réseau"
+				},
+				"STEP3": {
+					"TABTITLE": "Synthèse"
+				},
+				"SUMMARY": {
+					"BILLING": "Prix:",
+					"FLAVORLABEL": "Détails du gabarit :",
+					"IMAGENAME": "Image : ",
+					"INSTANCENAME": "Nom de l'instance : ",
+					"NETWORKNAMES": "Réseaux sélectionnés : ",
+					"SECURITYNAME": "Clé de sécurité : ",
+					"SECURITYNAMES": "Groupes de sécurité sélectionnés : ",
+					"SNAPSHOTNAME": "Instantanné : ",
+					"TITLE": "Résumé",
+					"VOLUMENAME": "Volume : "
+				}
+			},
+			"DELETE": {
+				"TEXT": "Voulez-vous vraiment supprimer l'instance « {{which}} » ?",
+				"TICKET": {
+					"DESCRIPTION": "Un problème est survenu lors de la suppression de l'instance {{which}}",
+					"OBJECT": "Portal : suppression d'une instance"
+				},
+				"TITLE": "Suppression d'une instance",
+				"TOAST": {
+					"ERROR": "Une erreur s'est produite, l'équipe support a été prévenue",
+					"ONAIR": "Suppression en cours...",
+					"SUCCESS": "L'instance a été supprimée",
+					"TITLE": "Suppression d'instance"
+				}
+			},
+			"DETAILS": {
+				"ATTACHEDON": "attaché sur",
+				"ATTACHMENTS": "Volumes attachés",
+				"CAPACITY": "Capacité",
+				"CONTEXT": "Résumé",
+				"CREATEDAT": "Créée le ",
+				"DISK": "Disque",
+				"FIXEDIP": "IP fixes",
+				"FLOATIP": "IP flottantes",
+				"IPADDRESS": "Adresses IP",
+				"NETWORKS": "Réseaux",
+				"SECURITYGROUP": "Groupes de sécurité",
+				"SNAPSHOTS": "Instantanés",
+				"VIEWHISTORY": "Voir l'historique"
+			},
+			"DROPDOWNMENU": {
+				"ATTACHVOLUME": "Attacher un volume",
+				"DELETE": "Supprimer cette instance",
+				"DETACHVOLUME": "Détacher un  volume",
+				"MANAGESECURITYGROUP": "Gérer les groupes de sécurité",
+				"SNAPSHOT": "Prendre un instantané"
+			},
+			"FILTER": {
+				"CPU": "Nombre de CPU",
+				"NOTRUNNING": "En arrêt",
+				"RUNNING": "En exécution"
+			},
+			"HISTORY": {
+				"TITLE": "Historique de « {{which}} »"
+			},
+			"LIST": {
+				"LACKOFDATA": {
+					"INVITE": "Vous pouvez modifier vos critères de recherche.",
+					"MESSAGE": "",
+					"MODIFY": "Modifiez votre filtre ?",
+					"TITLE": "Il n'y a aucune instance correspondant au filtre courant"
+				},
+				"TABLE": {
+					"CPU": "CPU alloué(s)",
+					"CREATEDAT": "Créée le ",
+					"DISK": "Disque alloué",
+					"IPADDRESSES": "IP adresses",
+					"MEMORY": "Mémoire allouée",
+					"NAME": "Nom",
+					"OS": "Système d'exploitation",
+					"STATUS": "Statut"
+				}
+			},
+			"MANAGESECURITYGROUP": {
+				"ADD": "Ajouter un groupe de sécurité",
+				"INSTANCE": "Instance",
+				"LIST": {
+					"LABEL": "Groupes de sécurité",
+					"LABELDISPO": "Groupes de sécurité disponibles",
+					"LABELUSED": "Groupes de sécurité affectés"
+				},
+				"TOAST": {
+					"ERROR": "Erreur lors de l'affectation",
+					"ONAIR": "Affectation des groupes de sécurité en cours...",
+					"SUCCESS": "Affectation modifiée",
+					"TITLE": "Gestion des groupes de sécurité"
+				}
+			},
+			"PAUSE": {
+				"TEXT": "Voulez-vous vraiment mettre en pause l'instance « {{which}} » ?",
+				"TITLE": "Mise en pause d'une instance",
+				"TOAST": {
+					"ERROR": "Une erreur s'est produite pendant la mise en pause de l'instance {{which}}",
+					"ONAIR": "Mise en pause en cours...",
+					"SUCCESS": "L'instance a été mise en pause",
+					"TITLE": "Mise en pause d'une instance"
+				}
+			},
+			"SNAPSHOT": {
+				"FORM": {
+					"NAMELABEL": "Nom de l'instantané",
+					"NAMEREQUIRED": "Le nom de l'instantané est obligatoire"
+				},
+				"TITLE": "Prendre un instantané de « {{which}} »",
+				"TOAST": {
+					"ERROR": "Une erreur s'est produite pendant la création de l'instantané",
+					"ONAIR": "Prise d'instantané en cours...",
+					"SUCCESS": "L'instantané a été créé",
+					"TITLE": "Prise d'instantané"
+				}
+			},
+			"START": {
+				"TEXT": "Voulez-vous vraiment démarrer l'instance « {{which}} » ?",
+				"TITLE": "Démarrage d'une instance",
+				"TOAST": {
+					"ERROR": "Une erreur s'est produite pendant le démarrage de l'instance {{which}}",
+					"ONAIR": "Démarrage en cours...",
+					"SUCCESS": "L'instance a été démarrée",
+					"TITLE": "Démarrage d'une instance"
+				}
+			},
+			"STATUS": {
+				"ACTIVE": "Active",
+				"BUILD": "En cours de création",
+				"PAUSED": "En pause",
+				"SHUTOFF": "Arrêt"
+			},
+			"STOP": {
+				"TEXT": "Voulez-vous vraiment arrêter l'instance « {{which}} » ?",
+				"TITLE": "Arrêt d'une instance",
+				"TOAST": {
+					"ERROR": "Une erreur s'est produite pendant le redémarrage de l'instance {{which}}",
+					"ONAIR": "Arrêt en cours...",
+					"SUCCESS": "L'instance a été arrêtée",
+					"TITLE": "Arrêt d'une instance"
+				}
+			},
+			"TABTITLE": "Instances"
+		}
+	}
+}

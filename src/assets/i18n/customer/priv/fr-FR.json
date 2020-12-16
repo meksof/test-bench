@@ -1,0 +1,131 @@
+{
+	"PRIV": {
+		"COMPANYTABHEADER": "Société",
+		"CONTACT": {
+			"ADMINROLE": "Administrateur",
+			"EXTERNALCONTACTSTITLE": "Vos interlocuteurs",
+			"INTERNALCONTACTSTITLE": "Nos interlocuteurs",
+			"USERROLE": "Utilisateur"
+		},
+		"CONTACTSTABHEADER": "Contacts",
+		"ENTITY": {
+			"ADMINENTITYTITLE": "Administrateurs de la société",
+			"COMPANYNOTFOUND": "Société non trouvée",
+			"DELIVERYSITES": "Sites de livraison",
+			"EDITDELIVERYSITE": {
+				"ADD": "Ajouter un site de livraison",
+				"MODAL": {
+					"ADDRESSFIELD": "Voie",
+					"ADDRESSGROUPBOX": "Adresse du site",
+					"ADDSUBMIT": "Ajouter",
+					"CANCEL": "Annuler",
+					"CITY": "Ville",
+					"COUNTRY": "Pays",
+					"NAMEGROUPBOX": "Nom du site",
+					"POSTCODE": "Code postal",
+					"TITLE": "Site de livraison",
+					"UPDATESUBMIT": "Mettre à jour"
+				}
+			},
+			"EDITSITE": {
+				"DELETE": {
+					"MODAL": {
+						"NODESC": "'NON' pour annuler la suppression.",
+						"TITLE": "Confirmez-vous la suppression du site ?",
+						"YESDESC": "En cliquant sur 'OUI' vous supprimez le site de façon irréversible."
+					}
+				}
+			},
+			"NOTF": {
+				"ADDSITE": {
+					"MSGFAILED": "",
+					"MSGSUCCESS": "Le site {{siteName}} a été ajouté"
+				},
+				"REMOVESITE": {
+					"MSGFAILED": "Le site n'a pas été supprimé",
+					"MSGSUCCESS": "Le site {{siteName}} a été supprimé"
+				},
+				"TITLE": "Site de livraison",
+				"UPDATESITE": {
+					"MSGFAILED": "Le site n'a pas été mis à jour",
+					"MSGSUCCESS": "Le site {{siteName}} a été modifié"
+				}
+			},
+			"POPUP": {
+				"DELETE": "Supprimer le site",
+				"EDIT": "Modifier le site"
+			}
+		},
+		"MYCONTRACTSTABHEADER": "Mes contrats",
+		"MYINVOICESTABHEADER": "Mes factures",
+		"MYORDERSTABHEADER": "Mes commandes",
+		"MYPROFILETABHEADER": "Mon profil",
+		"PROFILE": {
+			"AVATAR": {
+				"IMAGE": "Cliquez ou déposez votre image ici !",
+				"TITLE": "Éditer votre avatar"
+			},
+			"COOKIES": {
+				"INTRODUCTION": "Afin de vous assurer une navigation optimale nous utilisons plusieurs cookies. Ci-dessous vous pouvez choisir de les désactiver.\nCes modifications sont valables uniquement sur l'équipement et le navigateur actuellement utilisés.",
+				"SOCIAL_NETWORKS": "Réseau Sociaux",
+				"STATISTIC": "Statistique",
+				"TITLE": "Cookies",
+				"USAGE": "Fonctionnement"
+			},
+			"INFORMATIONS": {
+				"EMAIL": "Votre email",
+				"ENTITY": "Votre entreprise",
+				"FIRSTNAME": "Prénom",
+				"MOBILE": "Numéro de mobile",
+				"NAME": "Nom",
+				"PANEL_TITLE": "Mes informations",
+				"PHONE_NUMBER": "Téléphone",
+				"TITLE": "Fonction",
+				"UPDATE": "METTRE À JOUR"
+			},
+			"NEWSLETTER": {
+				"COMMERCIAL": "Newsletter commerciale",
+				"MAINTENANCE": "Incidents et avis de maintenance",
+				"TITLE": "Newsletter"
+			},
+			"NOTF": {
+				"EDITAVATAR": {
+					"MSGFAILED": "Votre avatar n'a pas pû être modifié",
+					"MSGSUCCESS": "Votre avatar a été correctement mise à jour",
+					"TITLE": "Changement d'avatar!"
+				},
+				"GENERIC": {
+					"MSGFAILED": "La mise à jour de votre profil a échouée",
+					"MSGSUCCESS": "Votre profil a bien été mis à jour",
+					"TITLE": "Modification du profil"
+				}
+			},
+			"PARAMETERS": {
+				"LANGUAGE": "Langue",
+				"LANG_EN": "Anglais",
+				"LANG_FR": "Français",
+				"SKIN": "Thème",
+				"TITLE": "Paramètres"
+			},
+			"SECURITY": {
+				"TITLE": "Votre sécurité",
+				"TWOFACTOR": "Activation 2-factor",
+				"UPDATEPASSWORD": {
+					"LINK": "Mettre à jour votre mot de passe",
+					"MODAL": {
+						"CONFIRMPASSWORD": "Confirmez votre mot de passe",
+						"NEWPASSWORD": "Votre nouveau mot de passe",
+						"NOTIFTITLE": "Votre mot de passe",
+						"OLDPASSWORD": "Votre ancien mot de passe",
+						"PASSWORDSNOTSAME": "Les mots de passe doivent être identiques",
+						"TITLE": "Mettre à jour votre mot de passe",
+						"UPDATEKO": "Le mot de passe n'a pas pu être modifié",
+						"UPDATEOK": "Votre mot de passe a été modifié"
+					}
+				}
+			},
+			"TITLE": "Mon profil"
+		},
+		"USERSTABHEADER": "Utilisateurs"
+	}
+}

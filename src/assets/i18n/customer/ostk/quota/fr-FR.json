@@ -1,0 +1,99 @@
+{
+    "OSTK": {
+        "QUOTAS": {
+            "DISK": {
+                "TEXT": {
+                    "PLURAL": "GiB",
+                    "SINGULAR": "GiB"
+                },
+                "TITLE": "Stockage",
+                "UNIT": {
+                    "PLURAL": "GiB",
+                    "SINGULAR": "GiB"
+                }
+            },
+            "FIPS": {
+                "TEXT": {
+                    "PLURAL": "IP flottantes",
+                    "SINGULAR": "IP flottante"
+                },
+                "TITLE": "IP Flottantes"
+            },
+            "INST": {
+                "TEXT": {
+                    "PLURAL": "instances",
+                    "SINGULAR": "instance"
+                },
+                "TITLE": "Instances"
+            },
+            "KEYP": {
+                "TEXT": {
+                    "PLURAL": "paires de clé",
+                    "SINGULAR": "paire de clé"
+                },
+                "TITLE": "Paire de clés"
+            },
+            "PANEL": {
+                "TITLE": "Les quotas du projet",
+                "UNUSED": "Libre",
+                "USED": "Consommé"
+            },
+            "RULE": {
+                "TEXT": {
+                    "PLURAL": "règles de sécurité",
+                    "SINGULAR": "règle de sécurité"
+                },
+                "TITLE": "Règles de sécurité"
+            },
+            "SGRP": {
+                "TEXT": {
+                    "PLURAL": "groupes de sécurité",
+                    "SINGULAR": "groupe de sécurité"
+                },
+                "TITLE": "Groupes de sécurité"
+            },
+            "SNAP": {
+                "TEXT": {
+                    "PLURAL": "instantanés",
+                    "SINGULAR": "instantané"
+                },
+                "TITLE": "Instantanés"
+            },
+            "VCPU": {
+                "TEXT": {
+                    "PLURAL": "CPU",
+                    "SINGULAR": "CPU"
+                },
+                "TITLE": "CPU"
+            },
+            "VOLU": {
+                "TEXT": {
+                    "PLURAL": "volumes",
+                    "SINGULAR": "volume"
+                },
+                "TITLE": "Volumes"
+            },
+            "VRAM": {
+                "TEXT": {
+                    "PLURAL": "RAM",
+                    "SINGULAR": "RAM"
+                },
+                "TITLE": "RAM"
+            },
+            "WORDUSED": {
+                "FEMALE": {
+                    "PLURAL": "utilisées sur",
+                    "SINGULAR": "utilisée sur"
+                },
+                "MALE": {
+                    "PLURAL": "utilisés sur",
+                    "SINGULAR": "utilisé sur"
+                }
+            },
+            "ZERO": {
+                "FEMALE": "Aucune",
+                "MALE": "Aucun"
+            }
+        }
+    }
+}

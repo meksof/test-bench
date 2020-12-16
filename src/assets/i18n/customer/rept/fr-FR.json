@@ -1,0 +1,197 @@
+{
+    "REPORT": {
+        "CREATE": {
+            "STEP1": {
+                "TABTITLE": "Description"
+            },
+            "STEP2": {
+                "TABTITLE": "Programmation"
+            },
+            "STEP3": {
+                "TABTITLE": "Destinataires"
+            },
+            "STEP4": {
+                "TABTITLE": "Synthèse"
+            },
+            "TITLE": "Créer un rapport"
+        },
+        "DETAILS": {
+            "CONTRACTUAL": {
+                "NO": "Non contractuel",
+                "YES": "Contractuel"
+            },
+            "EXECAT": "{{days}} à {{hour}}",
+            "TITLE": "Détail du rapport"
+        },
+        "EDIT": {
+            "FEATURES": {
+                "TITLE": "Caractéristiques"
+            },
+            "NOTF": {
+                "MSGFAILED": "La modification du rapport a échoué",
+                "MSGSUCCESS": "Le rapport a été modifié avec succès",
+                "TITLE": "Modification du rapport"
+            }
+        },
+        "LIST": {
+            "ACTIONS": {
+                "DELETE": {
+                    "BUTTON": "Supprimer ce rapport",
+                    "CONFIRM": {
+                        "TEXT": "Êtes-vous sûr de vouloir supprimer ce rapport ?",
+                        "TITLE": "Confirmation de suppression"
+                    },
+                    "TOAST": {
+                        "ERROR": "Une erreur est survenue lors de la suppression du rapport.",
+                        "ONAIR": "Suppression en cours...",
+                        "SUCCESS": "Votre rapport a été supprimé.",
+                        "TITLE": "Suppression d'un rapport"
+                    }
+                },
+                "SCHEDULE": {
+                    "BUTTON": "Planifier ce rapport"
+                },
+                "SENDREPORT": {
+                    "BUTTON": "Mail de test",
+                    "CONFIRM": {
+                        "TEXT": "Êtes-vous sûr de vouloir envoyer ce rapport ?",
+                        "TITLE": "Confirmation d'envoi"
+                    },
+                    "TOAST": {
+                        "ERROR": "Une erreur est survenue lors de l'envoi de l'email de test.",
+                        "ONAIR": "Envoi en cours...",
+                        "SUCCESS": "Envoi effectué.",
+                        "TITLE": "Envoi d'un email de test"
+                    }
+                }
+            },
+            "APPLICATION": "Application",
+            "BASEREPORTNAME": "Rapport de base",
+            "CONTRACTUAL": "Contractuels",
+            "ENTITYREPORTNAME": "Nom du rapport",
+            "LACKOFDATA": {
+                "TITLE": "Il n'y a pas de rapports pour l'instant, veuillez en créer un."
+            },
+            "LASTEXECUTIONSTATUS": "Dernière exécution",
+            "LASTEXECUTIONTIME": "Dernier envoi (local)",
+            "NEXTEXECUTIONTIME": "Prochain envoi (local)",
+            "NOTCONTRACTUAL": "Non contractuels",
+            "TABTITLE": "Rapports",
+            "TOOLBAR": {
+                "ORDER": {
+                    "APPLICATION": "Type de rapport",
+                    "LASTNEXT": "Dernier & prochain envoi (local)",
+                    "NAME": "Nom du rapport",
+                    "PERIODICITY": "Périodicité",
+                    "RECIPIENTS": "Destinataires",
+                    "REPORTNAME": "Rapport de base",
+                    "SENTON": "Envoyé le"
+                }
+            },
+            "VALUE": {
+                "VISIBILITY": {
+                    "PRIVATE": "Privé",
+                    "PUBLIC": "Public"
+                }
+            },
+            "VISIBILITY": "Visibilité"
+        },
+        "PARAMETERS": {
+            "ANALYSIS": {
+                "CUSTOM": "Intervalle personnalisé",
+                "INTERVAL": "Intervalle d'analyse",
+                "PREDEF": "Intervalle prédéfini",
+                "PREDEFINTERVALS": {
+                    "FROMLAST12AM": "",
+                    "FROMTHELAST12AM": "Depuis hier midi",
+                    "LASTFOURWEEKS": "Les 4 dernières semaines",
+                    "LASTFULLDAY": "La veille",
+                    "LASTFULLMONTH": "Mois dernier",
+                    "LASTFULLWEEK": "La semaine dernière",
+                    "MONTH28TO28": "Du 28 au 28",
+                    "RUNNING24H": "Les dernières 24h",
+                    "RUNNINGFOURWEEKS": "Les 4 semaines courantes",
+                    "RUNNINGMONTH": "Mois courant",
+                    "RUNNINGTHREEWEEKS": "Les 21 derniers jours",
+                    "RUNNINGTWOWEEKS": "Les 14 derniers jours",
+                    "RUNNINGWEEK": "Les 7 derniers jours"
+                },
+                "RANGEANALYSIS": "Intervalle d'analyse entre le « {{since}} » et le « {{until}} »."
+            },
+            "DESCRIPTION": {
+                "BASEREPORT": {
+                    "LABEL": "Type de rapport"
+                },
+                "CONTRACTUAL": "Rapport contractuel",
+                "CULTURENAME": "Format des nombres",
+                "NUMBERSFORMATS": {
+                    "ENGB": "Anglais (Royaume-Uni)",
+                    "ENUS": "Anglais (États Unis)",
+                    "FRBE": "Français (Belgique)",
+                    "FRFR": "Français (France)"
+                },
+                "REPORTNAME": {
+                    "LABEL": "Nom du rapport",
+                    "NOTUNIQUE": "Le nom du rapport en majuscule doit être unique",
+                    "REQUIRED": "Le nom du rapport est obligatoire"
+                },
+                "TITLE": "Contexte général d'exécution"
+            },
+            "RECIPIENTS": {
+                "ADDUSER": "Ajouter un destinataire externe",
+                "DISPLAYNAME": "Nom complet de l'utilisateur",
+                "EMAIL": "Adresse email du destinataire",
+                "EXTERNAL": "Destinataires externes (Non Portal)",
+                "INTERNAL": "Destinataires internes (Portal)",
+                "TITLE": "Destinataires",
+                "USERSDISPO": "Utilisateurs",
+                "USERSUSED": "Destinataires"
+            },
+            "SCHEDULE": {
+                "HOURSLESSTHANTHRESHOLD": "Pas plus de six heures paramétrées",
+                "LABEL": {
+                    "DAYOFMONTH": "Jour du mois",
+                    "DAYSOFWEEK": "Jours de la semaine",
+                    "EXECUTION": "Exécution",
+                    "FIXEDDAYOFMONTH": "Jour fixe du mois",
+                    "HOUR": "Heure(s) d'exécution en heure de Paris",
+                    "NEXT": "Prochain rapport",
+                    "PERIODICITY": "Périodicité"
+                },
+                "PERIODICITY": {
+                    "DAILY": "Quotidienne",
+                    "EVERYDAY": "Tous les jours à",
+                    "EVERYMONTH": "Tous les mois",
+                    "EVERYWEEK": "Toutes les semaines",
+                    "HOURLY": "Juste pour avoir 0 avec le back",
+                    "MONTHLY": "Mensuelle",
+                    "WEEKLY": "Hebdomadaire"
+                },
+                "PERIODICITY_FULL": {
+                    "DAILY": "Périodicité quotidienne",
+                    "HOURLY": "Juste pour avoir 0 avec le back",
+                    "MONTHLY": "Périodicité mensuelle",
+                    "WEEKLY": "Périodicité hebdomadaire"
+                },
+                "SCHEDULETYPE": {
+                    "CUSTOM": "Planification personnalisée",
+                    "PREDEF": "Planifications prédéfinies",
+                    "TITLE": ""
+                },
+                "TITLE": "Planification",
+                "WEEKDAY": {
+                    "FRIDAY": "Vendredi",
+                    "MONDAY": "Lundi",
+                    "SATURDAY": "Samedi",
+                    "SUNDAY": "Dimanche",
+                    "THURSDAY": "Jeudi",
+                    "TUESDAY": "Mardi",
+                    "WEDNESDAY": "Mercredi"
+                }
+            }
+        },
+        "UPDATE": {
+            "TITLE": "Editer un rapport"
+        }
+    }
+}

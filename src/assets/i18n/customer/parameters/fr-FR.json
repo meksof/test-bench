@@ -1,0 +1,87 @@
+{
+    "PARAMETERS": {
+        "AUTHORIZATIONS": {
+            "TABTITLE": "Autorisations",
+            "PLACEHOLDER": "Filtrer...",
+            "TOOLBAR": {
+                "ORDER": {
+                    "NAME": "Nom"
+                }
+            },
+            "PAGECHANGED": {
+                "TITLE": "Données non sauvegardées",
+                "TEXT": "Vous avez des changements non sauvegardées.",
+                "CHOICE": "Voulez-vous sauvegarder?"
+            }
+        },
+        "CONTACTS": {
+            "TABTITLE": "Contacts",
+            "TITLE": "Vos contacts privilégiés",
+            "ENGSALES": "Mon ingénieur commercial",
+            "SDM": "Mon gouverneur",
+            "SUPPORT": "Contactez le support",
+            "AAHQ": "Siège social",
+            "AGENCY": "Nos agences",
+            "INPROGRESS": "Non renseigné",
+            "NOENGSALES": "Pas d'ingénieur commercial associé à ce compte. <br /> Vous pouvez contacter le service commercial au<br /> 01 30 62 33 22.",
+            "NOSDM": "Pas de gouverneur associé à ce compte.<br /> Pour découvrir nos services de gouvernance,<br /> rendez-vous sur notre site web. <br /><a href='https://www.antemeta.fr/nos-services/gouvernance/'>https://www.antemeta.fr/nos-services/gouvernance/</a>"
+        },
+        "ENTITIES": {
+            "TABTITLE": "Sécurité"
+        },
+        "USERS": {
+            "TABTITLE": "Gestion d'utilisateur",
+            "PLACEHOLDER": "Filtrer...",
+            "TOOLBAR": {
+              "ORDER": {
+                "NAME": "Nom",
+                "EMAIL": "Adresse mail",
+                "PHONE": "Téléphone",
+                "LASTLOGIN": "Dernière connection"
+              }
+            }
+        },
+        "SETTINGS": {
+            "TITLE": "Paramètres du compte utilisateur",
+            "TABTITLE": "Mon profil",
+            "USERINFO": "Données personnelles",
+            "UIINFO": "Paramètre d'application",
+            "FULLNAME": "Nom complet :",
+            "PHONE": "Téléphone :",
+            "EMAIL": "Adresse mail :",
+            "IDCONNECTION": "Email :",
+            "PHONEPLACEHOLDER": "Aucun numéro",
+            "PASSWORD": "Mot de passe",
+            "PASSWORDCOMPLEXITYCONTENT": "Complexité du mot de passe : \n- Ne doit pas contenir tout ou partie du nom du compte utilisateur\n- Au moins 10 caractères\n- Au moins 3 des 4 catégories suivantes :\n° Caractères majuscules de l'alphabet anglais (A à Z)\n° Caractères minuscules de l'alphabet anglais (a à z)\n° Chiffres de la base 10 (0 à 9)\n° Caractères non alphabétiques (par exemple, !, $, #, %)",
+            "PASSWORDOLDPLACEHOLDER": "Ancien",
+            "PASSWORDNEWPLACEHOLDER": "Nouveau",
+            "PASSWORDNEWBISPLACEHOLDER": "Répétez le nouveau mot de passe",
+            "TWOFACTOR": "Authentification Two-Factor :",
+            "ENABLED": "Activée",
+            "DISABLED": "Désactivée",
+            "UPDATE": "Mettre à jour",
+            "EDIT": "Modifier",
+            "LANG": "Langue :",
+            "EN": "English",
+            "FR": "Français",
+            "CHANGEPASSWORD": {
+                "TITLE": "Changer le mot de passe",
+                "BUTTON": {
+                    "SUBMIT": "Appliquer"
+                },
+                "TOAST": {
+                    "TITLE": "Modification du mot de passe",
+                    "ONAIR": "Mise à jour en cours",
+                    "UPDATE": "Mise à jour",
+                    "SUCCESS": "Vos informations ont correctement été mises à jour",
+                    "WRONGPASSWORD": "Le mot de passe ne correspond pas"
+                }
+            },
+            "PROFILE": {
+                "OLDPASSWORD": "L'ancien mot de passe est obligatoire",
+                "NEWPASSWORD": "Renseignez un nouveau mot de passe",
+                "PASSWORDNEWBIS": "Les mots de passe ne correspondent pas"
+            }
+        }
+    }
+}

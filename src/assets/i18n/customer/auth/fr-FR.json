@@ -1,0 +1,88 @@
+{
+	"AUTH": {
+		"FORM": {
+			"BUTTON": "Connexion",
+			"EMAIL": {
+				"LABEL": "Saisissez votre email",
+				"NOTVALID": "L'adresse email n'est pas valide",
+				"REQUIRED": "L'adresse email est obligatoire",
+				"CONFIRMATIONPROBLEME": "confirm-email-problem-arisen works!"
+			},
+			"ERROR": {
+				"BADIDENTIFIERS": "Vos identifiants sont incorrects",
+				"GLOBAL": "La connexion a échoué",
+				"LOCKEDOUT": "Votre compte est verrouillé",
+				"DIFFERENT": "Mot de passe et Confirmation mot de passe sont différent."
+			},
+			"FORGET": "Mot de passe oublié",
+			"REINITIALISATION": "Pour réinitialiser votre mot de passe, saisissez l’adresse e-mail que vous utilisez pour vous connecter à votre compte.",
+			"LABEL": "Saisissez votre adresse e-mail ainsi que votre mot de passe.",
+			"PASSWORD": {
+				"LABEL": "Saisissez votre mot de passe",
+				"REQUIRED": "Le mot de passe est obligatoire"
+			},
+			"REQUEST": "Demande d'accès",
+			"TITLE": "Se connecter à votre espace de travail"
+		},
+		"HOME": {
+			"SLOGAN": "L'espace de travail AntemetA est le lieu dans lequel toute votre équipe peut se réunir pour communiquer et travailler plus efficacement.",
+			"WELCOME": "Bienvenue {{firstLastName}} !",
+			"WELCOME1": "Bienvenue !"
+		},
+		"LOADING": {
+			"MESSAGE": "Authentification en cours..."
+		},
+		"PROFILE": {
+			"INFORMATIONS": {
+				"FIRSTNAME": "Prénom",
+				"LASTNAME": "Nom",
+				"MOBILE": "Numéro de mobile",
+				"PHONENUMBER": "Téléphone",
+				"TITLE": "Fonction",
+				"UPDATE": "Mettre à jour"
+			},
+			"INTRODUCTION": "Pour mieux communiquer avec vous, nous avons besoin de mieux vous connaître",
+			"TITLE": "Complétez votre profil",
+			"ONBOARDING": {
+				"STEP1": {
+					"TITLE": "Complétez votre profil",
+					"SUBTITLE": "Pour mieux communiquer avec vous, nous avons besoin de mieux vous connaître"
+				},
+				"STEP2": {
+					"TITLE": "Complétez votre profil",
+					"SUBTITLE": "Pour mieux communiquer avec vous, nous avons besoin de mieux vous connaître"
+				},
+				"STEP3": {
+					"NEWPASSWORD": "Choisissez votre nouveau mot de passe et vérifiez-le.",
+					"TITLE": "Créez votre mot de passe",
+					"SUBTITLE": "Mettre à jour votre mot de passe",
+					"ENTERPASSWORD": "Saisissez votre nouveau mot de passe",
+					"REENTER": "Saisissez à nouveau votre mot de passe"
+				},
+				"STEP4": {
+					"TITLE": "Gestion des cookies",
+					"SUBTITLE": "Afin de vous assurer une navigation optimale nous utilisons plusieurs cookies. Ci-dessous vous pouvez choisir de les désactiver.\nCes modifications sont valables uniquement sur l'équipement et le navigateur actuellement utilisés."
+				}
+			}
+		},
+		"VERIFYCODE": {
+			"ERROR": {
+				"FAILURE": "Échec de connexion",
+				"LOCKEDOUT": "Votre compte est verrouillé"
+			},
+			"LABEL": "Entrez le code reçu par mail",
+			"PATTERN": "Votre code n'est pas au bon format.<br/>6 chiffres uniquement.",
+			"REQUIRED": "Le code sur 6 chiffres est requis",
+			"CODE": "Saisissez votre code à 6 chiffres"
+		},
+		"RENEW": {
+			"LINK": "Un lien vous a été envoyé à l'adresse que vous avez indiquée.",
+			"LINKFORM": "Ce lien vous proposera un formulaire pour renouveler votre mot de passe."
+		},
+		"PROBLEME": "Un problème est survenu !",
+		"LEAD":{
+			"CREATION": "lead-creation works!",
+			"DEMO": "lead-demo works!"
+		}
+	}
+}

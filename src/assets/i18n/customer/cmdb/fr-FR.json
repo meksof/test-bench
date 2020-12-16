@@ -1,0 +1,55 @@
+{
+	"CMDB": {
+		"TAGS": {
+			"CREATE": {
+				"NOTIF": {
+					"MSGFAILED": "La création du tag a échoué",
+					"MSGSUCCESS": "Le tag a été créée avec succès",
+					"TITLE": "Création du tag !"
+				},
+				"TITLE": "Créer un tag"
+			},
+			"DELETE": {
+				"NOTIF": {
+					"MSGFAILED": "La suppression du tag a échoué",
+					"MSGSUCCESS": "Le tag a été supprimé avec succès",
+					"TITLE": "suppression du tag!"
+				}
+			},
+			"DETAILS": {
+				"DELETE": {
+					"NODESC": "'NON' annuler la suppression.",
+					"TITLE": "Confirmez-vous la suppression du tag?",
+					"YESDESC": "En cliquant sur 'OUI' vous supprimerez le tag de façon irréversible"
+				}
+			},
+			"HEADER": "Balises disponibles",
+			"LIST": {
+				"DESCRIPTION": "Description",
+				"LACKOFDATA": {
+					"TITLE": "Il n'y a pas de tags correspondant au filtre courant"
+				},
+				"TEXT": "Text",
+				"USED": "Utilisé"
+			},
+			"TABTITLE": "Tags",
+			"UPDATE": {
+				"NOTIF": {
+					"MSGFAILED": "La mise à jour du tag a échoué",
+					"MSGSUCCESS": "Le tag a été mis à jour avec succès",
+					"TITLE": "Mise à jour du tag!"
+				},
+				"TITLE": "Mise à jour du tag"
+			}
+		},
+		"TOPOLOGY": {
+			"HEADER": "Topologie des VM",
+			"INSTANCE": {
+				"POLICY": {
+					"LACK": "Cette instance n'est pas sauvegardée"
+				}
+			},
+			"TABTITLE": "Topologie"
+		}
+	}
+}

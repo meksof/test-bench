@@ -1,0 +1,22 @@
+{
+	"OSTK": {
+		"PLATFORMS": {
+			"LOADING": {
+				"NOTF": {
+					"UNKNOWN": "The platform of the URL is unknown"
+				}
+			}
+		},
+		"PROJECTS": {
+			"LOADING": {
+				"NOTF": {
+					"FAILED": "Loading projects failed",
+					"UNKNOWN": "The project URL is unknown"
+				}
+			},
+			"PANEL": {
+				"TITLE": "Available projects"
+			}
+		}
+	}
+}

@@ -1,0 +1,139 @@
+{
+    "OSTK": {
+        "SNAPSHOT": {
+            "LACKOFDATA": {
+                "MESSAGE": "",
+                "TITLE": "Il n'y a pas encore d'instantanés de volumes"
+            }
+        },
+        "VOLUME": {
+            "ACTIONS": {
+                "ACTIONS": "Actions",
+                "ATTACH": "Attacher",
+                "CREATE": "Créer un volume",
+                "DELETE": "Supprimer",
+                "DELETEVOLUME": "Supprimer ce volume",
+                "DETACH": "Détacher",
+                "EXTEND": "Étendre",
+                "LAUNCHINSTANCE": "Lancer une instance",
+                "MANAGEATTACHMENTS": "Gérer les attachements",
+                "MODIFY": "Modifier"
+            },
+            "ATTACH": {
+                "ATTACH": "Attacher",
+                "CHOOSEINSTANCE": "Choisir l'instance",
+                "CHOOSEINSTANCELABEL": "Instance sur laquelle attacher le volume",
+                "DEVICE": "Nom de l'équipement",
+                "INSTANCE": "Instance",
+                "NOATTACH": "Aucun attachement",
+                "NOTIF": {
+                    "MSGFAILED": "Erreur lors de l'attachement",
+                    "MSGSUCCESS": "Attachement effectué:",
+                    "ONAIR": "Attachement en cours...",
+                    "TITLE": "Attachement"
+                },
+                "PERIPHERAL": "Périphérique",
+                "TITLE": "Attacher le volume « {{which}} »"
+            },
+            "CREATE": {
+                "NAME": "Nom",
+                "NAMEPLACEHOLDER": "NomDuVolume",
+                "NOTIF": {
+                    "MSGFAILED": "Erreur pendant la création",
+                    "MSGSUCCESS": "Volume créé",
+                    "ONAIR": "Création en cours...",
+                    "TITLE": "Création de volume"
+                },
+                "SIZE": "Taille",
+                "TITLE": "Créer un volume"
+            },
+            "DELETE": {
+                "NOTIF": {
+                    "MSGFAILED": "Erreur lors de la suppression",
+                    "MSGSUCCESS": "Volume supprimé",
+                    "ONAIR": "Suppression en cours...",
+                    "TITLE": "Suppression de volume"
+                },
+                "QUESTION": "Êtes-vous sur de vouloir supprimer le volume « {{which}} » ?",
+                "TITLE": "Suppression de volume"
+            },
+            "DETACH": {
+                "NOTIF": {
+                    "MSGFAILED": "Échec du détachement",
+                    "MSGSUCCESS": "Détachement effectué",
+                    "ONAIR": "Détachement en cours...",
+                    "TITLE": "Détachement de volume"
+                },
+                "TEXT": "Détacher le volume « {{which}} » de l'instance « {{fromWhich}} » ?",
+                "TITLE": "Détacher un volume"
+            },
+            "EXTEND": {
+                "NAME": "Nom",
+                "NEWSIZE": "Nouvelle taille",
+                "NOTIF": {
+                    "MSGFAILED": "Erreur d'extension",
+                    "MSGSUCCESS": "Extension effectuée",
+                    "ONAIR": "Extension en cours...",
+                    "TITLE": "Extension de volume"
+                },
+                "OLDSIZE": "Taille actuelle"
+            },
+            "LIST": {
+                "ALL": "Tous les volumes",
+                "ATTACHEDON": "sur",
+                "ATTACHEDTO": "Attaché à",
+                "AVAILABILITYZONE": "Zone de disponibilité :",
+                "BOOTABLE": "Amorçable",
+                "CAPACITY": "Capacité",
+                "CREATEDAT": "Créé le ",
+                "ENCRYPTED": "Chiffré",
+                "NAME": "Nom",
+                "NOTBOOTABLE": "Non amorçable",
+                "NOTENCRYPTED": "Non chiffré",
+                "STATUS": "Statut",
+                "STATUSKEY": {
+                    "ACTIVE": "Actif",
+                    "ATTACHING": "Attachement en cours",
+                    "AVAILABLE": "Disponible",
+                    "CREATING": "Création en cours",
+                    "DEACTIVATED": "Désactivé",
+                    "DELETED": "Supprimé",
+                    "DELETING": "Suppression en cours",
+                    "DETACHING": "Détachement en cours",
+                    "DOWNLOADING": "Téléchargement en cours",
+                    "ERROR": "Erreur",
+                    "ERROR-DELETING": "Erreur de suppression",
+                    "ERROR_DELETING": "",
+                    "IMPORTING": "Importation",
+                    "IN-USE": "Utilisé",
+                    "KILLED": "Détruite",
+                    "PENDING_DELETE": "En attente de suppression",
+                    "QUEUED": "Création en cours...",
+                    "SAVING": "Sauvegarde",
+                    "UPLOADING": "Téléchargement"
+                }
+            },
+            "SNAPSHOT": {
+                "ACTIONS": {
+                    "DELETE": "Supprimer l'instantané de volume"
+                },
+                "DELETE": {
+                    "NOTIF": {
+                        "MSGFAILED": "Une erreur s'est produite pendant la suppression de l'instantané de volume",
+                        "MSGSUCCESS": "L'instantané de volume a été supprimé",
+                        "ONAIR": "Suppression en cours...",
+                        "TITLE": "Suppression d'un instantané de volume"
+                    },
+                    "TEXT": "Voulez-vous vraiment supprimer « {{which}} » ?",
+                    "TITLE": "Suppression d'un instantané de volume"
+                },
+                "TITLE": "Instantanés de volumes"
+            },
+            "SUBTABS": {
+                "SNAP": "Snapshots",
+                "VOLU": "Volumes"
+            },
+            "TABTITLE": "Volumes"
+        }
+    }
+}

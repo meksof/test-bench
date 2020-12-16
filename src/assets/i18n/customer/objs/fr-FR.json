@@ -1,0 +1,222 @@
+{
+    "OBJS": {
+        "BROWSERTITLE": {
+            "BUCKETS": "Seaux",
+            "DASHBOARD": "Tableau de bord",
+            "Object": "Objet",
+            "REF": "Références"
+        },
+        "BUCKETS": {
+            "ADDBUCKET": "Créer un bucket",
+            "BUCKETDETAILS": {
+                "BUCKETNAME": "Nom",
+                "CREATIONDATE": "Date de création",
+                "LENGTH": "Taille du bucket",
+                "NBOBJECTS": "Nombre d'objets"
+            },
+            "BUCKETMANAGMENT": "Gestion du bucket",
+            "BYTES": "bytes",
+            "CANCEL": "Annuler",
+            "COPYURL": "Copier l'URL",
+            "EDITBUCKET": {
+                "CREATE": {
+                    "BTNTEXT": "Créer un bucket",
+                    "NOTF": {
+                        "MSGFAILED": "La création du bucket a échoué",
+                        "MSGSUCCESS": "Le bucket a été créé avec succès",
+                        "TITLE": "Création du bucket !"
+                    }
+                }
+            },
+            "LIST": {
+                "BUCKETSLOADING": {
+                    "NOTF": {
+                        "MSGFAILED": "Le chargement des buckets a échoué",
+                        "MSGSUCCESS": "{{totalBuckets}} buckets ont été chargés",
+                        "TITLE": "Chargement des buckets"
+                    }
+                },
+                "CHANGEPUBLICACCESS": {
+                    "NOTF": {
+                        "MSGFAILED": "La modification des droits d'accès a échoué",
+                        "MSGSUCCESS": "Les droits d'accès ont été modifiées",
+                        "TITLE": "Modification des droits d'accès"
+                    }
+                },
+                "DELETE": {
+                    "MODAL": {
+                        "NODESC": "'NON' annuler la suppression.",
+                        "TITLE": "Confirmez-vous la suppression du bucket?",
+                        "YESDESC": "En cliquant sur 'OUI' vous supprimerez le bucket de façon irréversible"
+                    },
+                    "NOTF": {
+                        "MSGFAILED": "La suppression du bucket a echoué",
+                        "MSGSUCCESS": "Le bucket a été supprimé avec succès",
+                        "TITLE": "Suppression du bucket !"
+                    }
+                },
+                "DELETEOBJECT": {
+                    "MODAL": {
+                        "NODESC": "'NON' annuler la suppression.",
+                        "TITLE": "Confirmez-vous la suppression de l'objet ?",
+                        "YESDESC": "En cliquant sur 'OUI' vous supprimerez l'objet de façon irréversible"
+                    },
+                    "NOTF": {
+                        "MSGFAILED": "La suppression de l'objet a échoué",
+                        "MSGSUCCESS": "L'objet a été supprimé avec succès",
+                        "TITLE": "Suppression de l'objet !"
+                    }
+                },
+                "DOWNLOADOBJECT": {
+                    "NOTF": {
+                        "MSGFAILED": "Le téléchargement de l'objet a échoué",
+                        "MSGSUCCESS": "L'objet a été téléchargé avec succès",
+                        "TITLE": "Téléchargement de l'objet !"
+                    }
+                },
+                "HEADER": {
+                    "LASTMODIFICATION": "Dernière modification",
+                    "NAME": "Nom",
+                    "PUBLIC": "Publique",
+                    "SIZE": "Poids"
+                },
+                "LACKOFDATA": {
+                    "BUTTON": "Cliquez sur le bouton ci-dessous pour créer votre premier bucket",
+                    "TITLE": "Vous ne possédez encore aucun bucket !"
+                },
+                "URLCOPY": {
+                    "NOTF": {
+                        "MSGFAILED": "La récupération de l'URL a échoué",
+                        "MSGSUCCESS": "L'URL de l'objet a été copié dans le presse-papier",
+                        "TITLE": "Copie de l'URL de l'objet"
+                    }
+                }
+            },
+            "OBJECTS": "objets",
+            "POPUP": {
+                "DELETE": "Supprimer le bucket"
+            },
+            "TABTITLE": "Mes buckets",
+            "TITLE": "Buckets"
+        },
+        "CREDENTIALS": {
+            "ACTIVE": "Active",
+            "ADDCREDENTIAL": "Ajouter une clé",
+            "CANCEL": "Annuler",
+            "COPY": {
+                "ACCESSKEY": {
+                    "COPIED": "Clé d'accès copiée dans le presse-papier",
+                    "TITLE": "Copier la clé d'accès"
+                },
+                "SECRETKEY": {
+                    "COPIED": "Clé secrète copiée dans le presse-papier",
+                    "TITLE": "Copier la clé secrète"
+                }
+            },
+            "CREATIONDATE": "Créée le",
+            "CREDENTIALDETAILS": {
+                "ACCESSKEY": "Clé",
+                "ACTIVE": "Actif/Inactif",
+                "CREATIONDATE": "Date de création",
+                "EXPIRATIONDATE": "Date d'expiration",
+                "KEYMANAGMENT": "Gestion de la clé",
+                "LABEL": "Description",
+                "SECRETKEY": "Clé secrète"
+            },
+            "EDITCREDENTIAL": {
+                "ACTIVATE": {
+                    "NOTF": {
+                        "MSGFAILED": "L'activation de la clé a échoué",
+                        "MSGSUCCESS": "La clé a été activée avec succès",
+                        "TITLE": "Activation de la clé !"
+                    }
+                },
+                "CREATE": {
+                    "BTNTEXT": "Ajouter une clé",
+                    "NOTF": {
+                        "MSGFAILED": "La création de la clé a échoué",
+                        "MSGSUCCESS": "La clé a été créée avec succès",
+                        "TITLE": "Création de clé !"
+                    },
+                    "SECRETKEYMESSAGE": "La clé d'accès sera généré automatiquement.",
+                    "SELECTEXPIRATIONDATE": "Sélectionner une date d'expiration",
+                    "TITLE": "Créer une clé",
+                    "VALIDITY": "Validité"
+                },
+                "DEACTIVATE": {
+                    "NOTF": {
+                        "MSGFAILED": "La désactivation de la clé a échoué",
+                        "MSGSUCCESS": "La clé a été désactivée avec succès",
+                        "TITLE": "Désactivation de la clé !"
+                    }
+                },
+                "DELETE": {
+                    "MODAL": {
+                        "NODESC": "'NON' pour annuler la suppression.",
+                        "TITLE": "Confirmez-vous la suppression de la clé ?",
+                        "YESDESC": "En cliquant sur 'OUI' vous supprimez la clé de façon irréversible."
+                    },
+                    "NOTF": {
+                        "MSGFAILED": "La suppression de la clé a échoué",
+                        "MSGSUCCESS": "La clé a été supprimée avec succès",
+                        "TITLE": "Suppression de clé !"
+                    }
+                },
+                "EDIT": {
+                    "NOTF": {
+                        "MSGFAILED": "L'activation/désactivation de la clé a échoué",
+                        "TITLE": "Activation/désactivation d'une clé"
+                    }
+                }
+            },
+            "INACTIVE": "Inactive",
+            "POPUP": {
+                "ACTIVATE": "Activer la clé",
+                "DEACTIVATE": "Désactiver la clé",
+                "DELETE": "Supprimer la clé",
+                "EDIT": "Modifier la clé"
+            },
+            "TABTITLE": "Mes clés",
+            "TITLE": "Clés",
+            "VIEWSECRETKEY": "Voir la clé secrète"
+        },
+        "DASHBOARD": {
+            "BUCKET": {
+                "TITLE": "Vous voulez créer un nouveau bucket ?"
+            },
+            "BYTECOUNT": {
+                "TITLE": "Volumétrie"
+            },
+            "CONSO": {
+                "CHART": {
+                    "GROUP": "Consommation du groupe",
+                    "PERSONAL": "Consommation personnelle"
+                },
+                "LACKOFDATA": {
+                    "ADD": "Vous pouvez créer votre premier bucket",
+                    "TITLE": "Votre consommation réelle sera affichée dans 24h"
+                },
+                "TITLE": "Suivi de la consommation sur les 30 derniers jours"
+            },
+            "CREDENTIALS": {
+                "ACTIVE": {
+                    "PLURAL": "Vous avez {{nb}} clés <span class=\"credential-active\">actives</span>",
+                    "SINGULAR": "Vous avez 1 clé <span class=\"credential-active\">active</span>",
+                    "ZERO": "Vous n'avez aucune clé <span class=\"credential-active\">active</span>"
+                },
+                "INACTIVE": {
+                    "PLURAL": "Vous avez {{nb}} clés <span class=\"credential-inactive\">inactives</span>",
+                    "SINGULAR": "Vous avez 1 clé <span class=\"credential-inactive\">inactive</span>",
+                    "ZERO": "Vous n'avez aucune clé <span class=\"credential-inactive\">inactive</span>"
+                }
+            },
+            "OBJECTCOUNT": {
+                "TITLE": "Nombre d'objets"
+            },
+            "PANEL": {
+                "TITLE": "Ma consommation"
+            },
+            "TABTITLE": "Tableau de bord"
+        }
+    }
+}

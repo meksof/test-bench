@@ -1,0 +1,124 @@
+{
+    "OSTK": {
+        "IMAGE": {
+            "ACTIONS": {
+                "ACTIONS": "Actions",
+                "CREATE": "Créer une image",
+                "DELETE": "Supprimer",
+                "EDIT": "Éditer l'image",
+                "LAUNCHINSTANCE": "Lancer une instance"
+            },
+            "CREATE": {
+                "DESCRIPTION": "Description",
+                "FILE": "Fichier",
+                "FORMAT": "Format",
+                "FORMATSELECTION": "Sélectionner un format",
+                "MINDISK": "Espace disque minimum (Go)",
+                "MINRAM": "RAM minimale (Mo)",
+                "NAME": "Nom",
+                "SOURCE": "Emplacement de l'image",
+                "TOAST": {
+                    "ERROR": "Erreur lors de la création",
+                    "ONAIR": "Création en cours...",
+                    "SUCCESS": "Image créée",
+                    "TITLE": "Création d'image"
+                },
+                "UPLOAD": "Envoyer l'image",
+                "URL": "URL"
+            },
+            "DELETE": {
+                "TEXT": "Voulez-vous vraiment supprimer « {{which}} » ?",
+                "TITLE": "Suppression d'une image ou d'un snapshot",
+                "TOAST": {
+                    "ERROR": "Erreur lors de la suppression",
+                    "ONAIR": "Suppression en cours...",
+                    "SUCCESS": "Image supprimée",
+                    "TITLE": "Suppression d'image"
+                }
+            },
+            "LIST": {
+                "ALL": "Toutes les images",
+                "CREATEDAT": "Créée le ",
+                "FORMAT": "Format",
+                "PRIVATE": "Images privées",
+                "PUBLIC": "Images publiques"
+            },
+            "PRIVATE": "Image privée",
+            "PUBLIC": "Image publique",
+            "SNAPSHOT": {
+                "ACTIONS": {
+                    "DELETE": "Suppression de l'instantané d'instance"
+                },
+                "CREATEDAT": "Créé le ",
+                "DELETE": {
+                    "TOAST": {
+                        "ERROR": "Erreur lors de la suppression",
+                        "ONAIR": "Suppression en cours...",
+                        "SUCCESS": "Instantané d'instance supprimé",
+                        "TITLE": "Suppression d'un instantané d'instance"
+                    }
+                },
+                "TITLE": "Instantané d'instance"
+            }
+        },
+        "IMAGES": {
+            "ACTIONS": {
+                "ACTIONS": "Actions",
+                "LAUNCHINSTANCE": "Lancer une instance",
+                "UPLOAD": "Charger une image"
+            },
+            "LIST": {
+                "LACKOFDATA": {
+                    "INVITE": "Vous pouvez modifier vos critères de recherche.",
+                    "MESSAGE": "",
+                    "MODIFY": "Modifiez votre filtre ?",
+                    "TITLE": "Il n'y a pas d'image correspondant au filtre courant"
+                },
+                "TABLE": {
+                    "CREATEDAT": "Créée le ",
+                    "DISKFORMAT": "Format",
+                    "NAME": "Nom",
+                    "OS": "Syst. d'exp.",
+                    "SIZE": "Taille",
+                    "STATUS": "Statut"
+                }
+            },
+            "SUBTABS": {
+                "IMGE": "Images",
+                "SNAP": "Snapshots"
+            },
+            "TABTITLE": "Images",
+            "TITLE": {
+                "NOTPUBLIC": "Images privées",
+                "PUBLIC": "Images publiques"
+            },
+            "UPLOAD": {
+                "NOTIF": {
+                    "MSGFAILED": "Une erreur s'est produite, l'équipe support a été prévenue",
+                    "MSGSUCCESS": "L'image a été chargée",
+                    "TITLE": "Charger une image"
+                }
+            }
+        },
+        "SNAPSHOTS": {
+            "ACTIONS": {
+                "ACTIONS": "Actions"
+            },
+            "LIST": {
+                "LACKOFDATA": {
+                    "INVITE": "Vous pouvez modifier vos critères de recherche.",
+                    "MESSAGE": "",
+                    "MODIFY": "Modifiez votre filtre ?",
+                    "TITLE": "Il n'y a encore aucun instantané d'image"
+                },
+                "TABLE": {
+                    "CREATEDAT": "Créée le ",
+                    "NAME": "Nom",
+                    "OS": "Syst. d'exp.",
+                    "STATUS": "Statut"
+                }
+            },
+            "TABTITLE": "Snapshots"
+        }
+    }
+}

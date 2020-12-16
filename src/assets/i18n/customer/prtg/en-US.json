@@ -1,0 +1,23 @@
+{
+    "PRTG": {
+        "GRAPHIC": {
+            "ACTIONS": {
+                "REINITZOOM": "Zoom reset"
+            },
+            "HEADER": "Sensors tree",
+            "TABTITLE": "Graphic view"
+        },
+        "SENSORS": {
+            "HEADER": "Sensors list",
+            "LIST": {
+                "BREADCRUMB": "Ancestors",
+                "MONITORINGKEY": "Core",
+                "NAME": "Name",
+                "SENSORID": "ID.",
+                "STATUS": "Status",
+                "TYPESENSOR": "Type"
+            },
+            "TABTITLE": "List view"
+        }
+    }
+}

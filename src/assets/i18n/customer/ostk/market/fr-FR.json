@@ -1,0 +1,176 @@
+{
+    "CLOUD": {
+        "MARKET": {
+            "TOOLBAR": {
+                "ORDER": {
+                    "RATING": "Par popularité",
+                    "NAME": "Par nom",
+                    "LASTUPDATE": "Par mise à jour"
+                }
+            },
+            "ACTIONS": {
+                "DEPLOY": "Déployer « {{which}} »"
+            },
+            "DEPLOY": {
+                "BUTTON": {
+                    "CREATE": "Déployer"
+                },
+                "DETAILS": {
+                    "TITLE": "Détails"
+                },
+                "APPLICATIONPARAMETERS": {
+                    "TITLE": "Paramètres spécifiques"
+                },
+                "SUMMARY": {
+                    "TITLE": "Résumé",
+                    "STACKNAME": "Nom de l'instance : ",
+                    "FLAVORLABEL": "Détails du gabarit",
+                    "NETWORKNAME": "Réseau sélectionné : "
+                },
+                "CAPACITY": {
+                    "TITLE": "Capacité"
+                },
+                "DESCRIPTION": {
+                    "TITLE": "Description"
+                },
+                "PRICING": {
+                    "TITLE": "Facturation"
+                },
+                "HELP": {
+                    "TITLE": "Aide"
+                },
+                "FORM": {
+                    "STACKNAME": {
+                        "LABEL": "Nom de l'instance",
+                        "REQUIRED": "Le nom de l'instance est obligatoire",
+                        "PATTERN": "Le nom de l'instance doit commencer par une lettre sans accent et ne contenir que des lettres sans accent, des chiffres et ., - ou _"
+                    },
+                    "DISKSIZE": {
+                        "LABEL": "Taille du disque en Go",
+                        "REQUIRED": "La taille du disque est obligatoire"
+                    },
+                    "FLAVOR": {
+                        "LABEL": "Sélectionner un gabarit",
+                        "REQUIRED": "Le gabarit est obligatoire",
+                        "PLACEHOLDER": "Sélectionner ou chercher un gabarit...",
+                        "LIMITS": "Création impossible : le gabarit dépasse la limite du projet"
+                    },
+                    "PUBLICNETWORK": {
+                        "LABEL": "Sélectionner un réseau public",
+                        "REQUIRED": "Le choix d'un réseau public est obligatoire"
+                    },
+                    "PRIVATENETWORK": {
+                        "LABEL": "Sélectionner un réseau privé",
+                        "REQUIRED": "Le choix d'un réseau privé est obligatoire"
+                    },
+                    "SUBNET": {
+                        "LABEL": "Sélectionner un sous-réseau",
+                        "REQUIRED": "Le choix d'un sous-réseau est obligatoire"
+                    },
+                    "KEYPAIR": {
+                        "LABEL": "Sélectionner une clé de sécurité",
+                        "REQUIRED": "Le choix d'une clé de sécurité est obligatoire",
+                        "PLACEHOLDER": "Sélectionner ou chercher une clé de sécurité..."
+                    },
+                    "PASSWORDS": {
+                        "ENTRY": "Saisie",
+                        "VERIFY": "Vérification",
+                        "REQUIRED": "Le mot de passe est obligatoire",
+                        "VERIFYREQUIRED": "La vérification est obligatoire",
+                        "NOTMATCH": "Les mots de passe ne correspondent pas",
+                        "SECURITYMSG": "Par mesure de précaution, les mots de passe ne peuvent pas être collés dans la zone de vérification.",
+                        "GENERATOR": "Générateur de mot de passe",
+                        "LENGTH": "Longueur du mot de passe"
+                    },
+                    "ADMINPASSWORD": {
+                        "LABEL": "Mot de passe administrateur système SAP HANA",
+                        "MINLENGTH": "Il faut au moins 8 caractères",
+                        "MAXLENGTH": "Il ne faut pas plus de 16 caractères",
+                        "HELP": "Le mot de passe doit contenir entre 8 et 16 caractères"
+                    },
+                    "SAPADMPASSWORD": {
+                        "LABEL": "Mot de passe utilisateur de l'agent serveur SAP (sapadm)",
+                        "MINLENGTH": "Il faut au moins 8 caractères",
+                        "MAXLENGTH": "Il ne faut pas plus de 16 caractères",
+                        "HELP": "Le mot de passe doit contenir entre 8 et 16 caractères"
+                    },
+                    "DBSYSTEMPASSWORD": {
+                        "LABEL": "Mot de passe utilisateur de base de données SAP HANA (SYSTEM)",
+                        "PATTERN": "Le mot de passe doit contenir entre 8 et 16 caractères",
+                        "HELP": "Le mot de passe doit contenir entre 8 et 16 caractères"
+                    },
+                    "ORGMANAGERPASSWORD": {
+                        "LABEL": "Mot de passe administrateur avancé XS",
+                        "PATTERN": "Le mot de passe doit contenir entre 8 et 16 caractères",
+                        "HELP": "Le mot de passe doit contenir entre 8 et 16 caractères"
+                    },
+                    "DB2INST1PASSWORD": {
+                        "LABEL": "Mot de passe utilisateur",
+                        "PATTERN": "Le mot de passe doit contenir entre 8 et 16 caractères",
+                        "HELP": "Le mot de passe doit contenir entre 8 et 16 caractères"
+                    },
+                    "MYSQLPASSWORD": {
+                        "LABEL": "Mot de passe root",
+                        "PATTERN": "Le mot de passe doit contenir entre 8 et 16 caractères",
+                        "HELP": "Le mot de passe doit contenir entre 8 et 16 caractères"
+                    },
+                    "KIBANAADMINPASSWORD": {
+                        "LABEL": "Mot de passe administrateur de Kibana (kibanaadmin)",
+                        "PATTERN": "Le mot de passe doit contenir entre 8 et 16 caractères",
+                        "HELP": "Le mot de passe doit contenir entre 8 et 16 caractères"
+                    },
+                    "POSTGRESPASSWORD": {
+                        "LABEL": "Mot de passe utilisateur de PostgreSQL",
+                        "PATTERN": "Le mot de passe doit contenir entre 8 et 16 caractères",
+                        "HELP": "Le mot de passe doit contenir entre 8 et 16 caractères"
+                    },
+                    "SID": {
+                        "LABEL": "SAP HANA SID",
+                        "REQUIRED": "L'identificateur du système est obligatoire",
+                        "HELP": "L'identificateur du système SAP HANA doit contenir exactement 3 caractères alphanumériques.<br/><br/>Seules les lettres majuscules sont autorisées.<br/><br/>Le premier caractère doit être une lettre.<br/><br/>Valeurs interdites :<br/>ADC, ADD, ALL, AMD, AND, ANY, ARE, ASC, AUX, AVG, BIT, CDC, COM, CON, DBA, END, EPS, FOR, GET, GID, IBM, INT, KEY, LOG, LPT, MAP, MAX, MIN, MON, NIX, NOT, NUL, OFF, OLD, OMS, OUT, PAD, PRN, RAW, REF, ROW, SAP, SET, SGA, SHG, SID, SQL, SUM, SYS, TMP, TOP, UID, USE, USR, VAR.",
+                        "PATTERN": "Le SID n'est pas conforme - voir l'aide."
+                    },
+                    "ENVTYPE": {
+                        "LABEL": "Type d'environnement",
+                        "REQUIRED": "L'environnement est obligatoire"
+                    },
+                    "INSTANCENUMBER": {
+                        "LABEL": "Numéro d'instance SAP HANA",
+                        "HELP": "Le numéro d'instance de votre instance SAP HANA, unique au sein de votre environnement SAP. Le numéro d'instance est un nombre à deux chiffres compris entre 00 et 99",
+                        "REQUIRED": "Cet identifiant est obligatoire",
+                        "PATTERN": "L'identifiant n'est pas conforme - voir l'aide."
+                    },
+                    "VERSION": {
+                        "LABEL": "Version du logiciel à déployer",
+                        "PLACEHOLDER": "Sélectionnez une version",
+                        "REQUIRED": "Le numéro de version est obligatoire"
+                    },
+                    "BACKEND": {
+                        "LABEL": "Type de backend à déployer",
+                        "PLACEHOLDER": "Sélectionnez le backend",
+                        "REQUIRED": "Le backend est obligatoire"
+                    },
+                    "ACCESSKEY": {
+                        "LABEL": "Clé d'accès (AntemetA account)",
+                        "REQUIRED": "La clé d'accès est obligatoire"
+                    },
+                    "SECRETKEY": {
+                        "LABEL": "Clé privée (AntemetA account)",
+                        "REQUIRED": "La clé privée est obligatoire"
+                    }
+                },
+                "TOAST": {
+                    "TITLE": "Déploiement",
+                    "SUCCESS": "Déploiement effectué",
+                    "ERROR": "Erreur lors du déploiement",
+                    "ONAIR": "Déploiement en cours"
+                },
+                "NOTIFICATION": {
+                    "TITLE": "Déploiement",
+                    "SUCCESS": "Vous retrouverez la nouvelle instance d'ici quelques minutes dans l'onglet « Instances ».",
+                    "ERROR": "Erreur lors du déploiement"
+                }
+            }
+        }
+    }
+}

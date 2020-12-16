@@ -1,0 +1,197 @@
+{
+    "REPORT": {
+        "CREATE": {
+            "STEP1": {
+                "TABTITLE": "Description"
+            },
+            "STEP2": {
+                "TABTITLE": "Schedule"
+            },
+            "STEP3": {
+                "TABTITLE": "Recipients"
+            },
+            "STEP4": {
+                "TABTITLE": "Summary"
+            },
+            "TITLE": "Create a report"
+        },
+        "DETAILS": {
+            "CONTRACTUAL": {
+                "NO": "Not contractual",
+                "YES": "Contractual"
+            },
+            "EXECAT": "{{days}} at {{hour}}",
+            "TITLE": "Report details"
+        },
+        "EDIT": {
+            "FEATURES": {
+                "TITLE": "Features"
+            },
+            "NOTF": {
+                "MSGFAILED": "The report update has failed",
+                "MSGSUCCESS": "The report was updated successfully",
+                "TITLE": "Report update"
+            }
+        },
+        "LIST": {
+            "ACTIONS": {
+                "DELETE": {
+                    "BUTTON": "Delete this report",
+                    "CONFIRM": {
+                        "TEXT": "Are you sure to delete this report?",
+                        "TITLE": "Delete confirmation"
+                    },
+                    "TOAST": {
+                        "ERROR": "An error occurred while deleting the report",
+                        "ONAIR": "Deleting report...",
+                        "SUCCESS": "Report successfully deleted",
+                        "TITLE": "Report deletion"
+                    }
+                },
+                "SCHEDULE": {
+                    "BUTTON": "Schedule this report"
+                },
+                "SENDREPORT": {
+                    "BUTTON": "Test mail",
+                    "CONFIRM": {
+                        "TEXT": "Are you sure to mail this report?",
+                        "TITLE": "Confirm!"
+                    },
+                    "TOAST": {
+                        "ERROR": "Une erreur est survenue lors de l'envoi de l'email de test.",
+                        "ONAIR": "Envoi en cours...",
+                        "SUCCESS": "Envoi effectué.",
+                        "TITLE": "Envoi d'un email de test"
+                    }
+                }
+            },
+            "APPLICATION": "Application",
+            "BASEREPORTNAME": "Base report",
+            "CONTRACTUAL": "Contractual",
+            "ENTITYREPORTNAME": "Report name",
+            "LACKOFDATA": {
+                "TITLE": "There are no reports"
+            },
+            "LASTEXECUTIONSTATUS": "Last execution",
+            "LASTEXECUTIONTIME": "Last schedule (local)",
+            "NEXTEXECUTIONTIME": "Next schedule (local)",
+            "NOTCONTRACTUAL": "Not contractual",
+            "TABTITLE": "Reports",
+            "TOOLBAR": {
+                "ORDER": {
+                    "APPLICATION": "Report type",
+                    "LASTNEXT": "Last & next schedule (local)",
+                    "NAME": "Report name",
+                    "PERIODICITY": "Periodicity",
+                    "RECIPIENTS": "Recipients",
+                    "REPORTNAME": "Base report",
+                    "SENTON": "Sent on"
+                }
+            },
+            "VALUE": {
+                "VISIBILITY": {
+                    "PRIVATE": "Private",
+                    "PUBLIC": "Public"
+                }
+            },
+            "VISIBILITY": "Visibility"
+        },
+        "PARAMETERS": {
+            "ANALYSIS": {
+                "CUSTOM": "Custom analysis range",
+                "INTERVAL": "Range analysis",
+                "PREDEF": "Predefined analysis range",
+                "PREDEFINTERVALS": {
+                    "FROMLAST12AM": "Since yesterday 12PM",
+                    "FROMTHELAST12AM": "",
+                    "LASTFOURWEEKS": "Last 4 weeks",
+                    "LASTFULLDAY": "Yesterday",
+                    "LASTFULLMONTH": "Last month",
+                    "LASTFULLWEEK": "",
+                    "MONTH28TO28": "From 28 to 28",
+                    "RUNNING24H": "Last 24 hours",
+                    "RUNNINGFOURWEEKS": "",
+                    "RUNNINGMONTH": "Current month",
+                    "RUNNINGTHREEWEEKS": "Last 21 days",
+                    "RUNNINGTWOWEEKS": "Last 14 days",
+                    "RUNNINGWEEK": "Last 7 days"
+                },
+                "RANGEANALYSIS": "Range analysis between ‘{{since}}’ and ‘{{until}}’."
+            },
+            "DESCRIPTION": {
+                "BASEREPORT": {
+                    "LABEL": "Report type"
+                },
+                "CONTRACTUAL": "Contractual report",
+                "CULTURENAME": "Number format",
+                "NUMBERSFORMATS": {
+                    "ENGB": "English (United Kingdom)",
+                    "ENUS": "English (United States)",
+                    "FRBE": "French (Belgium)",
+                    "FRFR": "French (France)"
+                },
+                "REPORTNAME": {
+                    "LABEL": "Report name",
+                    "NOTUNIQUE": "The uppercase name of the report must be unique",
+                    "REQUIRED": "The report name is required"
+                },
+                "TITLE": "General context of implementation"
+            },
+            "RECIPIENTS": {
+                "ADDUSER": "Add external recipient",
+                "DISPLAYNAME": "Full user name",
+                "EMAIL": "Recipient email address",
+                "EXTERNAL": "External recipients (non Portal users)",
+                "INTERNAL": "Internal recipients (Portal users)",
+                "TITLE": "Recipients",
+                "USERSDISPO": "Users",
+                "USERSUSED": "Recipients"
+            },
+            "SCHEDULE": {
+                "HOURSLESSTHANTHRESHOLD": "No more than six scheduled hours",
+                "LABEL": {
+                    "DAYOFMONTH": "Day of month",
+                    "DAYSOFWEEK": "Days of week",
+                    "EXECUTION": "Execution",
+                    "FIXEDDAYOFMONTH": "Fixed day in the month",
+                    "HOUR": "Execution time(s) in Paris time",
+                    "NEXT": "Next report",
+                    "PERIODICITY": "Periodicity"
+                },
+                "PERIODICITY": {
+                    "DAILY": "Daily",
+                    "EVERYDAY": "Every day at",
+                    "EVERYMONTH": "Every month",
+                    "EVERYWEEK": "Every week",
+                    "HOURLY": "Juste pour avoir 0 avec le back",
+                    "MONTHLY": "Monthly",
+                    "WEEKLY": "Weekly"
+                },
+                "PERIODICITY_FULL": {
+                    "DAILY": "Daily periodicity",
+                    "HOURLY": "Juste pour avoir 0 avec le back",
+                    "MONTHLY": "Monthly periodicity",
+                    "WEEKLY": "Weekly periodicity"
+                },
+                "SCHEDULETYPE": {
+                    "CUSTOM": "Custom Schedule",
+                    "PREDEF": "Predefined Schedules",
+                    "TITLE": ""
+                },
+                "TITLE": "Scheduling",
+                "WEEKDAY": {
+                    "FRIDAY": "Friday",
+                    "MONDAY": "Monday",
+                    "SATURDAY": "Saturday",
+                    "SUNDAY": "Sunday",
+                    "THURSDAY": "Thursday",
+                    "TUESDAY": "Tuesday",
+                    "WEDNESDAY": "Wednesday"
+                }
+            }
+        },
+        "UPDATE": {
+            "TITLE": "Edit a report"
+        }
+    }
+}

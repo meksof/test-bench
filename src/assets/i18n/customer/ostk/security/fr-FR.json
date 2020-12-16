@@ -1,0 +1,201 @@
+{
+    "NODESC": "'NON' annuler la suppression.",
+    "OSTK": {
+        "SECURITY": {
+            "KEYPAIR": {
+                "ACTIONS": {
+                    "ACTIONS": "Actions",
+                    "ADD": "Ajouter une clé",
+                    "DELETE": "Supprimer la clé",
+                    "FILTER": "Filtrer"
+                },
+                "DELETE": {
+                    "MODAL": {
+                        "NO": "Cliquez sur 'NON' pour annuler la suppression.",
+                        "OK": "Cliquez sur 'OUI' pour supprimer définitivement la paire de clés",
+                        "TITLE": "Vous-vous supprimer le paire de clés ?"
+                    },
+                    "TEXT": "Vous-vous supprimer le paire de clés « {{which}} » ?",
+                    "TITLE": "Supprimer une clé publique",
+                    "TOAST": {
+                        "ERROR": "Erreur lors de la suppression",
+                        "ONAIR": "Suppression en cours...",
+                        "SUCCESS": "Suppression effectuée",
+                        "TITLE": "Clé publique"
+                    }
+                },
+                "IMPORT": {
+                    "FORM": {
+                        "NAME": "Nom de la clé publique",
+                        "NAMEPLACEHOLDER": "Clé publique",
+                        "PUBLIC": "Coller ici votre clé publique",
+                        "PUBLICPLACEHOLDER": "ssh-rsa aaaa...=="
+                    },
+                    "TITLE": "Importer une clé publique",
+                    "TOAST": {
+                        "ERROR": "Erreur lors de l'import",
+                        "ONAIR": "Import de la clé publique en cours...",
+                        "SUCCESS": "Import effectué",
+                        "TITLE": "Clé publique"
+                    }
+                },
+                "LIST": {
+                    "HEADERS": {
+                        "FINGERPRINT": "Empreinte",
+                        "KEYNAME": "Nom",
+                        "PUBLICKEY": "Clé publique"
+                    }
+                },
+                "NOTF": {
+                    "ADD": {
+                        "MSGFAILED": "La clé n'a pas été ajoutée",
+                        "MSGSUCCEEDED": "La clé a été ajoutée",
+                        "TITLE": "Ajouter une clé"
+                    },
+                    "DELETE": {
+                        "MSGFAILED": "La clé n'a pas été supprimée",
+                        "MSGSUCCEEDED": "La clé a été supprimée",
+                        "TITLE": "Supprimer une clé"
+                    }
+                }
+            },
+            "RULE": {
+                "ADD": "Ajouter une règle",
+                "CREATE": {
+                    "FORM": {
+                        "DIRECTION": {
+                            "LABEL": "Direction"
+                        },
+                        "ETHERTYPE": {
+                            "LABEL": "Type de protocole (Ethertype)"
+                        },
+                        "REMOTE": {
+                            "LABEL": "Distant"
+                        },
+                        "TEMPLATE": {
+                            "LABEL": "Modèles de règles",
+                            "PLACEHOLDER": "",
+                            "PLACHOLDER": "Sélectionner ou chercher un modèle",
+                            "REQUIRED": "Vous devez choisir un modèle de règle"
+                        }
+                    },
+                    "TITLE": "Ajouter une règle",
+                    "TOAST": {
+                        "ERROR": "Erreur lors de la mise à jour des règles",
+                        "ONAIR": "Mise à jour des règles en cours...",
+                        "SUCCESS": "Mise à jour des règles effectuée",
+                        "TITLE": "Groupe de sécurité"
+                    }
+                },
+                "DELETE": {
+                    "BUTTON": "Supprimer cette règle",
+                    "CONFIRM": {
+                        "TEXT": "Êtes-vous sûr de vouloir supprimer cette règle ?",
+                        "TITLE": "Confirmation de suppression"
+                    },
+                    "TOAST": {
+                        "ERROR": "Erreur lors de la suppression",
+                        "ONAIR": "Mise à jour des règles en cours...",
+                        "SUCCESS": "Règle supprimée",
+                        "TITLE": "Règle de sécurité"
+                    }
+                },
+                "DIRECTION": "Direction",
+                "FORM": {
+                    "CHOOSE": "Choisir un groupe",
+                    "CIDR": "CIDR",
+                    "CODE": "Code",
+                    "DIRECTION": "Direction",
+                    "EGRESS": "Sortie",
+                    "FROM": "Du port",
+                    "INGRESS": "Entrée",
+                    "LABELS": {
+                        "ALL_TCP": "TCP",
+                        "ALL_UDP": "UDP",
+                        "All_ICMP": "ICMP",
+                        "CUSTOM": "Autre protocol",
+                        "ICMP": "Règle ICMP personnalisée",
+                        "TCP": "Règle TCP personnalisée",
+                        "UDP": "Règle UDP personnalisée"
+                    },
+                    "OPEN": "Ouvrir",
+                    "PLACEHOLDER": "Choisir le type de règle",
+                    "PORT": "Port",
+                    "PORTRANGE": "Plage de ports",
+                    "PROTOCOL": "Protocole",
+                    "PROTOCOLTYPE": "Type de protocole (EtherType)",
+                    "REMOTE": "Distant",
+                    "REMOTESECURITYGROUP": "Groupe de sécurité distant",
+                    "RULE": "Règle",
+                    "SECURITYGROUP": "Groupe de sécurité",
+                    "TO": "Au port",
+                    "TYPE": "Type"
+                },
+                "IPPROTOCOL": "Protocole IP",
+                "PORTRANGE": "Plage de ports",
+                "PROTOCOLTYPE": "Type de protocole (EtherType)",
+                "REMOTEIPPREFIX": "Préfixe d'IP distante",
+                "REMOTESECURITYGROUP": "Groupe de sécurité distant",
+                "SECURITYGROUP": "Groupe de sécurité",
+                "SECURITYRULE": "Règles de sécurité"
+            },
+            "SECURITYGROUP": {
+                "ACTIONS": {
+                    "ACTIONS": "Actions",
+                    "CREATE": "Créer un groupe de sécurité",
+                    "DELETE": "Supprimer",
+                    "HIDEDETAILS": "Masquer les détails",
+                    "MANAGERULES": "Gérer les règles",
+                    "SHOWDETAILS": "Voir les détails"
+                },
+                "CREATE": {
+                    "DESCRIPTION": "Description",
+                    "FORM": {
+                        "SECURITYGROUPNAME": {
+                            "NODEFAULT": "Le nom « default » est interdit",
+                            "NOTUNIQUE": "Le nom d'un groupe de sécurité doit être unique",
+                            "REQUIRED": "Le nom du groupe de sécurité est obligatoire"
+                        }
+                    },
+                    "NAME": "Nom",
+                    "TITLE": "Créer un groupe de sécurité",
+                    "TOAST": {
+                        "ERROR": "Erreur lors de la création",
+                        "ONAIR": "Création en cours..",
+                        "SUCCESS": "Création effectuée",
+                        "TITLE": "Groupe de sécurité"
+                    }
+                },
+                "DELETE": {
+                    "TEXT": "Vous-vous supprimer le groupe de sécurité « {{which}} » ?",
+                    "TITLE": "Supprimer un groupe de sécurité",
+                    "TOAST": {
+                        "ERROR": "Erreur lors de la suppression",
+                        "ONAIR": "Suppression en cours...",
+                        "SUCCESS": "Suppression effectuée",
+                        "TITLE": "Groupe de sécurité"
+                    }
+                },
+                "LIST": {
+                    "ASSOCIATEDINSTANCES": "Instances associées :",
+                    "ASSOCIATEDWITH": "Associé à",
+                    "DEFINEDRULES": "règles définies",
+                    "INSTANCE": "instance",
+                    "INSTANCES": "instances",
+                    "NODEFINEDRULES": "Aucune règle définie"
+                }
+            },
+            "SUBTABS": {
+                "KEYP": "Paire de clés",
+                "SGRP": "Groupes de sécurité"
+            },
+            "TOOLBAR": {
+                "ORDER": {
+                    "DESCRIPTION": "Par description",
+                    "NAME": "Par nom",
+                    "RULESLENGTH": "Par nombre de règles"
+                }
+            }
+        }
+    }
+}

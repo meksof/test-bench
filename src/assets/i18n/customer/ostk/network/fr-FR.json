@@ -1,0 +1,516 @@
+{
+    "OSTK": {
+        "NETWORK": {
+            "ACTIONS": {
+                "CREATE": "Créer un réseau",
+                "EXPORT": "Exporter"
+            },
+            "CREATE": {
+                "BUTTON": {
+                    "CREATE": "Créer le réseau"
+                },
+                "FORM": {
+                    "ADMINSTATE": {
+                        "LABEL": "Statut de démarrage",
+                        "REQUIRED": "Obligatoire"
+                    },
+                    "ALLOCATIONPOOLS": {
+                        "ADD": "Ajouter",
+                        "PATTERN": "L'adresse IP n'est pas au bon format",
+                        "REQUIRED": "Ce champ est obligatoire",
+                        "TITLE": "Plage d'adresses IP"
+                    },
+                    "CIDR": {
+                        "LABEL": "Adresse IP",
+                        "PATTERN": "Merci de respecter le format de l'adresse IP",
+                        "REQUIRED": "L'adresse IP est obligatoire"
+                    },
+                    "CREATESUBNET": {
+                        "LABELOFF": "Créer un sous-réseau",
+                        "LABELON": "Ne pas créer de sous-réseau"
+                    },
+                    "DEFAULTGATEWAY": {
+                        "LABEL": "Passerelle par défaut"
+                    },
+                    "DISABLEGATEWAY": {
+                        "LABEL": "Passerelle"
+                    },
+                    "DNSSERVERS": {
+                        "ADD": "Ajouter",
+                        "PATTERN": "L'adresse IP n'est pas au bon format",
+                        "REQUIRED": "Ce champ est obligatoire",
+                        "TITLE": "Serveurs DNS"
+                    },
+                    "ENABLEDHCP": {
+                        "LABEL": "DHCP",
+                        "SHORTOFF": "Désactivé",
+                        "SHORTON": "Activé"
+                    },
+                    "GATEWAYIP": {
+                        "LABEL": "Passerelle IP",
+                        "REQUIRED": "La passerelle est obligatoire"
+                    },
+                    "HOSTROUTES": {
+                        "ADD": "Ajouter",
+                        "DESTINATION": "Destination CIDR",
+                        "NEXTHOP": "BNext Hop",
+                        "REQUIRED": "Ce champ est obligatoire",
+                        "TITLE": "Host Routes"
+                    },
+                    "IPVERSION": {
+                        "LABEL": "Version IP",
+                        "REQUIRED": "La version IP est obligatoire"
+                    },
+                    "NETWORKNAME": {
+                        "LABEL": "Nom du réseau",
+                        "NOTUNIQUE": "Le nom du réseau doit être unique",
+                        "REQUIRED": "Le nom du réseau est obligatoire"
+                    },
+                    "SUBNETNAME": {
+                        "LABEL": "Nom du sous-réseau",
+                        "REQUIRED": "Le nom du sous-réseau est obligatoire"
+                    }
+                },
+                "HELP": {
+                    "TITLE": "Aide"
+                },
+                "NETWORK": {
+                    "TITLE": "Réseau"
+                },
+                "SUBNETWORK1": {
+                    "TITLE": "Sous-réseau"
+                },
+                "SUBNETWORK2": {
+                    "TITLE": "Détails du sous-réseau"
+                },
+                "TOAST": {
+                    "ERROR": "La création a échouée",
+                    "ONAIR": "Création en cours...",
+                    "SUCCESS": "Création réussie",
+                    "TITLE": "Création d'un réseau"
+                }
+            },
+            "DELETE": {
+                "TEXT": "Voulez-vous vraiment supprimer le réseau « {{which}} » ?",
+                "TITLE": "Suppression de réseau",
+                "TOAST": {
+                    "ERROR": "Une erreur s'est produite lors de la suppression du réseau {{which}}",
+                    "ONAIR": "Suppression en cours...",
+                    "SUCCESS": "Le réseau a été supprimé",
+                    "TITLE": "Suppression de réseau"
+                }
+            },
+            "DETAILS": {
+                "ADMINSTATE": "Statut de démarrage :",
+                "SHARED": "Partage :",
+                "STATUS": "Statut :"
+            },
+            "DROPDOWNMENU": {
+                "DELETE": "Supprimer ce réseau"
+            },
+            "NETW": {
+                "LIST": {
+                    "NAME": "Nom",
+                    "STATUS": "Statut"
+                },
+                "DETAILS": {
+                    "NAME": "Nom",
+                    "DHCP": "DHCP",
+                    "CIDR": "CIDR",
+                    "GATEWAYIP": "IP de la passerelle"
+                }
+            },
+            "FIPS": {
+                "ACTIONS": {
+                    "ACTIONS": "Actions",
+                    "ADD": "Créer une IP flottante",
+                    "ASSOCIATE": "Associer",
+                    "DISASSOCIATE": "Dissocier",
+                    "RELEASE": "Supprimer"
+                },
+                "ALLOCATE": {
+                    "LIMITS": "Limites",
+                    "POOL": "Pool",
+                    "POOLPLACEHOLDER": "Choisir un pool",
+                    "TOAST": {
+                        "ERROR": "Erreur d'allocation",
+                        "ONAIR": "Allocation en cours",
+                        "SUCCESS": "Nouvelle IP allouée",
+                        "TITLE": "IP flottante"
+                    }
+                },
+                "LIST": {
+                    "MAPPED": "Mappée à",
+                    "NETWORKMAP": "Associée au réseau",
+                    "NETWORKUNMAP": "Non associée à un réseau",
+                    "STATUS": "Statut",
+                    "FLOATINGIP": "IP flottante"
+                },
+                "MAPPING": {
+                    "FORM": {
+                        "FIXED": "IP fixe à associer",
+                        "FLOATING": "Associer « {{which}} »",
+                        "PORT": "Sélectionner un port"
+                    },
+                    "TITLE": "Association d'IP Flottantes",
+                    "TOAST": {
+                        "ERROR": "Erreur lors de l'association",
+                        "ONAIR": "Association en cours",
+                        "SUCCESS": "Association effectuée",
+                        "TITLE": "IP flottante"
+                    }
+                },
+                "RELEASE": {
+                    "QUESTION": "Supprimer l'IP flottante « {{which}} » ?",
+                    "TITLE": "Suppression d'une IP flottante",
+                    "TOAST": {
+                        "ERROR": "Erreur de suppression",
+                        "ONAIR": "Suppression en cours...",
+                        "SUCCESS": "Supression effectuée",
+                        "TITLE": "IP flottante"
+                    }
+                },
+                "TITLE": "IP Flottantes",
+                "TOOLBAR": {
+                    "ORDER": {
+                        "FIXEADDR": "Par addresse fixe",
+                        "FLOATADDR": "Par addresse flottante",
+                        "STATUS": "Par nom"
+                    }
+                },
+                "UNMAPPING": {
+                    "QUESTION": "Dissocier l'IP flottante",
+                    "TITLE": "Dissociation d'IP flottante",
+                    "TOAST": {
+                        "ERROR": "Erreur lors de la dissociation",
+                        "ONAIR": "Dissociation en cours...",
+                        "SUCCESS": "Dissociation effectuée",
+                        "TITLE": "IP flottante"
+                    }
+                }
+            },
+            "LOADBALANCERHEALTHMONITORS": {
+                "ACTIONS": {
+                    "ACTIONS": "Actions",
+                    "CREATE": "Créer un moniteur de santé",
+                    "DELETE": "Supprimer"
+                },
+                "CREATE": {
+                    "ADD": "Créer un moniteur de santé",
+                    "ASSOCIATEDWITHPOOL": "Associés au pool",
+                    "DELAY": "Delai (s)",
+                    "EXPECTEDCODES": "Codes de retour attendus (200, 204 ...)",
+                    "LIMITS": "Limites",
+                    "LIST": {
+                        "ASSOCIATE": "Associer",
+                        "DELAY": "Delai",
+                        "DELETE": "Supprimer",
+                        "DISASSOCIATE": "Dissocier",
+                        "RETRIES": "Tentatives",
+                        "TIMEOUT": "Timeout",
+                        "TYPE": "Type"
+                    },
+                    "MAXRETRIES": "Nombre de tentatives maximum (1-10)",
+                    "METHOD": "Méthode",
+                    "OTHERS": "Autres moniteurs de santé",
+                    "POOL": "Groupe",
+                    "POOLSELECT": "Choisir un groupe",
+                    "REQUIRED": {
+                        "DELAY": "Indiquer un délai supérieur au timeout",
+                        "MAXRETRIES": "Indiquer un nombre de tentatives maximum entre 1 et 10",
+                        "TIMEOUT": "Indiquer un timeout inférieur au delai",
+                        "TYPE": "Choisir un type de moniteur de santé"
+                    },
+                    "TIMEOUT": "Timeout (s)",
+                    "TITLE": "Moniteurs de santé du groupe",
+                    "TOAST": {
+                        "ERROR": "Une erreur s'est produite lors de la création du moniteur de santé {{which}}",
+                        "ONAIR": "Création en cours ...",
+                        "SUCCESS": "Le moniteur de santé été créé",
+                        "TITLE": "Moniteur de santé"
+                    },
+                    "TYPE": "Type",
+                    "TYPESELECT": "Choisir un type",
+                    "URL": "URL"
+                },
+                "DELETE": {
+                    "TEXT": "Voulez-vous vraiment supprimer le moniteur de santé « {{which}} » ?",
+                    "TITLE": "Suppression de moniteur de santé",
+                    "TOAST": {
+                        "ERROR": "Une erreur s'est produite lors de la suppression du moniteur de santé {{which}}",
+                        "ONAIR": "Suppression en cours...",
+                        "SUCCESS": "Le moniteur de santé a été supprimé",
+                        "TITLE": "Suppression de moniteur de santé"
+                    }
+                },
+                "LIST": {
+                    "DELAY": "Retard",
+                    "MAXRETRIES": "Nombre de tentatives maximum"
+                },
+                "TITLE": "Moniteurs de santé",
+                "TOOLBAR": {
+                    "ORDER": {
+                        "TYPE": "Type"
+                    }
+                }
+            },
+            "LOADBALANCERMEMBERS": {
+                "ACTIONS": {
+                    "ACTIONS": "Actions",
+                    "CREATE": "Créer un membre",
+                    "DELETE": "Supprimer"
+                },
+                "CREATE": {
+                    "ADD": "Ajouter un membre",
+                    "ADDRESS": "Instance",
+                    "ADDRESSSELECT": "Choisir une instance",
+                    "LIMITS": "Limites",
+                    "LIST": {
+                        "DELETE": "Supprimer",
+                        "INSTANCE": "Server",
+                        "PORT": "Port",
+                        "WEIGHT": "Poids"
+                    },
+                    "POOL": "Groupe",
+                    "POOLSELECT": "Choisir un groupe",
+                    "PORT": "Port (0-65535)",
+                    "REQUIRED": {
+                        "ADDRESS": "Choisir une instance",
+                        "POOL": "Choisir un groupe",
+                        "PORT": "Veuillez saisir un numéro de port"
+                    },
+                    "TITLE": "Membres du groupe",
+                    "TOAST": {
+                        "ERROR": "Une erreur s'est produite lors de la création du membre {{which}}",
+                        "ONAIR": "Création en cours ...",
+                        "SUCCESS": "Le membre a été créé",
+                        "TITLE": "Membre de groupe de répartition de charge"
+                    },
+                    "WEIGHT": "Poids (0-255)"
+                },
+                "DELETE": {
+                    "TEXT": "Voulez-vous vraiment supprimer le membre « {{which}} » ?",
+                    "TITLE": "Suppression de membre",
+                    "TOAST": {
+                        "ERROR": "Une erreur s'est produite lors de la suppression du membre {{which}}",
+                        "ONAIR": "Suppression en cours...",
+                        "SUCCESS": "Le membre a été supprimé",
+                        "TITLE": "Suppression de membre"
+                    }
+                },
+                "TITLE": "Membres du groupe de répartion de charge",
+                "TOOLBAR": {
+                    "ORDER": {
+                        "ADDRESS": "Adresse"
+                    }
+                }
+            },
+            "LOADBALANCERPOOLS": {
+                "ACTIONS": {
+                    "ACTIONS": "Actions",
+                    "ASSOCIATE": "Associer",
+                    "CREATE": "Créer un pool",
+                    "CREATEVIP": "Créer une IP virtuelle",
+                    "DELETE": "Supprimer",
+                    "DELETEVIP": "Supprimer l'IP virtuelle",
+                    "DISASSOCIATE": "Dissocier",
+                    "MANAGEHEALTHMONITORS": "Gérer les moniteurs de santé",
+                    "MANAGEMEMBERS": "Gérer les membres"
+                },
+                "ASSOCIATE": {
+                    "FORM": {
+                        "HEALTHMONITOR": "Moniteur de santé",
+                        "HEALTHMONITORSELECT": "Choisir un moniteur de santé"
+                    },
+                    "POOL": "Associer un moniteur de santé au groupe \"{{which}}",
+                    "REQUIRED": {
+                        "HEALTHMONITOR": "Choisir un moniteur de santé"
+                    },
+                    "TOAST": {
+                        "ERROR": "Une erreur s'est produite lors de l'association au moniteur de santé ",
+                        "ONAIR": "Association en cours ...",
+                        "SUCCESS": "Associé au moniteur de santé",
+                        "TITLE": "Groupe de répartition de charge"
+                    }
+                },
+                "CREATE": {
+                    "DESCRIPTION": "Description",
+                    "LBMETHOD": "Méthode de répartition de charge",
+                    "LBMETHODS": {
+                        "LEASTCONNECTION": "Least connection",
+                        "ROUNDROBIN": "Round robin",
+                        "SOURCEIP": "Source IP"
+                    },
+                    "LBMETHODSELECT": "Choisir une méthode de répartition",
+                    "LIMITS": "Limites",
+                    "NAME": "Nom",
+                    "PROTOCOL": "Protocole",
+                    "PROTOCOLSELECT": "Choisir un protocole",
+                    "REQUIRED": {
+                        "METHOD": "Veuillez choisir une méthode de répartition de charge",
+                        "NAME": "Veuillez renseigner un nom",
+                        "PROTOCOL": "Veuillez choisir un protocole",
+                        "SUBNETID": "Veuillez choisir un sous-réseau"
+                    },
+                    "SUBNET": "Sous-réseau",
+                    "SUBNETSELECT": "Choisir un sous-réseau",
+                    "TOAST": {
+                        "ERROR": "Une erreur s'est produite lors de la création du groupe {{which}}",
+                        "ONAIR": "Création en cours ...",
+                        "SUCCESS": "Le groupe a été créé",
+                        "TITLE": "Groupe de répartition de charge"
+                    }
+                },
+                "DELETE": {
+                    "TEXT": "Voulez-vous vraiment supprimer le groupe « {{which}} » ?",
+                    "TITLE": "Suppression de groupe",
+                    "TOAST": {
+                        "ERROR": "Une erreur s'est produite lors de la suppression du groupe {{which}}",
+                        "ONAIR": "Suppression en cours...",
+                        "SUCCESS": "Le groupe a été supprimé",
+                        "TITLE": "Suppression de groupe"
+                    }
+                },
+                "DISASSOCIATE": {
+                    "FORM": {
+                        "HEALTHMONITOR": "Moniteur de santé",
+                        "HEALTHMONITORSELECT": "Choisir un moniteur de santé"
+                    },
+                    "POOL": "Dissocier un moniteur de santé du groupe \"{{which}}",
+                    "REQUIRED": {
+                        "HEALTHMONITOR": "Choisir un moniteur de santé"
+                    },
+                    "TOAST": {
+                        "ERROR": "Une erreur s'est produite lors de la dissociation au moniteur de santé ",
+                        "ONAIR": "Dissociation en cours ...",
+                        "SUCCESS": "Dissocié du moniteur de santé",
+                        "TITLE": "Groupe de répartition de charge"
+                    }
+                },
+                "LIST": {
+                    "ASSOCIATEDTO": "Associé à",
+                    "DETAILS": {
+                        "HEALTHMONITORS": "Moniteurs de santé",
+                        "MEMBERS": "Membres"
+                    },
+                    "HEALTHMONITOR": "moniteur de santé",
+                    "HEALTHMONITORS": "moniteurs de santé",
+                    "MEMBER": "membre",
+                    "MEMBERS": "membres"
+                },
+                "TITLE": "Répartiteurs de charge",
+                "TOOLBAR": {
+                    "ORDER": {
+                        "NAME": "Nom"
+                    }
+                }
+            },
+            "LOADBALANCERVIPS": {
+                "ACTIONS": {
+                    "ACTIONS": "Actions",
+                    "ASSOCIATE": "Associer une IP flottante",
+                    "CREATE": "Créer une adresse IP virtuelle",
+                    "DELETE": "Supprimer",
+                    "DISASSOCIATE": "Dissocier l'IP flottante"
+                },
+                "CREATE": {
+                    "ADDRESS": "Addresse IP",
+                    "CONNECTIONLIMIT": "Limite de connexions",
+                    "DESCRIPTION": "Description",
+                    "LIMITS": "Limites",
+                    "NAME": "Nom",
+                    "POOL": "Groupe",
+                    "POOLSELECT": "Choisir un groupe",
+                    "PORT": "Port (1-65535)",
+                    "PROTOCOL": "Protocole",
+                    "PROTOCOLSELECT": "Choisir le protocole",
+                    "REQUIRED": {
+                        "NAME": "Veuillez entrer un nom",
+                        "POOL": "Choisir un groupe",
+                        "PORT": "Indiquer un port entre 1 et 65535",
+                        "SUBNET": "Choisir un sous-réseau"
+                    },
+                    "SESSIONPERSISTENCE": "Persistence de session",
+                    "SESSIONPERSISTENCES": {
+                        "APPCOOKIE": "Cookie applicatif",
+                        "HTTPCOOKIE": "Cookie HTTP",
+                        "SOURCEIP": "IP Source"
+                    },
+                    "SESSIONPERSISTENCESELECT": "Choisir le mode de persistence de session",
+                    "SUBNET": "Sous-réseau",
+                    "SUBNETSELECT": "Choisir le sous-réseau",
+                    "TOAST": {
+                        "ERROR": "Une erreur s'est produite lors de la création de l'adresse IP virtuelle {{which}}",
+                        "ONAIR": "Création en cours ...",
+                        "SUCCESS": "L'adresse IP virtuelle été créée",
+                        "TITLE": "Adresse IP virtuelle"
+                    }
+                },
+                "DELETE": {
+                    "TEXT": "Voulez-vous vraiment supprimer l'adresse IP virtuelle « {{which}} » ?",
+                    "TITLE": "Suppression d'adresse IP virtuelle",
+                    "TOAST": {
+                        "ERROR": "Une erreur s'est produite lors de la suppression de l'adresse IP virtuelle {{which}}",
+                        "ONAIR": "Suppression en cours...",
+                        "SUCCESS": "L'adresse IP virtuelle a été supprimé",
+                        "TITLE": "Suppression d'adresse IP virtuelle"
+                    }
+                },
+                "MAPPING": {
+                    "FORM": {
+                        "FLOATING": "IP flottante",
+                        "FLOATINGSELECT": "Choisir une IP flottante",
+                        "TITLE": "Associer une IP flottante à l'IP virtuelle \"{{which}}"
+                    }
+                },
+                "TITLE": "Adresses IP virtuelles",
+                "TOOLBAR": {
+                    "ORDER": {
+                        "ADDRESS": "Adresse"
+                    }
+                },
+                "UNMAPPING": {
+                    "FORM": {
+                        "TEXT": "Voulez-vous dissocier l'IP flottante de l'IP virtuelle \"{{which}}\" ?",
+                        "TITLE": "Dissocation d'IP publique"
+                    }
+                }
+            },
+            "SUBNETWORK": {
+                "ACTIONS": {
+                    "CREATE": "Créer un sous-réseau"
+                },
+                "CREATE": {
+                    "TOAST": {
+                        "ERROR": "Une erreur s'est produite lors de la création du sous-réseau {{which}}",
+                        "ONAIR": "Création en cours...",
+                        "SUCCESS": "Le sous-réseau a été créé",
+                        "TITLE": "Création de sous-réseau"
+                    }
+                },
+                "DELETE": {
+                    "TEXT": "Voulez-vous vraiment supprimer le sous-réseau « {{which}} » ?",
+                    "TITLE": "Suppression de réseau",
+                    "TOAST": {
+                        "ERROR": "Une erreur s'est produite lors de la suppression du sous-réseau {{which}}",
+                        "ONAIR": "Suppression en cours...",
+                        "SUCCESS": "Le sous-réseau a été supprimé",
+                        "TITLE": "Suppression de sous-réseau"
+                    }
+                },
+                "DROPDOWNMENU": {
+                    "DELETE": "Supprimer ce sous-réseau"
+                }
+            },
+            "SUBTABS": {
+                "FIPS": "IP Flottantes",
+                "NETW": "Réseaux"
+            },
+            "TOOLBAR": {
+                "ORDER": {
+                    "NAME": "Par nom"
+                }
+            }
+        }
+    }
+}

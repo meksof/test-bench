@@ -1,0 +1,27 @@
+{
+	"OSTK": {
+		"CGU": {
+			"CANCEL": "Not now",
+			"PDF": "Download PDF",
+			"READ": "Accept",
+			"TITLE": "ARCANA DYNAMIC CLOUD SOLUTION USER CHARTER"
+		},
+		"GLOBAL": {
+			"LASTUPDATE": "Last update:",
+			"NODATA": "No data matching your criteria",
+			"REFRESHDATA": "Refresh data"
+		},
+		"TABTITLE": {
+			"IMAGE": "Images",
+			"INSTANCE": "Instances",
+			"MARKET": "Marketplace",
+			"NETWORK": "Network",
+			"NOTIFICATION": "Notifications",
+			"PROJECT": "Projects",
+			"QUOTA": "Quotas",
+			"SECURITY": "Security",
+			"TOPOLOGY": "Topology",
+			"VOLUME": "Volumes"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"SECURITY": {
+		"BROWSERTITLE": {
+			"ATTACKS": "Securité | Attaques",
+			"SECURITY": "Sécurité"
+		},
+		"POPUP": {
+			"REPUTATIONS": {
+				"COPYIP": "Copier l'adresse IP",
+				"IPCOPIED": "L'adresse IP a été copiée",
+				"PLEASECOPYIP": "Copiez l'IP avant"
+			}
+		},
+		"TOOLBAR": {
+			"ACTIONS": {
+				"HIDELINES": "Masquer les lignes",
+				"SHOWLINES": "Montrer les lignes"
+			},
+			"ATTACKS": "Carte des attaques"
+		}
+	}
+}

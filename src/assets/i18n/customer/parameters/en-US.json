@@ -1,0 +1,87 @@
+{
+    "PARAMETERS": {
+        "AUTHORIZATIONS": {
+            "TABTITLE": "Authorizations",
+            "PLACEHOLDER": "Filter...",
+            "TOOLBAR": {
+                "ORDER": {
+                    "NAME": "Name"
+                }
+            },
+            "PAGECHANGED": {
+                "TITLE": "Unsaved data",
+                "TEXT": "You have unsaved changes",
+                "CHOICE": "Do you want to save?"
+            }
+        },
+        "CONTACTS": {
+            "TABTITLE": "Contacts",
+            "TITLE": "Your contacts",
+            "ENGSALES": "My Sales Engineer",
+            "SDM": "My Information Services Manager",
+            "SUPPORT": "Contact support",
+            "AAHQ": "Head office",
+            "AGENCY": "Our agencies",
+            "INPROGRESS": "Not specified",
+            "NOENGSALES": "No Sales Engineer for this account.<br /> You can contact the Sales department by phone on <br />+33 1 30 62 33 22.",
+            "NOSDM": "No Service Manager for this account.<br /> To discover our Service Managers offer, please visit our website. <br /><a href='https://www.antemeta.fr/nos-services/gouvernance/'>https://www.antemeta.fr/nos-services/gouvernance/</a>"
+        },
+        "ENTITIES": {
+            "TABTITLE": "Security"
+        },
+        "USERS": {
+            "TABTITLE": "User Management",
+            "PLACEHOLDER": "Filter...",
+            "TOOLBAR": {
+                "ORDER": {
+                    "NAME": "Name",
+                    "EMAIL": "Email",
+                    "PHONE": "Phone Number",
+                    "LASTLOGIN": "Last Login"
+                }
+            }
+        },
+        "SETTINGS": {
+            "TABTITLE": "User Settings",
+            "USERINFO": "Personal data",
+            "UIINFO": "UI settings",
+            "TITLE": "Account settings",
+            "FULLNAME": "Full name:",
+            "PHONE": "Phone number:",
+            "EMAIL": "Email:",
+            "IDCONNECTION": "Email:",
+            "PHONEPLACEHOLDER": "None",
+            "PASSWORD": "Password",
+            "PASSWORDCOMPLEXITYCONTENT": "Password complexity: \n- Must not contain all or part of the user account name\n- At least 10 characters\n- At least 3 of these 4 categories:\n° Uppercase letters of the English alphabet(A to Z)\n° Lowercase letters of the English alphabet (a to z)\n° Base 10 digits (0 to 9)\n° Non-alphabetic characters (for example, !, $, #, %)",
+            "PASSWORDOLDPLACEHOLDER": "Old",
+            "PASSWORDNEWPLACEHOLDER": "New",
+            "PASSWORDNEWBISPLACEHOLDER": "Confirm new password",
+            "TWOFACTOR": "Two-Factor authentication:",
+            "ENABLED": "Enabled",
+            "DISABLED": "Disabled",
+            "UPDATE": "Update",
+            "EDIT": "Edit",
+            "LANG": "Language:",
+            "EN": "English",
+            "FR": "Français",
+            "CHANGEPASSWORD": {
+                "TITLE": "Change password",
+                "BUTTON": {
+                    "SUBMIT": "Submit"
+                },
+                "TOAST": {
+                    "TITLE": "Changing the Password",
+                    "ONAIR": "Update in progress",
+                    "UPDATE": "Update",
+                    "SUCCESS": "Your information has been updated",
+                    "WRONGPASSWORD": "The passwords do not match"
+                }
+            },
+            "PROFILE": {
+                "OLDPASSWORD": "Old password needed",
+                "NEWPASSWORD": "Type a new password",
+                "PASSWORDNEWBIS": "The passwords are not the same"
+            }
+        }
+    }
+}

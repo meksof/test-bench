@@ -1,0 +1,23 @@
+{
+    "PRTG": {
+        "GRAPHIC": {
+            "ACTIONS": {
+                "REINITZOOM": "Réinitialisation du zoom"
+            },
+            "HEADER": "Arbre des sondes",
+            "TABTITLE": "Vue graphique"
+        },
+        "SENSORS": {
+            "HEADER": "Liste des sondes",
+            "LIST": {
+                "BREADCRUMB": "Ascendants",
+                "MONITORINGKEY": "Core",
+                "NAME": "Nom",
+                "SENSORID": "ID.",
+                "STATUS": "Statut",
+                "TYPESENSOR": "Type"
+            },
+            "TABTITLE": "Vue en liste"
+        }
+    }
+}

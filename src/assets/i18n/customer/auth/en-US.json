@@ -1,0 +1,88 @@
+{
+	"AUTH": {
+		"FORM": {
+			"BUTTON": "Connection",
+			"EMAIL": {
+				"LABEL": "Enter your email",
+				"NOTVALID": "The email address in not valid",
+				"REQUIRED": "The email address is required",
+				"CONFIRMATIONPROBLEME": "confirm-email-problem-arisen works!"
+			},
+			"ERROR": {
+				"BADIDENTIFIERS": "Your email or password is incorrect",
+				"GLOBAL": "Connection failed",
+				"LOCKEDOUT": "Your account is locked out",
+				"DIFFERENT": "Passsword and ConfirmPassword didn't match."
+			},
+			"FORGET": "Forgotten password",
+			"REINITIALISATION": "To reset your password, enter the email address you use to sign in to your account.",
+			"LABEL": "Enter your e-mail address and your password.",
+			"PASSWORD": {
+				"LABEL": "Enter your password",
+				"REQUIRED": "The password is required"
+			},
+			"REQUEST": "Request an account",
+			"TITLE": "Connect to your workspace"
+		},
+		"HOME": {
+			"SLOGAN": "The AntemetA workspace is where your entire team can come together to communicate and work more effectively.",
+			"WELCOME": "Welcome {{firstLastName}}!",
+			"WELCOME1": "Welcome!"
+		},
+		"LOADING": {
+			"MESSAGE": "Authentication in progress..."
+		},
+		"PROFILE": {
+			"INFORMATIONS": {
+				"FIRSTNAME": "First name",
+				"LASTNAME": "Last name",
+				"MOBILE": "Mobile number",
+				"PHONENUMBER": "Phone number",
+				"TITLE": "Job title",
+				"UPDATE": "Update"
+			},
+			"INTRODUCTION": "To better communicate with you, we need to get to know you better.",
+			"TITLE": "Complete your profile",
+			"ONBOARDING": {
+				"STEP1": {
+					"TITLE": "Complete your profile",
+					"SUBTITLE": "To know you better we need to communicate with you"
+				},
+				"STEP2": {
+					"TITLE": "Complete your profile",
+					"SUBTITLE": "To know you better we need to communicate with you"
+				},
+				"STEP3": {
+					"NEWPASSWORD": "Choose your new password and verify it.",
+					"TITLE": "Create your password",
+					"SUBTITLE": "Update your password",
+					"ENTERPASSWORD": "Enter your new password",
+					"REENTER": "Re-enter your password"
+				},
+				"STEP4": {
+					"TITLE": "Cookie management",
+					"SUBTITLE": "In order to ensure optimal navigation we use several cookies. Below you can choose to disable them.\nThese changes are valid only on the equipment and browser currently in use."
+				}
+			}
+		},
+		"VERIFYCODE": {
+			"ERROR": {
+				"FAILURE": "Conection failure",
+				"LOCKEDOUT": "Your account is locked"
+			},
+			"LABEL": "Enter the code received by email",
+			"PATTERN": "Your code is not in the correct format.<br/>6 digits only.",
+			"REQUIRED": "The 6-digit code is required",
+			"CODE": "Enter your 6-digit code."
+		},
+		"RENEW": {
+			"LINK": "A link has been sent to you at the address you provided.",
+			"LINKFORM": "This link will provide you with a form to renew your password.."
+		},
+		"PROBLEME": "a problem has occurred !",
+		"LEAD":{
+			"CREATION": "lead-creation works!",
+			"DEMO": "lead-demo works!"
+		}
+	}
+}

@@ -1,0 +1,356 @@
+{
+    "ITSM": {
+        "ADDACTION": {
+            "DESCRIPTION": {
+                "NOTIF": {
+                    "FAILED": "Votre réponse n'a pas été pris en compte",
+                    "SUCCESS": "Votre réponse au ticket {{rfcNumber}} a bien été prise en compte",
+                    "TITLE": "Répondre à un ticket"
+                }
+            },
+            "FILES": {
+                "NOTIF": {
+                    "FAILED": "Le fichier n'a pas été joint",
+                    "SUCCESS": "Le fichier a bien été joint au ticket {{rfcNumber}}",
+                    "TITLE": "Ajout de fichier"
+                }
+            }
+        },
+        "BROWSERTITLE": {
+            "CASE": "Incident",
+            "DETAILS": "Détails",
+            "FILTER": "Filtre",
+            "REQUEST": "Ticketing",
+            "SERVICE": "Demande de Service"
+        },
+        "BUTTON": {
+            "INCIDENT": "Nouvel incident",
+            "REPLY": "Répondre",
+            "SERVICEREQUEST": "Nouvelle demande de service",
+            "TEXT": "Nouveau"
+        },
+        "CASEMODAL": {
+            "ATTACHEDFILES": "Documents associés",
+            "ATTACHFILE": "Envoyer un fichier",
+            "DATE": "Date",
+            "DESCRIPTION": "Description",
+            "MESSAGE": "Message",
+            "NEWMESSAGE": "Nouveau message",
+            "RESOLUTION": "Résolution",
+            "SENDER": "Expéditeur",
+            "TITLE": "Actions sur l'incident:",
+            "TOAST": {
+                "ERROR": "L'envoi du message a échoué",
+                "ONAIR": "Envoi en cours...",
+                "SUCCESS": "Le message a bien été envoyé",
+                "TITLE": "Nouveau message"
+            },
+            "TYPE": "Type",
+            "UPLOADFILE": {
+                "TOAST": {
+                    "ERROR": "L'envoi du fichier a échoué",
+                    "ONAIR": "Envoi en cours...",
+                    "SUCCESS": "Le fichier a bien été envoyé",
+                    "TITLE": "Envoi du fichier"
+                }
+            }
+        },
+        "CLOSEDCASES": "Tickets clôturés",
+        "CONSTANTS": {
+            "URGENCY": {
+                "CRITICAL": "VIP",
+                "HIGH": "Haute",
+                "LOW": "Basse",
+                "STANDARD": "Moyenne"
+            }
+        },
+        "CREATECASEPOPIN": {
+            "CATEGORY": "Catégorie",
+            "DESCRIPTION": "Votre message",
+            "DESCRIPTIONPLACEHOLDER": "Description",
+            "ERROR": {
+                "DESCRIPTION": "La description est obligatoire"
+            },
+            "JOINFILES": "Joignez des fichiers le cas échéant",
+            "NOTIF": {
+                "ERROR": "Le ticket n'a pas pu être créé",
+                "SUCCESS": "Le ticket a bien été créé",
+                "TITLE": "Création de ticket"
+            },
+            "PROMPT": "Déposez un fichier ici ou ",
+            "TITLE": "Nouvel incident",
+            "URGENCY": "Urgence",
+            "URGENCYTYPES": {
+                "CRITICAL": "VIP",
+                "HIGH": "Haute",
+                "LOW": "Basse",
+                "STANDARD": "Moyenne"
+            }
+        },
+        "CREATESERVICEREQUEST": {
+            "CATALOG": {
+                "LEVEL1": {
+                    "22844505-F048-455C-875A-0FD82530F6E0": "Datacenter Computing Solution",
+                    "3314E440-DE45-41B0-B7B5-32B21116AF3D": "SAP Customer Services",
+                    "4ED38C08-A2C7-4685-B40D-CE7513E385B3": "Cloud Computing Solution",
+                    "7A32A9E1-80A2-4A73-BDF3-2CFA52133455": "Backup Customer Service",
+                    "A5F33845-9B71-4B85-B0A3-24F081395F74": "Professional Service & Delivery",
+                    "ED825A36-FC0E-4676-9D1C-8EF9214A772D": "Hardware Maintenance Service",
+                    "EFAA97D1-D071-4C93-8AAE-0480213F7602": "ArcanA Dynamic Cloud"
+                },
+                "LEVEL2": {
+                    "65DC443E-CE53-436B-84C9-B46021C7B763": "Restauration d'une VM",
+                    "6EEAEBBA-80DD-4487-B70D-4798B971C4F5": "Restauration d'un fichier",
+                    "BE05B527-007E-4AC6-9AA3-0B890509E35F": "Ajout d'une VM",
+                    "D147995D-675A-416F-A249-229F2B811917": "Modification d'une VM",
+                    "D39A986E-B148-4CCD-BF66-BFB04028BE7F": "Suppression d'une VM",
+                    "DEFAULT": "Autre"
+                }
+            },
+            "FORMS": {
+                "2C8C0296-0D97-4819-8DF2-4FDB8417CE3D": "Destination",
+                "7A32A9E1-80A2-4A73-BDF3-2CFA52133455": "Source"
+            },
+            "LASTREQUESTS": "Vos demandes de service les plus fréquentes",
+            "POPIN_TITLE": "Nouvelle demande de service",
+            "QUESTIONS": "Questionnaire",
+            "SEARCHPLACEHOLDER": "Recherche",
+            "STEPS": {
+                "NOTCOMPLETED": "Cette étape n'est pas terminée",
+                "STEP1": {
+                    "DEMANDE": "Type de demande",
+                    "INFO": "Votre choix ne nécessite pas d'information spécifique.<br/> Vous passerez directement à l'étape 3",
+                    "SERVICE": "Type de service",
+                    "TAB": "Demande"
+                },
+                "STEP2": {
+                    "TAB": "Informations"
+                },
+                "STEP3": {
+                    "MESSAGE": "Veuillez détailler votre demande",
+                    "TAB": "Message"
+                },
+                "STEP4": {
+                    "CONTACT": {
+                        "ADD": "Ajouter un contact",
+                        "REMOVE": "Supprimer ce contact"
+                    },
+                    "EMAIL": "Email",
+                    "INFORMATIONS": "Vos informations personnelles",
+                    "TAB": "Contacts"
+                },
+                "STEP5": {
+                    "SUBMIT": "Créer la demande de service",
+                    "TAB": "Résumé",
+                    "TITLE": "Récapitulatif de votre demande"
+                }
+            },
+            "TEXTBAR": "Rechercher un ticket...",
+            "TOAST": {
+                "ERROR": "La création de demande de service a échoué",
+                "ONAIR": "Création en cours...",
+                "SUCCESS": "La demande de service a bien été crée",
+                "TITLE": "Demande de service"
+            }
+        },
+        "DONUTS": {
+            "CHARTCATEGORY": {
+                "ADC": "ADC",
+                "BCS": "BCS",
+                "CCS": "CCS",
+                "DCS": "DCS",
+                "PSD": "PSD",
+                "SCS": "SCS",
+                "TITLE": "Categorie des tickets"
+            },
+            "CHARTSTATUS": {
+                "CLOSED": "Fermés",
+                "OPENED": "Ouverts",
+                "SUSPENDED": "Suspendus",
+                "TITLE": "Statut des tickets"
+            },
+            "CHARTTYPE": {
+                "C": "Change",
+                "E": "Événement",
+                "I": "Incident",
+                "S": "Service",
+                "TITLE": "Type des tickets"
+            },
+            "CHARTURGENCY": {
+                "HIGH": "Haute",
+                "LOW": "Faible",
+                "MEDIUM": "Moyenne",
+                "TITLE": "Urgence des tickets",
+                "VIP": "VIP"
+            }
+        },
+        "FILTER": {
+            "APPLY": "Appliquer",
+            "FROM": "Du",
+            "MESSAGE": "Seuls les messages chargés sont filtrés.",
+            "PERIOD": "Choisissez la période",
+            "RESET": "Réinitialiser",
+            "TO": "Au"
+        },
+        "INCIDENTDETAILMODAL": {
+            "BUTTON": {
+                "NEWFILE": "Nouveau fichier",
+                "NEWMESSAGE": "Nouveau message"
+            },
+            "CREATEDBY": "Crée par :",
+            "CREATIONDATE": "Date de création :",
+            "DESCRIPTION": "Description :",
+            "LISTUPLOADFILES": "Liste des fichiers joints:",
+            "RECIPIENT": "Bénéficiaire :",
+            "RESOLUTION": "Résolution :",
+            "STATUT": "Statut :",
+            "TICKET": "Ticket :"
+        },
+        "LIST": {
+            "FAVORITES": {
+                "ADD": "Ajouter aux favoris",
+                "REMOVE": "Supprimer des favoris"
+            },
+            "FILTER": "Filtrer",
+            "LACKOFDATA": {
+                "INVITE": "Vous pouvez modifier vos critères de recherche.",
+                "MESSAGE": "Vous n'avez peut-être pas de ticket à vous.",
+                "MODIFY": "Modifiez votre filtre ?",
+                "TITLE": "Il n'y a pas de ticket correspondant au filtre courant"
+            },
+            "MARKAS": {
+                "READ": "Marquer comme lus",
+                "UNREAD": "Marquer comme non lus"
+            },
+            "SORT": "Trier"
+        },
+        "ONHOLDCASES": "Tickets en attente",
+        "OPENCASES": "Tickets ouverts",
+        "POPUP": {
+            "FILTER": {
+                "DATES": "Dates",
+                "FAVORITES": {
+                    "FALSE": "Non favoris",
+                    "TRUE": "Favoris"
+                },
+                "FAVORITESREAD": "Favoris & Lus",
+                "METASTATUSES": {
+                    "CLOSED": "Clos",
+                    "INPROGRESS": "En cours"
+                },
+                "READ": {
+                    "FALSE": "Non Lus",
+                    "TRUE": "Lus"
+                },
+                "REQUESTTYPES": {
+                    "CHANGE": "Change",
+                    "INCIDENT": "Incident",
+                    "SERVICE": "Demande de service"
+                },
+                "STATUS": "Statut",
+                "TITLE": "Filtre",
+                "TYPE": "Type",
+                "URGENCY": "Urgence"
+            },
+            "SORTER": {
+                "DESCRIPTION": {
+                    "ASC": "Par description (asc)",
+                    "DESC": "Par description (desc)"
+                },
+                "SUBMITDATE": {
+                    "ASC": "Par date de soumission (asc)",
+                    "DESC": "Par date de soumission (desc)"
+                }
+            }
+        },
+        "PROFILE": {
+            "INFORMATIONS": {
+                "EMAIL": "Votre email",
+                "ENTITY": "Votre entreprise",
+                "FIRSTNAME": "Prénom",
+                "MOBILE": "Numéro de mobile",
+                "NAME": "Nom",
+                "PANEL_TITLE": "Mes informations",
+                "PHONENUMBER": "Téléphone",
+                "TITLE": "Fonction",
+                "UPDATE": "METTRE À JOUR"
+            }
+        },
+        "REQUESTDETAILSPOPIN": {
+            "ANSWER": "Ajouter un commentaire",
+            "ATTACHMENTS": "Pièces jointes",
+            "AUTHOR": "Créé par :",
+            "DATEON": "Le",
+            "HISTORY": "Historique",
+            "LASTMESSAGE": "Dernier message",
+            "RECIPIENT": "Bénéficiaire :",
+            "STATUS": "Statut :",
+            "URGENCY": "Urgence :"
+        },
+        "SATISFACTIONMODAL": {
+            "SUBTITLE": "Dans le cadre de l'amélioration continue de nos services, nous avons besoin de vos retours. Merci de noter votre niveau de satisfaction quant aux tickets ci-dessous.",
+            "TABLEHEADER": {
+                "ANGRY": "Pas de résolution",
+                "GOOD": "Résolution trop longue",
+                "HAPPY": "Résolution adaptée",
+                "SAD": "Résolution inadaptée"
+            },
+            "TITLE": "Evalutation de vos tickets ",
+            "TOAST": {
+                "ERROR": "Les tickets suivants n'ont pas été notés : {{which}}",
+                "ONAIR": "Envoie de la satisfaction...",
+                "SUCCESS": "Vos satisfactions ont bien été enregistrées",
+                "TITLE": "Satisfaction"
+            }
+        },
+        "SEARCHBAR": {
+            "REQUEST": "Rechercher un ticket..."
+        },
+        "TABLE": {
+            "DATE": "Date d'émission",
+            "DESCRIPTION": "Description",
+            "RECIPIENT": "Bénéficiaire",
+            "SEARCHPLACEHOLDER": "Recherche",
+            "STATUS": "Statut",
+            "URGENCY": "Urgence"
+        },
+        "TABTITLE": {
+            "CASES": "Tickets",
+            "CHARTS": "Charts"
+        },
+        "TOAST": {
+            "DOWNLOAD": "Téléchargement",
+            "ERROR": "Erreur système",
+            "MESSAGE": "Message",
+            "MESSAGESUCCESS": "Veuillez patienter quelques instants afin que notre système le prenne en compte",
+            "TICKET": "Ticket"
+        },
+        "TOOLBAR": {
+            "CATORDER": {
+                "BCS": "BCS",
+                "CCS": "CCS",
+                "DCS": "DCS",
+                "PSD": "PSD"
+            },
+            "MYTICKETS": "Mes tickets",
+            "ORDER": {
+                "DESCRIPTION": "Description",
+                "RATINGS": "Notes",
+                "RECIPIENT": "Bénéficiaire",
+                "RFCNUMBER": "N° ticket",
+                "STATUS": "Statut",
+                "SUBMITDATE": "Date",
+                "URGENCY": "Urgence"
+            },
+            "TEAMTICKETS": "Tickets de l'équipe",
+            "TYPE": {
+                "C": "Change",
+                "E": "Événement",
+                "I": "Incident",
+                "S": "Demande de service",
+                "T": "Tous"
+            }
+        },
+        "TOTALCASES": "Tickets totaux"
+    }
+}

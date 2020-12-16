@@ -1,0 +1,139 @@
+{
+    "OSTK": {
+        "SNAPSHOT": {
+            "LACKOFDATA": {
+                "MESSAGE": "",
+                "TITLE": "There are no volume snapshots yet"
+            }
+        },
+        "VOLUME": {
+            "ACTIONS": {
+                "ACTIONS": "Actions",
+                "ATTACH": "Attach",
+                "CREATE": "Create volume",
+                "DELETE": "Delete",
+                "DELETEVOLUME": "Delete volume",
+                "DETACH": "Detach",
+                "EXTEND": "Extend",
+                "LAUNCHINSTANCE": "Launch instance",
+                "MANAGEATTACHMENTS": "Manage attachments",
+                "MODIFY": "Modify"
+            },
+            "ATTACH": {
+                "ATTACH": "Attach",
+                "CHOOSEINSTANCE": "Choose instance",
+                "CHOOSEINSTANCELABEL": "Instance to attach",
+                "DEVICE": "Device name",
+                "INSTANCE": "Instance",
+                "NOATTACH": "No attachments",
+                "NOTIF": {
+                    "MSGFAILED": "Attachment error",
+                    "MSGSUCCESS": "Attachment done :",
+                    "ONAIR": "Attaching in progress...",
+                    "TITLE": "Attachment"
+                },
+                "PERIPHERAL": "Peripheral",
+                "TITLE": "Attach volume « {{which}} »"
+            },
+            "CREATE": {
+                "NAME": "Name",
+                "NAMEPLACEHOLDER": "MyVolumeName",
+                "NOTIF": {
+                    "MSGFAILED": "Creation error",
+                    "MSGSUCCESS": "Volume created",
+                    "ONAIR": "Creation in progress...",
+                    "TITLE": "Volume creation"
+                },
+                "SIZE": "Size",
+                "TITLE": "Create volume"
+            },
+            "DELETE": {
+                "NOTIF": {
+                    "MSGFAILED": "Deletion error",
+                    "MSGSUCCESS": "Volume deleted",
+                    "ONAIR": "Deletion in progress...",
+                    "TITLE": "Volume deletion"
+                },
+                "QUESTION": "Delete the volume “{{which}}”?",
+                "TITLE": "Delete volume"
+            },
+            "DETACH": {
+                "NOTIF": {
+                    "MSGFAILED": "Detachment error",
+                    "MSGSUCCESS": "Detachment done",
+                    "ONAIR": "Detaching in progress...",
+                    "TITLE": "Detach a volume"
+                },
+                "TEXT": "Detach “{{which}}” from instance \"{{fromWhich}}\"?",
+                "TITLE": "Detach a volume"
+            },
+            "EXTEND": {
+                "NAME": "Name",
+                "NEWSIZE": "New size",
+                "NOTIF": {
+                    "MSGFAILED": "Extension error",
+                    "MSGSUCCESS": "Extension done",
+                    "ONAIR": "Extension in progress ...",
+                    "TITLE": "Volume extension"
+                },
+                "OLDSIZE": "Actual size"
+            },
+            "LIST": {
+                "ALL": "All volumes",
+                "ATTACHEDON": "on",
+                "ATTACHEDTO": "Attached to",
+                "AVAILABILITYZONE": "Availability zone:",
+                "BOOTABLE": "Bootable",
+                "CAPACITY": "Capacity",
+                "CREATEDAT": "Created at",
+                "ENCRYPTED": "Encrypted",
+                "NAME": "Name",
+                "NOTBOOTABLE": "Not bootable",
+                "NOTENCRYPTED": "Not encrypted",
+                "STATUS": "Status",
+                "STATUSKEY": {
+                    "ACTIVE": "Active",
+                    "ATTACHING": "Attaching",
+                    "AVAILABLE": "Available",
+                    "CREATING": "Creating",
+                    "DEACTIVATED": "Deactivated",
+                    "DELETED": "Deleted",
+                    "DELETING": "Deleting",
+                    "DETACHING": "Detaching",
+                    "DOWNLOADING": "Downloading",
+                    "ERROR": "Error",
+                    "ERROR-DELETING": "",
+                    "ERROR_DELETING": "Deletion in error",
+                    "IMPORTING": "Importing",
+                    "IN-USE": "In-use",
+                    "KILLED": "Killed",
+                    "PENDING_DELETE": "Pending Delete",
+                    "QUEUED": "Creating...",
+                    "SAVING": "Saving",
+                    "UPLOADING": "Uploading"
+                }
+            },
+            "SNAPSHOT": {
+                "ACTIONS": {
+                    "DELETE": "Delete snapshot"
+                },
+                "DELETE": {
+                    "NOTIF": {
+                        "MSGFAILED": "An error occurred while deleting the snapshot",
+                        "MSGSUCCESS": "The snapshot has been deleted",
+                        "ONAIR": "Deleting the snapshot...",
+                        "TITLE": "Delete snapshot"
+                    },
+                    "TEXT": "Are you sure you want to delete “{{which}}”?",
+                    "TITLE": "Delete snapshot"
+                },
+                "TITLE": "Volumes snapshots"
+            },
+            "SUBTABS": {
+                "SNAP": "Snapshots",
+                "VOLU": "Volumes"
+            },
+            "TABTITLE": "Volumes"
+        }
+    }
+}

@@ -1,0 +1,294 @@
+{
+	"OSTK": {
+		"INSTANCES": {
+			"ACTIONS": {
+				"CREATE": "Create instance",
+				"KONSOLE": {
+					"LABEL": "Console"
+				},
+				"PAUSE": {
+					"LABEL": "Pause",
+					"TOAST": {
+						"ERROR": "An error occurred while pausing the instance {{which}}",
+						"SUCCESS": "The instance has been paused",
+						"TITLE": "Pausing an instance"
+					}
+				},
+				"RESTART": {
+					"LABEL": "Restart",
+					"TOAST": {
+						"ERROR": "An error occurred while restarting the instance {{which}}",
+						"SUCCESS": "The instance has been restarted",
+						"TITLE": "Restarting an instance"
+					}
+				},
+				"START": {
+					"LABEL": "Start",
+					"TOAST": {
+						"ERROR": "An error occurred while starting the instance {{which}}",
+						"SUCCESS": "The instance has been started",
+						"TITLE": "Starting an instance"
+					}
+				},
+				"STOP": {
+					"LABEL": "Stop",
+					"TOAST": {
+						"ERROR": "An error occurred while stopping the instance {{which}}",
+						"SUCCESS": "The instance has been stopped",
+						"TITLE": "Stopping an instance"
+					}
+				}
+			},
+			"CREATE": {
+				"BUTTON": {
+					"CREATE": "Create instance"
+				},
+				"CAPACITY": {
+					"TITLE": "Capacity Planning"
+				},
+				"DESCRIPTION": {
+					"TITLE": "Description"
+				},
+				"DETAILS": "Details",
+				"HELP": {
+					"TITLE": "Help"
+				},
+				"NOTIF": {
+					"ERROR": "An error occurred, the support has been alerted",
+					"ONAIR": "Creating the instance...",
+					"SUCCESS": "The instance has been created",
+					"TITLE": "Create instance"
+				},
+				"PRICING": {
+					"BRUTAMOUNT": "Total price",
+					"DISCAMOUNT": "Price after discount",
+					"FLAVOR": "Flavor",
+					"MONTHLYAMOUNT": "Price for an average 730 hours month: {{amount730}}",
+					"OS": "Operating system",
+					"STORAGE": "Disk",
+					"TABLETITLE": "The prices below include a shared 200 Mb/s bandwidth with anti-DDoS protection.",
+					"TITLE": "Billing",
+					"TXDISCOUNT": "Discount"
+				},
+				"STEP1": {
+					"BOOTFROM": {
+						"LABEL": "Instance boot source"
+					},
+					"DISKSIZE": {
+						"LABEL": "Disk size (GB)",
+						"REQUIRED": "The disk size is required"
+					},
+					"FEATURES": {
+						"CREATEDISK": "Create a disk",
+						"FLAVORPLACEHOLDER": "Select a flavor",
+						"TITLE": "Features"
+					},
+					"FLAVOR": {
+						"LABEL": "Select a flavor",
+						"LIMITS": "You are over your project's limits",
+						"PLACEHOLDER": "Click and select or search...",
+						"REQUIRED": "The flavor is required"
+					},
+					"IMAGE": {
+						"LABEL": "Select an image disk",
+						"PLACEHOLDER": "Click and select or search...",
+						"REQUIRED": "An image disk is required"
+					},
+					"INSTANCENAME": {
+						"LABEL": "Instance name",
+						"NOTUNIQUE": "The name of the instance must be unique",
+						"PATTERN": "The name of the instance must begin with a letter without accent and contain only letters without accent, numbers and ., - ou _",
+						"REQUIRED": "The instance name is required"
+					},
+					"NETWORK": "Network",
+					"SECURITY": "Security",
+					"SNAPSHOT": {
+						"LABEL": "Select a snapshot",
+						"PLACEHOLDER": "Click and select or search...",
+						"REQUIRED": "A snapshot is required"
+					},
+					"SOURCE": {
+						"IMAGE": "Image",
+						"IMAGEPLACEHOLDER": "Select an image",
+						"SNAPSHOT": "Snapshot",
+						"SNAPSHOTPLACEHOLDER": "Sélectionner un instantanné",
+						"TITLE": "Source",
+						"VOLUME": "Volume",
+						"VOLUMEPLACEHOLDER": "Select a volume"
+					},
+					"TABTITLE": "Details",
+					"VOLUME": {
+						"CREATE": {
+							"LABEL": "Create volume"
+						},
+						"LABEL": "Select a volume",
+						"PLACEHOLDER": "Click and select or search...",
+						"REQUIRED": "A volume is required"
+					}
+				},
+				"STEP2": {
+					"KEYPAIR": {
+						"LABEL": "Select a key pair",
+						"PLACEHOLDER": "Click and select or search...",
+						"REQUIRED": "The key pair is required"
+					},
+					"NETWORK": {
+						"LABEL": "Select at least one network",
+						"PLACEHOLDER": "Click and select or search...",
+						"REQUIRED": "At least one network is required",
+						"TITLE": "Network"
+					},
+					"SECURITY": {
+						"LABEL": "Select at least one security group",
+						"PLACEHOLDER": "Click and select or search...",
+						"REQUIRED": "At least one security group is required",
+						"TITLE": "Security"
+					},
+					"TABTITLE": "Security & Network"
+				},
+				"STEP3": {
+					"TABTITLE": "Summary"
+				},
+				"SUMMARY": {
+					"BILLING": "Price:",
+					"FLAVORLABEL": "Flavor details: ",
+					"IMAGENAME": "Image: ",
+					"INSTANCENAME": "Instance Name: ",
+					"NETWORKNAMES": "Selected networks: ",
+					"SECURITYNAME": "key pair name: ",
+					"SECURITYNAMES": "Selected security groups: ",
+					"SNAPSHOTNAME": "Snapshot : ",
+					"TITLE": "Summary",
+					"VOLUMENAME": "Volume : "
+				}
+			},
+			"DELETE": {
+				"TEXT": "Are you sure you want to delete “{{which}}”?",
+				"TICKET": {
+					"DESCRIPTION": "An error occurred while deleting the instance {{which}}",
+					"OBJECT": "Portal: deleting an instance"
+				},
+				"TITLE": "Delete instance",
+				"TOAST": {
+					"ERROR": "An error occurred while deleting the instance",
+					"ONAIR": "Deleting the instance...",
+					"SUCCESS": "The instance has been deleted",
+					"TITLE": "Delete instance"
+				}
+			},
+			"DETAILS": {
+				"ATTACHEDON": "attached on",
+				"ATTACHMENTS": "Attached volumes",
+				"CAPACITY": "Capacity",
+				"CONTEXT": "Summary",
+				"CREATEDAT": "Created at ",
+				"DISK": "Disk",
+				"FIXEDIP": "Fixed IP",
+				"FLOATIP": "Floating IP",
+				"IPADDRESS": "IP addresses",
+				"NETWORKS": "Networks",
+				"SECURITYGROUP": "Security groups",
+				"SNAPSHOTS": "Snapshots",
+				"VIEWHISTORY": "View History"
+			},
+			"DROPDOWNMENU": {
+				"ATTACHVOLUME": "Attach a volume",
+				"DELETE": "Delete this instance",
+				"DETACHVOLUME": "Detach a volume",
+				"MANAGESECURITYGROUP": "Manage security groups",
+				"SNAPSHOT": "Take a snapshot"
+			},
+			"FILTER": {
+				"CPU": "CPUs number",
+				"NOTRUNNING": "Not Running",
+				"RUNNING": "Running"
+			},
+			"HISTORY": {
+				"TITLE": "« {{which}} » historical"
+			},
+			"LIST": {
+				"LACKOFDATA": {
+					"INVITE": "You can modify your search criteria",
+					"MESSAGE": "",
+					"MODIFY": "Change your filter?",
+					"TITLE": "There is no instance corresponding to the current filter"
+				},
+				"TABLE": {
+					"CPU": "Allocated CPU",
+					"CREATEDAT": "Created at ",
+					"DISK": "Allocated disk",
+					"IPADDRESSES": "IP addresses",
+					"MEMORY": "Allocated memory",
+					"NAME": "Name",
+					"OS": "Operating System",
+					"STATUS": "Status"
+				}
+			},
+			"MANAGESECURITYGROUP": {
+				"ADD": "Add security group",
+				"INSTANCE": "Instance",
+				"LIST": {
+					"LABEL": "Security groups",
+					"LABELDISPO": "Available security groups",
+					"LABELUSED": "Used security groups"
+				},
+				"TOAST": {
+					"ERROR": "Error on assignment",
+					"ONAIR": "Assigning security groups",
+					"SUCCESS": "Successfully modified assigment",
+					"TITLE": "Security group management"
+				}
+			},
+			"PAUSE": {
+				"TEXT": "Do you want to pause the instance {{which}}?",
+				"TITLE": "Pause instance",
+				"TOAST": {
+					"ERROR": "An error occurred while pausing the instance",
+					"ONAIR": "Pausing the instance...",
+					"SUCCESS": "The instance has been paused",
+					"TITLE": "Pause instance"
+				}
+			},
+			"SNAPSHOT": {
+				"FORM": {
+					"NAMELABEL": "Snapshot name",
+					"NAMEREQUIRED": "The snapshot name is required"
+				},
+				"TITLE": "Take a snapshot of “{{which}}”",
+				"TOAST": {
+					"ERROR": "An error occured during the snapshot creation",
+					"ONAIR": "Snapshoting the instance...",
+					"SUCCESS": "A snapshot has been created",
+					"TITLE": "Take a snapshot"
+				}
+			},
+			"START": {
+				"TEXT": "Do you want to start the instance {{which}}?",
+				"TITLE": "Start instance",
+				"TOAST": {
+					"ERROR": "An error occurred while starting the instance",
+					"ONAIR": "Starting instance...",
+					"SUCCESS": "The instance has been started",
+					"TITLE": "Start instance"
+				}
+			},
+			"STATUS": {
+				"ACTIVE": "Active",
+				"BUILD": "Building...",
+				"PAUSED": "Paused",
+				"SHUTOFF": "Shut off"
+			},
+			"STOP": {
+				"TEXT": "Do you want to stop the instance {{which}}?",
+				"TITLE": "Stop instance",
+				"TOAST": {
+					"ERROR": "An error occurred while stopping the instance",
+					"ONAIR": "Arrêt en cours...",
+					"SUCCESS": "The instance has been stopped",
+					"TITLE": "Stop instance"
+				}
+			},
+			"TABTITLE": "Instances"
+		}
+	}
+}

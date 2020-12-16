@@ -1,0 +1,32 @@
+<div class="content-data-zone9 with-actions9">
+    <div class="content-header9">
+        HEADER
+    </div>
+    <div class="content-actions9">
+        ACTIONS
+    </div>
+    <div class="content-data9">
+        <h2>Translation using:</h2>
+        <ul>
+            <li>
+                <blockquote>* .instant()</blockquote>
+                <p>
+                    {{ instantTranslation }}
+                </p>
+            </li>
+            <li>
+                <blockquote>* .get()</blockquote>
+                <p>
+                    {{ asyncTranslation | async }}
+                </p>
+            </li>
+            <li>
+                <blockquote> * | translate </blockquote>
+                <p>
+                    {{ translationKey | translate }}
+                </p>
+            </li>
+        </ul>
+    </div>
+</div>
+<router-outlet name="requests"></router-outlet>

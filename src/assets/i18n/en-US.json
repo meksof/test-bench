@@ -1,0 +1,274 @@
+{
+    "BUTTON": {
+        "ADDCLOSE": "Add and close",
+        "ADDSTAY": "Add and stay",
+        "APPLY": "Apply",
+        "CANCEL": "Cancel",
+        "CLOSE": "Close",
+        "CONNEXION": "Connect",
+        "CONTINUE": "Continue",
+        "CREATE": "Create",
+        "DELETE": "Delete",
+        "DISCARD": "Discard",
+        "EDIT": "Edit",
+        "EXPORT": "Export",
+        "GOTO": {
+            "ADMIN": "Admin access",
+            "FRONT": "Return to MyAntemetA",
+            "PORTAL": "Switch to V1",
+            "PORTALBACK": "Switch to PortalBack"
+        },
+        "MODIFY": "Modify",
+        "NEW": "New",
+        "NEXTSTEP": "Next step",
+        "NO": "No",
+        "PREVIEW": "Preview",
+        "RESET": "Reset",
+        "SAVE": "Save",
+        "SENDREPORT": "Mail this report",
+        "SUBMIT": "Submit",
+        "UPDATE": "Update",
+        "YES": "Yes"
+    },
+    "DASHCARD": {
+        "ITSM": {
+            "CREATEINCIDENT": "An issue? A glitch?"
+        }
+    },
+    "DAYSOFWEEK": {
+        "FRI": "Friday",
+        "MON": "Monday",
+        "SAT": "Saturday",
+        "SUN": "Sunday",
+        "THU": "Thursday",
+        "TUE": "Tuesday",
+        "WED": "Wednesday"
+    },
+    "FORMS": {
+        "MESSAGE": {
+            "ALPHABETIC": "Only lowercase letters (a-z), numbers (0-9) and the dash ('-') are allowed",
+            "EMAILADDRESS": "It is not a valid mail address",
+            "INPUTTOKENCODE": "The code must be exactly 6 digits",
+            "INVALIDOSTKNAME": "This is not a valid object name",
+            "INVALIDSSHKEY": "The entry is not in the format of an SSH key",
+            "LACKOFQUOTA": "Not enough quota",
+            "NOTUNIQUE": "An entry with the same name already exists",
+            "PHONENUMBER": "It is not a valid phone number",
+            "REQUIRED": "Please fill this field"
+        }
+    },
+    "GUARD": {
+        "MODAL": {
+            "TITLE": "Request for confirmation"
+        },
+        "MSG": {
+            "NO": "If you click 'NO', you continue your form",
+            "TXT": "Descritpion on the risk",
+            "YES": "If you click 'YES', you close the form and you lose your changes."
+        }
+    },
+    "LAYOUT": {
+        "FEEDBACK": {
+            "ANONYMOUS": "Anonymous",
+            "TEXT": "Thank you for your feedback!",
+            "TITLE": "Feedback",
+            "TOAST": {
+                "ERROR": "Error while sending the feedback",
+                "ONAIR": "Sending the feedback...",
+                "SUCCESS": "Feedback sent!",
+                "TITLE": "Feedback"
+            }
+        },
+        "GLOBAL": {
+            "DETAILS": "Show details",
+            "LOADING": {
+                "FAILED": {
+                    "TEXT1": "If refreshing the page doesn't solve the problem, disconnect and reconnect.",
+                    "TEXT2": "If the problem persist, please contact ...",
+                    "TITLE": "Reload failed."
+                }
+            },
+            "LOADINGDATA": "Loading data...",
+            "NODATA": "No data matching your criteria",
+            "PREPARINGDATA": "Organizing data...",
+            "VIEWDETAILS": {
+                "LESS": "Hide details",
+                "MORE": "Show details"
+            }
+        },
+        "MENU": {
+            "BACK": {
+                "ADMIN": "Administration",
+                "ENTITIES": "Entities",
+                "USERS": "Users"
+            },
+            "BCKP": "Backup",
+            "CLUD": "Cloud",
+            "CMDB": "Assets",
+            "COMP": "Compute",
+            "DASH": "Dashboard",
+            "ITSM": "Services",
+            "OBJS": "Object Storage",
+            "OSTK": "Cloud",
+            "PRTG": "Monitoring",
+            "REPT": "Reports",
+            "RIBBON": {
+                "BETA": "Beta",
+                "NUOVO": "New",
+                "SOON": "Soon"
+            },
+            "SECU": "Security",
+            "SHOW": "Showcase"
+        },
+        "SEARCH": {
+            "HIDE": "Hide:",
+            "SHOW": "To show:"
+        }
+    },
+    "MENU": {
+        "USER": {
+            "CONTACTS": "My contacts",
+            "ENTITY": "My company",
+            "INVOICES": "My invoices",
+            "LOGOUT": "Sign out",
+            "PROFILE": "My profile"
+        }
+    },
+    "MONTH": {
+        "APR": "April",
+        "AUG": "August",
+        "DEC": "December",
+        "FEB": "February",
+        "JAN": "January",
+        "JUL": "July",
+        "JUN": "June",
+        "MAR": "March",
+        "MAY": "May",
+        "NOV": "November",
+        "OCT": "October",
+        "SEP": "September"
+    },
+    "NOTF": {
+        "MESSAGE": {
+            "EMPTY": "You do not have notifications"
+        },
+        "TITLE": "Notifications"
+    },
+    "NUMBERS": {
+        "FORMATS": {
+            "DATES": {
+                "D3": {
+                    "DAY": "%m/%d/%Y"
+                },
+                "DATEFNS": {
+                    "DAY": "MM/dd/yyyy",
+                    "DAYFULLHOUR": "MM/DD/YYYY HH:mm:ss",
+                    "DAYHOUR": "MM/dd/yyyy HH:mm",
+                    "DAYHOURLINK": "YYYY-MM-DD HH:mm",
+                    "DAYLINK": "YYYY-MM-DD",
+                    "DAYMONTH": "MM/dd"
+                },
+                "DURATION": {
+                    "FUTURE": "in {{duration}}",
+                    "PASSED": "{{duration}} ago"
+                },
+                "LUXON": {
+                    "DAY_HOUR": "MM/dd/yyyy HH:mm",
+                    "DAY_MONTH": "MM/dd",
+                    "DAY_MONTH_YEAR": "MM/dd/yyyy",
+                    "FULL": "MM/dd/yyyy HH:mm:ss"
+                },
+                "NG": {
+                    "DAY": "MM/dd/yyyy",
+                    "DAYHOUR": "MM/dd/yyyy HH:mm",
+                    "DAYMONTH": "MMM d, yyyy",
+                    "HOUR": "HH:mm"
+                }
+            },
+            "RANGES": {
+                "PERIOD": "From {{since}} to {{until}}",
+                "VIEWER": {
+                    "OVER_YEAR": "From {{monthfrom}} {{dayfrom}}, {{yearfrom}} to {{monthto}} {{dayto}}, {{yearto}}",
+                    "SAME_MONTH": "{{month}} {{dayfrom}}-{{dayto}}, {{year}}",
+                    "SAME_YEAR": "From {{monthfrom}} {{dayfrom}} to {{monthto}} {{dayto}}, {{year}}"
+                }
+            },
+            "SEPARATORS": {
+                "DECIMAL": ".",
+                "THOUSAND": ","
+            }
+        },
+        "UNITS": {
+            "BINARY": {
+                "BYTE": "B",
+                "GIBI": "GiB",
+                "KIBI": "KiB",
+                "MEBI": "MiB",
+                "PEBI": "PiB",
+                "TEBI": "TiB"
+            },
+            "DECIMAL": {
+                "BYTE": "B",
+                "GIBI": "GB",
+                "KIBI": "KB",
+                "MEBI": "MB",
+                "PEBI": "PB",
+                "TEBI": "TB"
+            },
+            "MISC": {
+                "FILES": "files"
+            }
+        }
+    },
+    "PLACEHOLDER": {
+        "FILTER": "Filter...",
+        "SEARCH": "Search everywhere..."
+    },
+    "POPUP": {
+        "EXPORT": {
+            "CSV": "Export (.csv)",
+            "XLSX": "Export (.xlsx)"
+        }
+    },
+    "ROCKETCHAT": {
+        "DEFAULTOFFLINETITLE": "AntemetA",
+        "DEFAULTTITLE": "Do you have questions ?"
+    },
+    "SHORTDAYSOFWEEK": {
+        "FRI": "Fr",
+        "MON": "Mo",
+        "SAT": "Sa",
+        "SUN": "Su",
+        "THU": "Th",
+        "TUE": "Tu",
+        "WED": "We"
+    },
+    "WIZARD": {
+        "BUTTONS": {
+            "NEXT": "Next step"
+        },
+        "STEPS": {
+            "NAME": "Step"
+        }
+    },
+    "WORDS": {
+        "DAY": {
+            "PLURAL": "days",
+            "SINGULAR": "day"
+        },
+        "MONTH": {
+            "PLURAL": "months"
+        },
+        "STATUS": {
+            "FEMALE": {
+                "ACTIVE": "Active",
+                "INACTIVE": "Inactive"
+            },
+            "MALE": {
+                "ACTIVE": "Active",
+                "INACTIVE": "Inactive"
+            }
+        },
+        "VOLUMETRY": "volumetry"
+    }
+}

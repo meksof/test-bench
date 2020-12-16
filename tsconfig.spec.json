@@ -1,11 +1,17 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "emitDecoratorMetadata": true,
     "outDir": "./out-tsc/spec",
     "types": [
-      "jasmine",
-      "node"
-    ]
+      "@hirez_io/jest-given", 
+      "jest",
+      "node",
+    ],
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules/@hirez_io"
+    ],
   },
   "files": [
     "src/test.ts",

@@ -1,0 +1,124 @@
+{
+    "OSTK": {
+        "IMAGE": {
+            "ACTIONS": {
+                "ACTIONS": "Actions",
+                "CREATE": "Create image",
+                "DELETE": "Delete image",
+                "EDIT": "Edit image",
+                "LAUNCHINSTANCE": "Launch instance"
+            },
+            "CREATE": {
+                "DESCRIPTION": "Description",
+                "FILE": "File",
+                "FORMAT": "Format",
+                "FORMATSELECTION": "Select a format",
+                "MINDISK": "Minimum disk size (GB)",
+                "MINRAM": "Minimum RAM (MB)",
+                "NAME": "Name",
+                "SOURCE": "Image location",
+                "TOAST": {
+                    "ERROR": "Creation error",
+                    "ONAIR": "Creating the image...",
+                    "SUCCESS": "Image created",
+                    "TITLE": "Image creation"
+                },
+                "UPLOAD": "Send image",
+                "URL": "URL"
+            },
+            "DELETE": {
+                "TEXT": "Are you sure you want to delete “{{which}}”?",
+                "TITLE": "Deleting an image or a snapshot",
+                "TOAST": {
+                    "ERROR": "Deletion error",
+                    "ONAIR": "Deleting the image...",
+                    "SUCCESS": "Image deleted",
+                    "TITLE": "Image deletion"
+                }
+            },
+            "LIST": {
+                "ALL": "All Images",
+                "CREATEDAT": "Created at",
+                "FORMAT": "Format",
+                "PRIVATE": "Private images",
+                "PUBLIC": "Public images"
+            },
+            "PRIVATE": "Private image",
+            "PUBLIC": "Public image",
+            "SNAPSHOT": {
+                "ACTIONS": {
+                    "DELETE": "Delete snapshot"
+                },
+                "CREATEDAT": "Created at",
+                "DELETE": {
+                    "TOAST": {
+                        "ERROR": "Deletion error",
+                        "ONAIR": "Deleting the snapshot...",
+                        "SUCCESS": "Snapshot deleted",
+                        "TITLE": "Snapshot deletion"
+                    }
+                },
+                "TITLE": "Snapshots"
+            }
+        },
+        "IMAGES": {
+            "ACTIONS": {
+                "ACTIONS": "Actions",
+                "LAUNCHINSTANCE": "Launch instance",
+                "UPLOAD": "Upload image"
+            },
+            "LIST": {
+                "LACKOFDATA": {
+                    "INVITE": "You can modify your search criteria",
+                    "MESSAGE": "",
+                    "MODIFY": "Change your filter?",
+                    "TITLE": "There are no images matching the current filter"
+                },
+                "TABLE": {
+                    "CREATEDAT": "Created at ",
+                    "DISKFORMAT": "Format",
+                    "NAME": "Name",
+                    "OS": "Op. Syst.",
+                    "SIZE": "Length",
+                    "STATUS": "Status"
+                }
+            },
+            "SUBTABS": {
+                "IMGE": "Images",
+                "SNAP": "Snapshots"
+            },
+            "TABTITLE": "Images",
+            "TITLE": {
+                "NOTPUBLIC": "Private Images",
+                "PUBLIC": "Public Images"
+            },
+            "UPLOAD": {
+                "NOTIF": {
+                    "MSGFAILED": "Upload error",
+                    "MSGSUCCESS": "Image uploaded",
+                    "TITLE": "Upload image"
+                }
+            }
+        },
+        "SNAPSHOTS": {
+            "ACTIONS": {
+                "ACTIONS": "Actions"
+            },
+            "LIST": {
+                "LACKOFDATA": {
+                    "INVITE": "You can modify your search criteria",
+                    "MESSAGE": "",
+                    "MODIFY": "Change your filter?",
+                    "TITLE": "There is no image snapshot yet"
+                },
+                "TABLE": {
+                    "CREATEDAT": "Created at ",
+                    "NAME": "Name",
+                    "OS": "Op. Syst.",
+                    "STATUS": "Status"
+                }
+            },
+            "TABTITLE": "Snapshots"
+        }
+    }
+}

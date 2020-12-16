@@ -1,0 +1,222 @@
+{
+    "OBJS": {
+        "BROWSERTITLE": {
+            "BUCKETS": "Buckets",
+            "DASHBOARD": "Dashboard",
+            "Object": "Object",
+            "REF": "Credential"
+        },
+        "BUCKETS": {
+            "ADDBUCKET": "Add a bucket",
+            "BUCKETDETAILS": {
+                "BUCKETNAME": "Name",
+                "CREATIONDATE": "Creation date",
+                "LENGTH": "Bucket length",
+                "NBOBJECTS": "Number of objects"
+            },
+            "BUCKETMANAGMENT": "Bucket managment",
+            "BYTES": "bytes",
+            "CANCEL": "Cancel",
+            "COPYURL": "Copy URL",
+            "EDITBUCKET": {
+                "CREATE": {
+                    "BTNTEXT": "Add a bucket",
+                    "NOTF": {
+                        "MSGFAILED": "The creation of the bucket failed",
+                        "MSGSUCCESS": "The bucket has been created successfully",
+                        "TITLE": "Bucket creation!"
+                    }
+                }
+            },
+            "LIST": {
+                "BUCKETSLOADING": {
+                    "NOTF": {
+                        "MSGFAILED": "The buckets loading failed",
+                        "MSGSUCCESS": "{{totalBuckets}} buckets have been loaded",
+                        "TITLE": "Buckets loading"
+                    }
+                },
+                "CHANGEPUBLICACCESS": {
+                    "NOTF": {
+                        "MSGFAILED": "The modification of the access rights failed",
+                        "MSGSUCCESS": "Access rights have been changed",
+                        "TITLE": "Modification of access rights"
+                    }
+                },
+                "DELETE": {
+                    "MODAL": {
+                        "NODESC": "'NO' to cancel the deletion.",
+                        "TITLE": "Do you confirm the deletion of the bucket?",
+                        "YESDESC": "By clicking on 'YES' you delete the bucket irreversibly."
+                    },
+                    "NOTF": {
+                        "MSGFAILED": "The deletion of the bucket failed",
+                        "MSGSUCCESS": "The bucket has been deleted successfully",
+                        "TITLE": "Bucket deletion !"
+                    }
+                },
+                "DELETEOBJECT": {
+                    "MODAL": {
+                        "NODESC": "'NO' to cancel the deletion.",
+                        "TITLE": "Do you confirm the deletion of the object?",
+                        "YESDESC": "By clicking on 'YES' you delete the object irreversibly."
+                    },
+                    "NOTF": {
+                        "MSGFAILED": "The deletion of the object failed",
+                        "MSGSUCCESS": "The object has been deleted successfully",
+                        "TITLE": "Object deletion !"
+                    }
+                },
+                "DOWNLOADOBJECT": {
+                    "NOTF": {
+                        "MSGFAILED": "The download of the object failed",
+                        "MSGSUCCESS": "The object has been downloaded successfully",
+                        "TITLE": "Object downloading!"
+                    }
+                },
+                "HEADER": {
+                    "LASTMODIFICATION": "Last modification",
+                    "NAME": "Name",
+                    "PUBLIC": "Public",
+                    "SIZE": "Size"
+                },
+                "LACKOFDATA": {
+                    "BUTTON": "Click on the button below to create your first bucket",
+                    "TITLE": "You have no bucket yet!"
+                },
+                "URLCOPY": {
+                    "NOTF": {
+                        "MSGFAILED": "The copy of the URL failed",
+                        "MSGSUCCESS": "Object URL has been copied to clipboard",
+                        "TITLE": "URL Copying"
+                    }
+                }
+            },
+            "OBJECTS": "objects",
+            "POPUP": {
+                "DELETE": "Delete bucket"
+            },
+            "TABTITLE": "My buckets",
+            "TITLE": "Buckets"
+        },
+        "CREDENTIALS": {
+            "ACTIVE": "Active",
+            "ADDCREDENTIAL": "Add a credential",
+            "CANCEL": "Cancel",
+            "COPY": {
+                "ACCESSKEY": {
+                    "COPIED": "Access key copied to clipboard",
+                    "TITLE": "Copy access key"
+                },
+                "SECRETKEY": {
+                    "COPIED": "Secret key copied to clipboard",
+                    "TITLE": "Copy secret key"
+                }
+            },
+            "CREATIONDATE": "Created on",
+            "CREDENTIALDETAILS": {
+                "ACCESSKEY": "Access key",
+                "ACTIVE": "Active / Inactive",
+                "CREATIONDATE": "Creation date",
+                "EXPIRATIONDATE": "Expiration date",
+                "KEYMANAGMENT": "Key managment",
+                "LABEL": "Label",
+                "SECRETKEY": "Secret key"
+            },
+            "EDITCREDENTIAL": {
+                "ACTIVATE": {
+                    "NOTF": {
+                        "MSGFAILED": "The activation of the key failed",
+                        "MSGSUCCESS": "The key has been actived successfully",
+                        "TITLE": "Key activation !"
+                    }
+                },
+                "CREATE": {
+                    "BTNTEXT": "Add a credential",
+                    "NOTF": {
+                        "MSGFAILED": "The creation of the key failed",
+                        "MSGSUCCESS": "The credential has been created successfully",
+                        "TITLE": "Credential creation!"
+                    },
+                    "SECRETKEYMESSAGE": "The access key will be generated automatically.",
+                    "SELECTEXPIRATIONDATE": "Select a expiration date",
+                    "TITLE": "Create a credential",
+                    "VALIDITY": "Validity"
+                },
+                "DEACTIVATE": {
+                    "NOTF": {
+                        "MSGFAILED": "Key deactivation failed",
+                        "MSGSUCCESS": "The key has been disabled successfully",
+                        "TITLE": "Key disabling !"
+                    }
+                },
+                "DELETE": {
+                    "MODAL": {
+                        "NODESC": "'NO' to cancel the deletion.",
+                        "TITLE": "Do you confirm the deletion of the credential?",
+                        "YESDESC": "By clicking on 'YES' you delete the credential irreversibly."
+                    },
+                    "NOTF": {
+                        "MSGFAILED": "The deletion of the key failed",
+                        "MSGSUCCESS": "The credential has been deleted successfully",
+                        "TITLE": "Credential deletion !"
+                    }
+                },
+                "EDIT": {
+                    "NOTF": {
+                        "MSGFAILED": "Key activation / deactivation failed",
+                        "TITLE": ""
+                    }
+                }
+            },
+            "INACTIVE": "Inactive",
+            "POPUP": {
+                "ACTIVATE": "Activate credential",
+                "DEACTIVATE": "Disable credential",
+                "DELETE": "Delete credential",
+                "EDIT": "Edit credential"
+            },
+            "TABTITLE": "My credentials",
+            "TITLE": "Credentials",
+            "VIEWSECRETKEY": "View secret key"
+        },
+        "DASHBOARD": {
+            "BUCKET": {
+                "TITLE": "Do you want to create a new bucket?"
+            },
+            "BYTECOUNT": {
+                "TITLE": "Volumetry"
+            },
+            "CONSO": {
+                "CHART": {
+                    "GROUP": "Group consumption",
+                    "PERSONAL": "Personal consumption"
+                },
+                "LACKOFDATA": {
+                    "ADD": "Your actual consumption will be displayed in 24h",
+                    "TITLE": "You have no bucket yet"
+                },
+                "TITLE": "Monitoring of consumption over the last 30 days"
+            },
+            "CREDENTIALS": {
+                "ACTIVE": {
+                    "PLURAL": "You have {{nb}} <span class=\"credential-active\">active</span> keys",
+                    "SINGULAR": "You have 1 <span class=\"credential-active\">active</span> key",
+                    "ZERO": "You have no <span class=\"credential-active\">active</span> key"
+                },
+                "INACTIVE": {
+                    "PLURAL": "You have {{nb}} <span class=\"credential-inactive\">inactive</span> keys",
+                    "SINGULAR": "You have 1 <span class=\"credential-inactive\">inactive</span> key",
+                    "ZERO": "You have no <span class=\"credential-inactive\">inactive</span> key"
+                }
+            },
+            "OBJECTCOUNT": {
+                "TITLE": "# objects"
+            },
+            "PANEL": {
+                "TITLE": "My consumption"
+            },
+            "TABTITLE": "Dashboard"
+        }
+    }
+}

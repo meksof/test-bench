@@ -1,0 +1,113 @@
+{
+    "COMPUTE": {
+        "GLOBAL": {
+            "EXTRACT": "Analyse des VMs entre le {{since}} et le {{until}} ({{fmt}})"
+        },
+    	"INSTANCE": {
+    		"TABTITLE": "Instances",
+            "FILTER": {
+                "POWEREDON": "Exécution",
+                "POWEREDOFF": "Arrêt",
+                "SUSPENDED": "Pause",
+                "HOVER": "<b>Filtres avancés</b> : Survoler les champs pour filtrer avec les loupes.",
+                "RESETFILTERS": "Réinitialiser aux filtres originaux",
+                "STATUS": "Statut",
+                "BILLABLE": "Facturable"
+            },
+    		"TOOLBAR": {
+    			"ORDER": {
+    				"OS": "Syst. d'exp.",
+    				"NAME": "Nom",
+    				"DATACENTER": "Data Center",
+    				"HOST": "Host",
+                    "CLASS": "Classe",
+                    "CPU": "CPU alloué(s)",
+                    "RAM": "Mémoire allouée",
+                    "DISK": "Disque alloué"
+    			}
+    		},
+            "ACTIONS": {
+                "DOWNLOAD": {
+                    "TOAST": {
+                        "TITLE": "Préparation du téléchargement",
+                        "ONAIR": "Téléchargement en cours...",
+                        "SUCCESS": "Téléchargement effectué.",
+                        "ERROR": "Une erreur est survenue lors du téléchargement."
+                    }
+                }
+            },
+    		"DETAILS": {
+                "TITLE": "Détails de l'instance",
+    			"CONTEXTE": {
+    				"TITLE": "Infrastructure",
+    				"VCENTER": "VCenter",
+    				"PATH": "Répertoire",
+    				"HOST": "Host",
+    				"DATACENTER": "Centre de données"
+    			},
+    			"TIMING": {
+    				"TITLE": "Durée",
+    				"UPTIME": "Démarrée il y a"
+    			},
+    			"HARDWARE": {
+    				"TITLE": "Matériel",
+    				"OS": "OS",
+    				"CPUS": "Nombre de CPUs",
+    				"MEMORYSIZEMB": "Taille mémoire",
+    				"MEMORYUSEDMB": "Mémoire utilisée",
+    				"USAGEAVG": "Pourcentage d'utilisation de la RAM"
+    			},
+    			"MISC": {
+    				"TITLE": "Divers",
+    				"CLASS": "Classe"
+    			},
+                "DISKS": {
+                    "TITLE": "Disques",
+                    "CAPACITY": "Capacité",
+                    "NAME": "Nom",
+                    "REPLICATION": "Réplication"
+                },
+                "NETWORK": {
+                    "TITLE": "Réseau",
+                    "NAME": "Nom",
+                    "MAC": "Adresse Mac",
+                    "CONNECTED": "Connecté"
+                }
+    		},
+            "CHARTS": {
+                "STATE": {
+                    "TITLE": "État des machines"
+                },
+                "CLASS": {
+                    "TITLE": "Répartition par classe"
+                },
+                "REPLICATION": {
+                    "TITLE": "Disques : par statut de réplication"
+                },
+                "TIER": {
+                    "TITLE": "Disques : par tier"
+                }
+            },
+            "LIST": {
+                "LACKOFDATA": {
+                    "INVITE": "Vous pouvez modifier vos critères de recherche.",
+                    "MESSAGE": "",
+                    "MODIFY": "Modifiez votre filtre ?",
+                    "TITLE": "Il n'y a pas d'instances correspondant au filtre courant"
+                },
+                "TABLE": {
+                    "OS": "Syst. d'exp.",
+                    "STATUS": "Statut",
+                    "DATA_CENTER": "Centre de données",
+                    "NAME": "Nom",
+                    "CLASS": "Classe",
+                    "CPU": "CPU alloué(s)",
+                    "MEMORY": "Mémoire allouée",
+                    "DISK": "Disque alloué",
+                    "REPLICATION_TIER": "Replication | Tier",
+                    "BILLABLE": "Facturable"
+                }
+            }
+    	}
+    }
+}

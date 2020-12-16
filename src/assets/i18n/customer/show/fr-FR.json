@@ -1,0 +1,30 @@
+{
+    "SHOWCASE": {
+        "TABTITLE": "Découvrez les produits et offres AntemetA",
+        "LAYOUT": {
+            "SELECT": {
+                "CATEGORY": "Sélectionner une catégorie",
+                "MODEL": "Sélectionner un modèle",
+                "TAG": "Sélectionner un mot-clé"
+            }
+        },
+        "ACTIONS": {
+            "MAIL": {
+                "TOAST": {
+                        "TITLE": "Envoi de votre mail",
+                        "ONAIR": "Envoi en cours...",
+                        "SUCCESS": "Envoi effectué.",
+                        "ERROR": "Une erreur est survenue lors de l'envoi de l'email."
+                }
+            },
+            "DOCU": {
+                "TOAST": {
+                        "TITLE": "Préparation de la documentation",
+                        "ONAIR": "Téléchargement en cours...",
+                        "SUCCESS": "Téléchargement effectué.",
+                        "ERROR": "Une erreur est survenue lors du téléchargement."
+                }
+            }
+        }
+    }
+}

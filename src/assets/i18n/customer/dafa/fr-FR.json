@@ -1,0 +1,14 @@
+{
+    "DAFA": {
+        "ORDER": {
+            "DATE":"Date",
+            "AVCNUMBER": "N° AVC",
+            "PROJECTCODE": "Code projet",
+            "GOUVERNOR": "Gouverneur",
+            "CUSTOMER": "Client",
+            "ARTICLESCOUNT": "Articles",
+            "PRESTATIONSCOUNT": "Prestations",
+            "DESCRIPTION": "Désignation"
+        }
+    }
+}

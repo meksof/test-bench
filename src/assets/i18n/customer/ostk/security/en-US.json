@@ -1,0 +1,201 @@
+{
+    "NODESC": "'NO' to cancel the deletion.",
+    "OSTK": {
+        "SECURITY": {
+            "KEYPAIR": {
+                "ACTIONS": {
+                    "ACTIONS": "Actions",
+                    "ADD": "Add key",
+                    "DELETE": "Delete key",
+                    "FILTER": "Filter"
+                },
+                "DELETE": {
+                    "MODAL": {
+                        "NO": "Click on 'NO' to cancel the deletion.",
+                        "OK": "Click 'YES' to permanently delete the key pair",
+                        "TITLE": "Did you delete the key pair?"
+                    },
+                    "TEXT": "Are you sure you want to delete “{{which}}”?",
+                    "TITLE": "Delete key pair",
+                    "TOAST": {
+                        "ERROR": "Deletion error",
+                        "ONAIR": "Deletion in progress...",
+                        "SUCCESS": "Key pair deleted",
+                        "TITLE": "Key pair"
+                    }
+                },
+                "IMPORT": {
+                    "FORM": {
+                        "NAME": "Public key name",
+                        "NAMEPLACEHOLDER": "Public key",
+                        "PUBLIC": "Public key",
+                        "PUBLICPLACEHOLDER": "ssh-rsa aaaa...=="
+                    },
+                    "TITLE": "Key pair import",
+                    "TOAST": {
+                        "ERROR": "Import error",
+                        "ONAIR": "Importing the key pair...",
+                        "SUCCESS": "Import done",
+                        "TITLE": "Key pair"
+                    }
+                },
+                "LIST": {
+                    "HEADERS": {
+                        "FINGERPRINT": "Fingerprint",
+                        "KEYNAME": "Name",
+                        "PUBLICKEY": "Public key"
+                    }
+                },
+                "NOTF": {
+                    "ADD": {
+                        "MSGFAILED": "The key has not been added",
+                        "MSGSUCCEEDED": "The key has been added",
+                        "TITLE": "Add a key"
+                    },
+                    "DELETE": {
+                        "MSGFAILED": "The key has not been deleted",
+                        "MSGSUCCEEDED": "The key has been deleted",
+                        "TITLE": "Delete a key"
+                    }
+                }
+            },
+            "RULE": {
+                "ADD": "Add rule",
+                "CREATE": {
+                    "FORM": {
+                        "DIRECTION": {
+                            "LABEL": "Direction"
+                        },
+                        "ETHERTYPE": {
+                            "LABEL": "Protocol type (Ethertype)"
+                        },
+                        "REMOTE": {
+                            "LABEL": "Remote"
+                        },
+                        "TEMPLATE": {
+                            "LABEL": "Rules templates",
+                            "PLACEHOLDER": "Select or search a template",
+                            "PLACHOLDER": "",
+                            "REQUIRED": "The template rule is required"
+                        }
+                    },
+                    "TITLE": "Add rule",
+                    "TOAST": {
+                        "ERROR": "Rules management error",
+                        "ONAIR": "Rules management in progress...",
+                        "SUCCESS": "Rules management successful",
+                        "TITLE": "Security group"
+                    }
+                },
+                "DELETE": {
+                    "BUTTON": "Delete this rule",
+                    "CONFIRM": {
+                        "TEXT": "Are you sure to delete this rule?",
+                        "TITLE": "Delete confirmation"
+                    },
+                    "TOAST": {
+                        "ERROR": "Deletion error",
+                        "ONAIR": "Rules management in progress...",
+                        "SUCCESS": "Rule deleted",
+                        "TITLE": "Security rule"
+                    }
+                },
+                "DIRECTION": "Direction",
+                "FORM": {
+                    "CHOOSE": "Choose a group",
+                    "CIDR": "CIDR",
+                    "CODE": "Code",
+                    "DIRECTION": "Direction",
+                    "EGRESS": "Out",
+                    "FROM": "From port",
+                    "INGRESS": "In",
+                    "LABELS": {
+                        "ALL_TCP": "All TCP",
+                        "ALL_UDP": "All UDP",
+                        "All_ICMP": "All ICMP",
+                        "CUSTOM": "Other protocol",
+                        "ICMP": "ICMP custom rule",
+                        "TCP": "TCP custom rule",
+                        "UDP": "UDP custom rule"
+                    },
+                    "OPEN": "Open",
+                    "PLACEHOLDER": "Rule type",
+                    "PORT": "Port",
+                    "PORTRANGE": "Port range",
+                    "PROTOCOL": "Protocol",
+                    "PROTOCOLTYPE": "Protocol type (EtherType)",
+                    "REMOTE": "Remote",
+                    "REMOTESECURITYGROUP": "Remote Security group",
+                    "RULE": "Rule",
+                    "SECURITYGROUP": "Security group",
+                    "TO": "To port",
+                    "TYPE": "Type"
+                },
+                "IPPROTOCOL": "IP Protocol",
+                "PORTRANGE": "Port range",
+                "PROTOCOLTYPE": "Protocol type (EtherType)",
+                "REMOTEIPPREFIX": "Remote IP Prefix",
+                "REMOTESECURITYGROUP": "Remote security group",
+                "SECURITYGROUP": "Security group",
+                "SECURITYRULE": "Security rules"
+            },
+            "SECURITYGROUP": {
+                "ACTIONS": {
+                    "ACTIONS": "Actions",
+                    "CREATE": "Create security group",
+                    "DELETE": "Delete",
+                    "HIDEDETAILS": "Hide details",
+                    "MANAGERULES": "Manage rules",
+                    "SHOWDETAILS": "Show details"
+                },
+                "CREATE": {
+                    "DESCRIPTION": "Description",
+                    "FORM": {
+                        "SECURITYGROUPNAME": {
+                            "NODEFAULT": "The use of “default” is forbidden",
+                            "NOTUNIQUE": "The security group name must be unique",
+                            "REQUIRED": "The security group name is required"
+                        }
+                    },
+                    "NAME": "Name",
+                    "TITLE": "Create security group",
+                    "TOAST": {
+                        "ERROR": "Creation error",
+                        "ONAIR": "Creation in progress...",
+                        "SUCCESS": "Group created",
+                        "TITLE": "Security group"
+                    }
+                },
+                "DELETE": {
+                    "TEXT": "Are you sure you want to delete “{{which}}”?",
+                    "TITLE": "Delete security group",
+                    "TOAST": {
+                        "ERROR": "Deletion error",
+                        "ONAIR": "Deletion in progress...",
+                        "SUCCESS": "Group deleted",
+                        "TITLE": "Security group"
+                    }
+                },
+                "LIST": {
+                    "ASSOCIATEDINSTANCES": "Associated instances :",
+                    "ASSOCIATEDWITH": "Associated with",
+                    "DEFINEDRULES": "defined rules",
+                    "INSTANCE": "instance",
+                    "INSTANCES": "instances",
+                    "NODEFINEDRULES": "No defined rules"
+                }
+            },
+            "SUBTABS": {
+                "KEYP": "Key Pairs",
+                "SGRP": "Security groups"
+            },
+            "TOOLBAR": {
+                "ORDER": {
+                    "DESCRIPTION": "By description",
+                    "NAME": "By name",
+                    "RULESLENGTH": "By rules number"
+                }
+            }
+        }
+    }
+}

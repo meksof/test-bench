@@ -1,0 +1,113 @@
+{
+    "COMPUTE": {
+        "GLOBAL": {
+            "EXTRACT": "VMs analysis between {{since}} and {{until}} ({{fmt}})"
+        },
+    	"INSTANCE": {
+            "TABTITLE": "Instances",
+            "FILTER": {
+                "POWEREDON": "Powered On",
+                "POWEREDOFF": "Powered Off",
+                "SUSPENDED": "Suspended",
+                "HOVER": "<b>Advanced filters</b>: Hover over a field  and click one of the action buttons",
+                "RESETFILTERS": "Reset original filters",
+                "STATUS": "Status",
+                "BILLABLE": "Billable"
+            },
+    		"TOOLBAR": {
+    			"ORDER": {
+    				"OS": "Op. Syst.",
+    				"NAME": "Name",
+    				"DATACENTER": "Data Center",
+    				"HOST": "Host",
+                    "CLASS": "Class",
+                    "CPU": "Allocated CPU",
+                    "RAM": "Allocated memory",
+                    "DISK": "Allocated disk"
+    			}
+    		},
+            "ACTIONS": {
+                "DOWNLOAD": {
+                    "TOAST": {
+                        "TITLE": "Preparing download",
+                        "ONAIR": "Downloading...",
+                        "SUCCESS": "Download finished.",
+                        "ERROR": "An error occured while downloading."
+                    }
+                }
+            },
+    		"DETAILS": {
+                "TITLE": "Instance Details",
+    			"CONTEXTE": {
+    				"TITLE": "Infrastructure",
+    				"VCENTER": "VCenter",
+    				"PATH": "PATH",
+    				"HOST": "Host",
+    				"DATACENTER": "Data Center"
+    			},
+    			"TIMING": {
+    				"TITLE": "Duration",
+    				"UPTIME": "Started"
+    			},
+    			"HARDWARE": {
+    				"TITLE": "Hardware",
+    				"OS": "OS",
+    				"CPUS": "# CPUs",
+    				"MEMORYSIZEMB": "Memory size",
+    				"MEMORYUSEDMB": "Used memory",
+    				"USAGEAVG": "Memory usage average"
+    			},
+    			"MISC": {
+    				"TITLE": "Misc",
+    				"CLASS": "Class"
+    			},
+                "DISKS": {
+                    "TITLE": "Disks",
+                    "CAPACITY": "Capacity",
+                    "NAME": "Name",
+                    "REPLICATION": "Replication"
+                },
+                "NETWORK": {
+                    "TITLE": "Network",
+                    "NAME": "Name",
+                    "MAC": "Mac address",
+                    "CONNECTED": "Connected"
+                }
+    		},
+            "CHARTS": {
+                "STATE": {
+                    "TITLE": "VM States"
+                },
+                "CLASS": {
+                    "TITLE": "Breakdown by class"
+                },
+                "REPLICATION": {
+                    "TITLE": "Disks: Breakdown by replication status"
+                },
+                "TIER": {
+                    "TITLE": "Disks: Breakdown by tier"
+                }
+            },
+            "LIST": {
+                "LACKOFDATA": {
+                    "INVITE": "You can modify your search criteria",
+                    "MESSAGE": "",
+                    "MODIFY": "Change your filter?",
+                    "TITLE": "There are no instances matching the current filter"
+                },
+                "TABLE": {
+                    "OS": "Op. Syst.",
+                    "STATUS": "Status",
+                    "DATA_CENTER": "Data Center",
+                    "NAME": "Name",
+                    "CLASS": "Class",
+                    "CPU": "Allocated CPU",
+                    "MEMORY": "Allocated memory",
+                    "DISK": "Allocated disk",
+                    "REPLICATION_TIER": "Replication | Tier",
+                    "BILLABLE": "Billable"
+                }
+            }
+    	}
+    }
+}

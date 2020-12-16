@@ -1,0 +1,27 @@
+{
+	"OSTK": {
+		"CGU": {
+			"CANCEL": "Pas maintenant",
+			"PDF": "Télécharger le PDF",
+			"READ": "Accepter",
+			"TITLE": "CHARTRE D’UTILISATION DE LA SOLUTION ARCANA DYNAMIC CLOUD"
+		},
+		"GLOBAL": {
+			"LASTUPDATE": "Mis à jour :",
+			"NODATA": "Aucune donnée ne correspond à vos critères",
+			"REFRESHDATA": "Rafraîchir les données"
+		},
+		"TABTITLE": {
+			"IMAGE": "Images",
+			"INSTANCE": "Instances",
+			"MARKET": "Marketplace",
+			"NETWORK": "Réseau",
+			"NOTIFICATION": "Notifications",
+			"PROJECT": "Projets",
+			"QUOTA": "Quotas",
+			"SECURITY": "Sécurité",
+			"TOPOLOGY": "Topologie",
+			"VOLUME": "Volumes"
+		}
+	}
+}
