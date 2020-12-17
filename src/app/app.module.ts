@@ -12,7 +12,6 @@ import { LanguageService } from './_common/services/language.service';
 // AoT requires an exported function for factories
 export function createTranslateLoader(handler: HttpBackend) {
   const http = new HttpClient(handler);
-  console.debug('Loader was called...');
   // https://deelay.me/5000/http://localhost:4200/assets/i18n/
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }

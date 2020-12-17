@@ -15,6 +15,6 @@ export class MainLangResolver implements Resolve<boolean> {
         route: ActivatedRouteSnapshot,
         state: RouterStateSnapshot
     ): Observable<any> | Promise<any> | any {
-        return this.languageService.loadLanguageByAppName(null);
+        return this.languageService.loadLanguage();
     }
 }

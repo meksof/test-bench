@@ -20,7 +20,7 @@ describe('LanguageService', () => {
         LanguageService,
         {
           provide: TranslateService,
-          useValue: createSpyFromClass(TranslateService, { methodsToSpyOn: ['getTranslation', 'setTranslation', 'getBrowserCultureLang'] },
+          useValue: createSpyFromClass(TranslateService, { methodsToSpyOn: ['getTranslation', 'getBrowserCultureLang'] },
           )
         }
       ]
@@ -43,7 +43,7 @@ describe('LanguageService', () => {
       languageService.loadedLanguages.main = false;
 
       // ...
-      languageService.loadLanguageByAppName(null).subscribe(() => done());
+      languageService.loadLanguage().subscribe(() => done());
 
       expect(mockGetTranslation.mock.calls.length).toBe(1);
       expect(languageService.loadedLanguages.main).toBe(true);
@@ -55,33 +55,44 @@ describe('LanguageService', () => {
       languageService.loadedLanguages.bckp = false;
 
       // ...
-      languageService.loadLanguageByAppName(['bckp']).subscribe(() => done());
+      languageService.loadLanguage('bckp').subscribe(() => done());
 
       expect(languageService.loadedLanguages.bckp).toBe(true);
     });
 
-    it('When already loaded should not ask for translation anymore', (done) => {
-      // ...
-      languageService.loadAppLanguage = jest.fn();
-      languageService.loadedLanguages.bckp = true;
-
-      // ...
-      languageService.loadLanguageByAppName(['bckp']).subscribe(() => done());
-      // ...
-      expect(languageService.loadAppLanguage).not.toHaveBeenCalled();
-    });
-
-    it('When evoked 2 times, METHOD "loadLanguage" Should be fired 2 times', (done) => {
+    it('When evoked 2 times, "getTranslation" Should be fired 2 times', (done) => {
       const mockGetTranslation = jest.spyOn<any, string>(translateService, 'getTranslation');
       combineLatest([
-          languageService.loadLanguageByAppName(['bckp']),
-          languageService.loadLanguageByAppName(['itsm'])
+          languageService.loadLanguage(['bckp']),
+          languageService.loadLanguage(['itsm'])
         ])
       .subscribe(() => {
         done();
       });
 
       expect(mockGetTranslation.mock.calls.length).toBe(2);
+    });
+
+    it('When called  with an array of appNames, getTranslation Should be fired 2 times', (done) => {
+      const mockGetTranslation = jest.spyOn<any, string>(translateService, 'getTranslation');
+
+      languageService.loadLanguage(['bckp', 'itsm'])
+        .subscribe(() => {
+          done();
+        });
+
+      expect(mockGetTranslation.mock.calls.length).toBe(2);
+    });
+
+    it('When already loaded should not ask for translation anymore', (done) => {
+      // ...
+      const mockGetTranslation = jest.spyOn<any, string>(translateService, 'getTranslation');
+      languageService.loadedLanguages.main = true;
+
+      // ...
+      languageService.loadLanguage().subscribe(() => done());
+      // ...
+      expect(mockGetTranslation).not.toHaveBeenCalled();
     });
   });
 });

@@ -87,26 +87,27 @@ export class LanguageService {
             );
     }
 
-    loadLanguageByAppName(apps: AppName[]): Observable<boolean> {
-        if (!apps || apps.length === 0 ) {
+    loadLanguage(apps?: AppName | AppName[]): Observable<boolean> {
+        if (!apps || apps.length === 0)
+        {
             return this.loadMainLanguage();
         }
 
-        return from(apps)
-            // .pipe(
-            //     tap(() => console.debug(this.loadedLanguages.main)),
-            // )
-            .pipe(
-                concatMap((app: AppName) => {
-                    //   Check if appName was already loaded
-                    if (!this.loadedLanguages[app]) {
-                        return this.loadAppLanguage(app);
-                    }
+        if (typeof apps === 'string')
+        {
+            return this.loadAppLanguage(apps);
+        }
 
-                    return of(true);
-                }),
-                catchError(() => of(false))
-            );
+        if (Array.isArray(apps))
+        {
+            return from(apps)
+                .pipe(
+                    concatMap((app: AppName) => this.loadAppLanguage(app)),
+                    catchError(() => of(false))
+                );
+        }
+
+        return of(true);
     }
 
     public setlanguage(language: string): Observable<boolean> {
@@ -143,18 +144,24 @@ export class LanguageService {
     }
 
     public loadAppLanguage(app: AppName, area: areas = 'customer'): Observable<boolean> {
-        return this.loadLanguage(`${area}/${app}/${this._lang}`)
+        if (this.loadedLanguages[app])
+        {
+            return of(true);
+        }
+
+        return this.loadTranslation(`${area}/${app}/${this._lang}`)
             .pipe(
                 tap(() => this.loadedLanguages[app] = true)
             );
     }
 
     private loadMainLanguage(): Observable<boolean> {
-        if (this.loadedLanguages.main) {
-            return;
+        if (this.loadedLanguages.main)
+        {
+            return of(true);
         }
 
-        return this.loadLanguage(`${this._lang}`)
+        return this.loadTranslation(`${this._lang}`)
             .pipe(
                 tap(() => this.loadedLanguages.main = true),
                 // tap(() => console.debug(this.loadedLanguages.main))
@@ -162,7 +169,7 @@ export class LanguageService {
             );
     }
 
-    private loadLanguage(path: string): Observable<boolean> {
+    private loadTranslation(path: string): Observable<boolean> {
         return this.translate.getTranslation(path)
             .pipe(
                 tap((x: object) => {

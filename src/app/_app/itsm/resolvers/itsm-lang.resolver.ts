@@ -16,6 +16,6 @@ export class ItsmLangResolver implements Resolve<boolean>
 
     resolve (route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<boolean>
     {
-        return this.userLanguage.loadLanguageByAppName(['itsm']);
+        return this.userLanguage.loadLanguage(['itsm']);
     }
 }

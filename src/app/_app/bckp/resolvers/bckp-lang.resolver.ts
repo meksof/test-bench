@@ -16,6 +16,6 @@ export class BckpLangResolver implements Resolve<boolean>
 
     resolve (route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<boolean>
     {
-        return this.userLanguage.loadLanguageByAppName(['bckp']);
+        return this.userLanguage.loadLanguage('bckp');
     }
 }
